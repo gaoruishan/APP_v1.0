@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="13dp"
+    android:background="@color/base_bg"
+    android:divider="@drawable/divider_line"
+    android:orientation="vertical"
+    android:id="@+id/title_add_trip"
+    android:showDividers="beginning|middle|end" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:maxLength="10"
+            android:singleLine="true"
+            android:text="@string/journey_input_title"
+            android:textColor="@color/base_text_title"
+            android:textSize="16sp"
+            android:padding="13dp"
+            android:id="@+id/et_name_tips"
+            />
+
+        <com.cmcc.hyapps.andyou.support.ExEditText
+            android:id="@+id/et_name"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:ems="10"
+            android:gravity="end|center_vertical"
+            android:hint="@string/journey_input_title"
+            android:textSize="16sp"
+            android:padding="13dp"
+            android:layout_toRightOf="@+id/et_name_tips"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/date_pick"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:addStatesFromChildren="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:padding="13dp" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:inputType="none"
+            android:text="@string/journey_input_start_date"
+            android:textColor="@color/base_text_title"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/et_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="end|center_vertical"
+            android:inputType="none"
+            android:textColor="@color/base_text_summary"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="transparent0.5">#80000000</color>
+
+    <!-- characters color -->
+    <color name="cor1">#FFFFFF</color>
+    <color name="cor2">#BEBEBE</color>
+    <color name="cor3">#999999</color>
+    <color name="cor4">#333333</color>
+    <color name="cor5">#000000</color>
+    <color name="cor6">#006699</color>
+    <color name="cor7">#0099FF</color>
+    <color name="cor8">#336699</color>
+    <color name="cor9">#66CC33</color>
+    <color name="cor10">#D9D9D9</color>
+    <color name="cor11">#bebebe</color>
+    <color name="cor12">#dedede</color>
+    <color name="cor13">#FD46A2</color>
+    <color name="cor14">#035F8C</color>
+    <color name="cor15">#666666</color>
+    <color name="cor16">#f9f9f9</color> <!-- 浅灰色背景色 -->
+    <color name="cor17">#8fc320</color>
+    <color name="cor18">#73cF40</color>
+    <color name="cor19">#b4b4b4</color>
+    <color name="cor20">#ff7714</color>
+    <color name="cor21">#daaa34</color>
+
+    <!-- color -->
+    <color name="public_c_text_input_bre">#909090</color> <!-- 默认提示文字 -->
+    <color name="find_pwd">#AAAAAA</color> <!-- 忘记密码 -->
+    <color name="btn_green_pre">#6DD100</color>
+    <color name="settings_app_exit_color">#E61655</color>
+
+    <!-- background color -->
+    <color name="bgcor1">#FFFFFF</color>
+    <color name="bgcor2">#FBFBFB</color>
+    <color name="bgcor3">#EEEEEE</color>
+    <color name="bgcor4">#F3F3F3</color>
+    <color name="bgcor5">#70000000</color>
+    <color name="bgcor6">#77333333</color>
+    <color name="bgcor7">#F9F9F9</color>
+
+    <!-- the colors of button #90DA2F -->
+    <color name="btn_green_nm">#8fc320</color>
+    <color name="btn_blue_nm">#0089DD</color>
+    <color name="btn_blue_pre">#0879B2</color>
+    <color name="btn_red_nm">#FF5454</color>
+    <color name="btn_red_pre">#F35050</color>
+
+    <!-- RCS PassValue2 -->
+    <color name="total_translucent">#00FFFFFF</color>
+    <!-- public -->
+    <color name="public_text_black">#FF363636</color>
+    <color name="public_text_gray">#FF818a8d</color>
+    <color name="public_text_blue">#FF0099CC</color>
+    <color name="public_text_yellow">#FFe2900e</color>
+    <color name="public_text_light">#FFFCFFFA</color>
+    <color name="public_c_text_title">#ffffff</color> <!-- 抬头标题 -->
+    <color name="public_c_text_title_btn">#ffffff</color> <!-- 导航栏上按钮上的字，如“返回” -->
+
+    <color name="public_c_text_input_clue">#999999</color> <!-- 输入提示用语 -->
+    <color name="public_c_text_input">#000000</color> <!-- 输入后的文字 -->
+    <color name="public_c_text_limit">#0059ac</color> <!-- 限制字数17/300 -->
+    <color name="public_c_text_send_btn">#333333</color> <!-- "发送" -->
+
+    <color name="public_c_text_layer">#ffffff</color> <!-- 分类的文字 -->
+
+    <color name="public_c_text_tab_pre">#0059ac</color> <!-- Tab上的文字选中状态 -->
+    <color name="public_c_text_tab_nm">#333333</color> <!-- Tab上的文字普通状态 -->
+
+    <color name="public_c_text_toast">#ffffff</color> <!-- Toast上的文字 -->
+
+    <color name="public_c_text_input_aft">#000000</color> <!-- 输入后的文字 -->
+
+    <color name="public_bg_light_gray">#e4e6e8</color> <!-- 浅灰色页面背景 -->
+    <color name="public_bg_activity">#fbfbfb</color> <!-- 白色页面背景 -->
+    <color name="public_bg_darkblue">#32394a</color> <!-- 部分藏蓝色页面背景 -->
+
+    <color name="public_c_text_toolbar_blue">#ffffff</color> <!-- 下方工具栏内蓝色按钮上的字 -->
+    <color name="public_c_text_toolbar_white">#333333</color> <!-- 下方工具栏内灰白色按钮上的字 -->
+
+    <color name="public_line_vertical_gray">#dddddd</color> <!-- 竖线 -->
+
+    <color name="public_c_title_plain_list">#5072a4</color> <!-- 朴素型列表的每个事项的标题 -->
+    <color name="public_c_text_title_plain_list">#0059ac</color> <!-- 朴素型列表标题-蓝色21号 -->
+
+    <color name="public_c_title_grouped_list">#bebebe</color> <!-- 分组型列表内的每个事项的标题 -->
+    <color name="public_c_title_grouped_lists">#5072a4</color> <!-- 分组型列表的每个列表群的标题 -->
+    <color name="public_c_text_l_list">#000000</color> <!-- 列表中的大标题 -->
+    <color name="public_c_text_sub1_list">#999999</color> <!-- 列表中的第一副标题-灰色 -->
+    <color name="public_c_text_sub2_list">#5072a4</color> <!-- 列表中的第二副标题-蓝色 -->
+    <color name="public_c_text_sub3_list">#999999</color> <!-- 列表中的第三副标题-灰色 -->
+    <color name="public_c_text_sub5_list">#999999</color> <!-- 列表中的第五副标题-灰色 -->
+
+    <color name="public_c_text_detail_list">#666666</color> <!-- 有详情的列表的详情文字 -->
+    <color name="public_c_text_stress">#0059ac</color> <!--  -->
+
+    <color name="public_c_time_text_list2">#bebebe</color> <!-- 讨论详情页列表 -->
+    <color name="public_c_time_text_list3">#bebebe</color> <!-- 9.17日新添 #be浅灰色24号 -->
+    <color name="public_c_text_stress2">#0059ac</color> <!-- 蓝色21号 -->
+    <color name="public_c_name_text_list2">#5072a4</color> <!--  -->
+    <color name="public_c_text_list2">#333333</color> <!-- 深灰色#33色24号 -->
+    <color name="public_c_text_detail_list2">#666666</color> <!-- #66灰色21号 -->
+
+    <color name="public_c_text_ler_list">#000000</color> <!-- 列表中的最大标题 -->
+
+    <color name="public_c_text_content_btn">#ffffff</color> <!-- 页面内蓝色大按钮上的字 -->
+    <color name="public_c_text_switcher">#ffffff</color> <!-- 切换器上的文字 -->
+    <color name="public_c_text_reply_btn">#666666</color> <!-- 页面内“回复”按钮的字 -->
+
+    <color name="public_c_text_reply2_btn">#ffffff</color> <!-- 页面内“回复”按钮点击后的字 -->
+    <color name="public_c_text_content_2_btn">#333333</color> <!-- 页面内灰白色按钮上的字 -->
+
+    <color name="public_c_text_l_list2">#000000</color> <!-- 黑色21号 -->
+    <color name="public_c_text_l_list3">#000000</color> <!-- 黑色30号 -->
+    <color name="public_c_text_detail_list3">#666666</color> <!-- #66灰色18号 -->
+
+    <color name="public_c_name_text_list3">#5072a4</color> <!-- 灰蓝色24号 -->
+    <color name="public_c_text_2_list1">#ffffff</color> <!-- 白色21号 -->
+    <color name="public_c_text_2_list2">#ffffff</color> <!-- 白色24号 -->
+    <color name="public_c_text_2_list3">#ffffff</color> <!-- 白色27号 -->
+
+    <color name="public_c_text_detail_list5">#666666</color> <!-- #66灰色27号 -->
+    <color name="public_c_name_text_list4">#5072a4</color> <!-- 灰蓝色27号 -->
+
+
+    <!-- mail -->
+    <color name="mail_bg_light_gray">#eeeaea</color> <!-- 收件地址背景 -->
+    <color name="mail_base_list_bg">#f4f4f4</color>
+    <color name="overlay_bg">#60000000</color>
+
+     <color name="radio_button_selected_color">#ff33b5e5</color>
+    <color name="radio_button_unselected_color">@android:color/transparent</color>
+    <color name="base_bg">#ffffffff</color>
+    <color name="base_grey_bgs">#cecece</color>
+    <color name="base_theme_highlight">#ff19abf3</color>
+    <color name="devide_line">#CBCED2</color>
+    <color name="blue">#499BF7</color>
+    <color name="whites">#ffffff</color>
+    <color name="grays">#818181</color>
+    <color name="gray_font">#818181</color>
+    <color name="common_title">#F9F9F9</color>
+    <color name="black">#000000</color>
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="refresh_head_bg">#2B2B2B</color>
+    <color name="red">#FF0000</color>
+    <color name="backColor">#2000</color>
+    <color name="detail_bgColor">#f5f5f5</color>
+    <color name="defaultTextColor">#666</color>
+    <color name="viewfinder_frame">#2477ab</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="yellow">#F99503</color>
+    <color name="title_bg">#ff10d7f1</color>
+
+    <color name="orange">#ff9900</color>
+    <color name="deepcolor">#faaa5f</color>
+    <color name="shadowcolor">#333333</color>
+    <color name="naming">#ABABAB</color>
+    <color name="background">#272727</color>
+    <color name="orange_yellow">#9b9ba0</color>
+
+    <drawable name="semi_black">#80000000</drawable>
+
+    <color name="remote_connect_text">#FFe78018</color>
+    <color name="remote_disconnect_text">#FF901821</color>
+</resources>

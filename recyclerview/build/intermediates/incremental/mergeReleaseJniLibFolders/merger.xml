@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/recyclerview/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/recyclerview/src/release/jniLibs"/></dataSet></merger>

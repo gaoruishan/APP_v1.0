@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cor1" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50dp"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/size_20dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/size_17.5dp"
+            android:clickable="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_return" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/register"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/font_size_20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_2dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/divider_gray" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlebar" >
+
+        <LinearLayout
+            android:id="@+id/login_input_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_17.5dp"
+            android:layout_marginRight="@dimen/size_17.5dp"
+            android:layout_marginTop="@dimen/size_32dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/size_52dp" >
+
+            <LinearLayout
+                android:id="@+id/ll_edittext"
+                style="@style/my_edittext_style"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <View
+                    android:layout_width="@dimen/size_2dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/size_10dp"
+                    android:layout_marginTop="@dimen/size_10dp"
+                    android:background="@color/cor3"
+                    android:visibility="gone" />
+
+                <test.grs.com.ims.view.EditTextWithDel
+                    android:id="@+id/et_username"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/size_50dp"
+                    android:background="@drawable/input_bg"
+                    android:drawableLeft="@drawable/login_input_usericon_slt"
+                    android:drawablePadding="@dimen/size_13dp"
+                    android:drawableRight="@drawable/public_search_clear_slt"
+                    android:hint="@string/hint_username_register"
+                    android:paddingBottom="@dimen/size_9dp"
+                    android:paddingLeft="@dimen/size_10dp"
+                    android:paddingRight="@dimen/size_9dp"
+                    android:paddingTop="@dimen/size_9dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@drawable/input_color_selector"
+                    android:textColorHint="@drawable/input_color_selector"
+                    android:textSize="@dimen/font_size_16sp" />
+            </LinearLayout>
+
+            <test.grs.com.ims.view.EditTextWithDel
+                android:id="@+id/et_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:layout_marginTop="@dimen/size_25dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/login_input_usericon_slt"
+                android:drawablePadding="@dimen/size_13dp"
+                android:drawableRight="@drawable/public_search_clear_slt"
+                android:hint="@string/hint_nickname"
+                android:paddingBottom="@dimen/size_9dp"
+                android:paddingLeft="@dimen/size_10dp"
+                android:paddingRight="@dimen/size_9dp"
+                android:paddingTop="@dimen/size_9dp"
+                android:singleLine="true"
+                android:textColor="@drawable/input_color_selector"
+                android:textColorHint="@drawable/input_color_selector"
+                android:textSize="@dimen/font_size_16sp" />
+
+            <!--<test.grs.com.ims.view.EditTextWithDel-->
+                <!--android:id="@+id/et_phone"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="@dimen/size_50dp"-->
+                <!--android:layout_marginTop="@dimen/size_25dp"-->
+                <!--android:background="@drawable/input_bg"-->
+                <!--android:drawableLeft="@drawable/login_input_phoneicon_slt"-->
+                <!--android:drawablePadding="@dimen/size_13dp"-->
+                <!--android:drawableRight="@drawable/public_search_clear_slt"-->
+                <!--android:hint="@string/hint_phone"-->
+                <!--android:inputType="phone"-->
+                <!--android:maxLength="11"-->
+                <!--android:digits="1234567890"-->
+                <!--android:paddingBottom="@dimen/size_9dp"-->
+                <!--android:paddingLeft="@dimen/size_10dp"-->
+                <!--android:paddingRight="@dimen/size_9dp"-->
+                <!--android:paddingTop="@dimen/size_9dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:textColor="@drawable/input_color_selector"-->
+                <!--android:textColorHint="@drawable/input_color_selector"-->
+                <!--android:textSize="@dimen/font_size_16sp" />-->
+
+            <test.grs.com.ims.view.EditTextWithDel
+                android:id="@+id/et_password"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:layout_marginTop="@dimen/size_25dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/login_input_passwordicon_slt"
+                android:drawablePadding="@dimen/size_13dp"
+                android:drawableRight="@drawable/public_search_clear_slt"
+                android:hint="@string/hint_password_register"
+                android:inputType="textPassword"
+                android:paddingBottom="@dimen/size_9dp"
+                android:paddingLeft="@dimen/size_10dp"
+                android:paddingRight="@dimen/size_9dp"
+                android:paddingTop="@dimen/size_9dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@drawable/input_color_selector"
+                android:textColorHint="@drawable/input_color_selector"
+                android:textSize="@dimen/font_size_16sp" />
+
+            <test.grs.com.ims.view.EditTextWithDel
+                android:id="@+id/comfirm_password"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:layout_marginTop="@dimen/size_25dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/login_input_passwordicon_slt"
+                android:drawablePadding="@dimen/size_13dp"
+                android:drawableRight="@drawable/public_search_clear_slt"
+                android:hint="@string/hint_confirm_password"
+                android:inputType="textPassword"
+                android:paddingBottom="@dimen/size_9dp"
+                android:paddingLeft="@dimen/size_10dp"
+                android:paddingRight="@dimen/size_9dp"
+                android:paddingTop="@dimen/size_9dp"
+                android:singleLine="true"
+                android:textColor="@drawable/input_color_selector"
+                android:textColorHint="@drawable/input_color_selector"
+                android:textSize="@dimen/font_size_16sp" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size_48dp"
+                android:layout_marginTop="@dimen/size_29dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_green"
+                    android:gravity="center"
+                    android:text="@string/register"
+                    android:textColor="@color/cor1"
+                    android:textSize="@dimen/public_s_text_content_btn" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true"
+    android:background="#44000000"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="13dp" >
+
+    <TextView
+        android:id="@+id/item_popupwindow_camera"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_btn_corners_t_selecter"
+        android:gravity="center"
+        android:text="@string/comment_edit_from_camera"
+        android:textColor="@color/blue_text_color_selecter"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/item_popupwindow_photo"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/bg_btn_corners_b_selecter"
+        android:gravity="center"
+        android:text="@string/comment_edit_from_album"
+        android:textColor="@color/blue_text_color_selecter"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/item_popupwindow_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/bg_btn_corners_selecter"
+        android:gravity="center"
+        android:text="@string/cancel"
+        android:textColor="@color/blue_text_color_selecter"
+        android:textSize="18sp" />
+
+</LinearLayout>

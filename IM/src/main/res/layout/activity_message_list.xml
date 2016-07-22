@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/public_bg_activity"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/title_convers"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:gravity="center"
+        android:visibility="gone"
+        android:orientation="horizontal"
+        android:background="@drawable/public_icon_titlebar_bg" >
+
+        <TextView
+            android:id="@+id/contact_title_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tab_message"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/btn_green_pre"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/size2" />
+        <TextView
+            android:id="@+id/contact_title_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tab_ads"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/cor2"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/size2" />
+        <TextView
+            android:id="@+id/contact_title_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="群聊"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="doGroupChat"
+            android:background="@color/cor7"
+            android:gravity="center"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/size2" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/message_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#0fd5f2"
+        android:splitMotionEvents="false">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="doBack"
+            android:orientation="horizontal">
+            <!--返回-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fanhui3x" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:maxEms="8"
+            android:onClick="dododdo"
+            android:clickable="true"
+            android:singleLine="true"
+            android:text="消息"
+            android:textColor="@color/whites"
+            android:textSize="@dimen/font_size_20sp" />
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:onClick="showSingleDetail">
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingTop="5dp"
+        android:background="#EBE79E"
+        android:paddingLeft="40dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/ll_netErr"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:src="@drawable/msg_icon_content_nm"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="@dimen/size_15dp"
+            android:text="当前网路不可用,请检查网路设置"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_msg_center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_60dp"
+        android:layout_below="@+id/title_convers"
+        android:background="@color/whites"
+        android:orientation="horizontal"
+        android:onClick="doShowMesageList"
+        android:gravity="center_vertical" >
+        <ImageView
+            android:layout_width="40dp"
+            android:src="@drawable/xx"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="消息中心"
+            android:textColor="@color/cor4"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_size_18sp" />
+        <ImageView
+            android:src="@drawable/tz"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.3"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/gd"
+            android:layout_weight="0.4"
+            android:layout_marginRight="@dimen/public_padding_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/view_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1dp"
+        android:background="@drawable/divider_gray" />
+
+    <LinearLayout
+        android:id="@+id/ll_msg_unnotice"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_60dp"
+        android:layout_below="@+id/view_id"
+        android:background="@color/whites"
+        android:onClick="doShowUnnoticeList"
+        android:orientation="horizontal"
+        android:gravity="center_vertical" >
+        <ImageView
+            android:layout_width="40dp"
+            android:src="@drawable/tu1"
+            android:layout_weight="1"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:text="未关注的人"
+            android:textColor="@color/cor4"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_size_18sp" />
+        <ImageView
+            android:src="@drawable/tz"
+            android:layout_width="wrap_content"
+            android:layout_weight="0.3"
+            android:visibility="gone"
+            android:id="@+id/unMsg_notify"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:src="@drawable/gd"
+            android:layout_weight="0.4"
+            android:layout_marginRight="@dimen/public_padding_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <View
+        android:layout_below="@id/ll_msg_unnotice"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1dp"
+        android:background="@drawable/divider_gray" />
+
+    <!-- 搜索-->
+    <LinearLayout
+
+        android:id="@+id/ll_search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/public_seach_bg"
+        android:layout_below="@+id/title_convers"
+        android:focusable="true"
+        android:visibility="gone"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:paddingLeft="14dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/public_search_bar_icon" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/message_search"
+            android:maxEms="10"
+            android:maxLength="40"
+            android:singleLine="true"
+            android:textColor="@color/cor5"
+            android:textColorHint="@color/cor2"
+            android:textSize="@dimen/siz4" />
+
+        <ImageView
+            android:id="@+id/bt_cancel_search"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:onClick="resetUI"
+            android:paddingLeft="10dp"
+            android:paddingRight="14dp"
+            android:src="@drawable/public_search_clear_slt"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <FrameLayout
+
+        android:id="@+id/fl_list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_msg_unnotice" >
+
+        <ListView
+            android:id="@+id/converstaion_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/cor2"
+            android:dividerHeight="1px"
+            android:scrollbarSize="4dp"
+            android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical"
+            android:splitMotionEvents="false" />
+
+        <TextView
+            android:id="@+id/tv_no_conversation_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/conversation_no_conversation"
+            android:textColor="@color/cor3"
+            android:textSize="@dimen/size1"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/loading_img_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/spiner"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/search_mode_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#70000000"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

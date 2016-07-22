@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical"
+    tools:context="com.cmcc.hyapps.andyou.activity.SettingsActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_common"
+            android:orientation="vertical"
+            android:showDividers="beginning|middle|end" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/base_bg"
+                android:divider="@drawable/divider_line"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:showDividers="beginning|middle|end" >
+
+                <include
+                    android:id="@+id/item_qrcode"
+                    layout="@layout/item_settings" />
+
+                <include
+                    android:id="@+id/item_about"
+                    layout="@layout/item_settings" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/item_logout"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="13dp"
+                android:background="@drawable/bg_btn_red_selecter"
+                android:gravity="center"
+                android:text="@string/settings_item_logout"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:id="@+id/me_header"
+    android:background="@color/base_grey_bg">
+
+    <ImageView
+        android:id="@+id/me_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:src="@drawable/next"
+        />
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/iv_me_avata"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_avata_hint"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        app:oval="true"
+        />
+
+    <TextView
+        android:id="@+id/tv_me_name"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_me_avata"
+        android:layout_centerVertical="true"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="登陆人姓名"/>
+
+
+</RelativeLayout>

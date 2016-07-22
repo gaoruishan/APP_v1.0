@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <com.cmcc.hyapps.andyou.widget.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/corners_grey"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="7dp"
+        android:hint="@string/city_list_hint"
+        android:imeOptions="actionSearch"
+        android:padding="13dp"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/detected_city_text"
+                style="@style/text_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/detected_city" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/detected_city_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:isScrollContainer="false"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="6dp" />
+
+            <TextView
+                style="@style/text_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="6dp"
+                android:paddingRight="6dp"
+                android:paddingTop="6dp"
+                android:text="@string/hot_cities" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hot_city_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:isScrollContainer="false"
+                android:padding="6dp" />
+
+            <ListView
+                android:id="@+id/city_letter_list"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:divider="@null"
+                android:paddingTop="6dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/city_letter_dialog"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_gravity="center"
+            android:background="@color/base_grey_bg"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <com.cmcc.hyapps.andyou.widget.pinyinsidebar.PinyinSideBar
+            android:id="@+id/sidebar"
+            android:layout_width="30dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="right|center" />
+    </FrameLayout>
+
+</LinearLayout>

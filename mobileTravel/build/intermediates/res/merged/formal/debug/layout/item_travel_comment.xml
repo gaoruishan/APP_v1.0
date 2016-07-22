@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="13dp" >
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/iv_avata"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_avata_hint"
+        app:border_color="@color/base_theme_highlight"
+        app:border_width="1dp"
+        app:oval="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/iv_avata"
+        android:id="@+id/comment_lay"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/iv_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/base_theme_highlight" />
+
+            <TextView
+                android:id="@+id/iv_time"
+                style="@style/scenery_detail_summary_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/comment_time"
+                android:drawablePadding="5dp" />
+        </LinearLayout>
+
+        <com.cmcc.hyapps.andyou.widget.AdaptiveTextView
+            android:id="@+id/iv_content"
+            style="@style/text_summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="10"
+            android:textSize="15sp" />
+    </LinearLayout>
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/umeng_fb_item_line_height"
+    android:layout_below="@+id/comment_lay"
+    android:layout_marginTop="13dp"
+    android:background="@color/base_grey_line"
+    />
+</RelativeLayout>

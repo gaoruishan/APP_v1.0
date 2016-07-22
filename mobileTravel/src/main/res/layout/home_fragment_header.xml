@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/home_header"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:background="@color/base_bg"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <com.cmcc.hyapps.andyou.widget.AutoScrollViewPager
+        android:id="@+id/banner_pager"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        />
+       <com.cmcc.hyapps.andyou.widget.ScrollPoints
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/points"
+           android:layout_alignBottom="@+id/banner_pager"
+           android:layout_marginBottom="16dp"
+           android:layout_marginRight="10dp"
+           android:layout_alignParentRight="true"
+           />
+        <include layout="@layout/layout_action_bar" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/home_search_et"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/icon_search_bg"
+        android:drawableLeft="@drawable/icon_search"
+        android:paddingLeft="10dp"
+        android:hint="输入您想去的景区"
+        android:textSize="15sp"
+        android:drawablePadding="5dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/base_grey_line"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/scenery_detail_funcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/common_margin"
+        >
+       <!-- android:paddingLeft="@dimen/common_margin"-->
+        <TextView
+            android:id="@+id/home_tab_special"
+            style="@style/home_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/strategy"
+            android:text="@string/home_tab_loacl_special"
+
+            />
+
+        <TextView
+            android:id="@+id/home_tab_food"
+            style="@style/home_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/route"
+            android:text="@string/home_tab_food" />
+
+        <TextView
+            android:id="@+id/home_tab_hotel"
+            style="@style/home_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/gps"
+            android:text="@string/home_tab_hotel" />
+
+        <TextView
+            android:id="@+id/home_tab_guide"
+            style="@style/home_tab"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/home_guide_selecter"
+            android:text="@string/home_tab_guide"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="1dp"
+        android:background="@color/base_grey_line" />-->
+</LinearLayout>

@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/values-v11/values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/res/values-v11/values-v11.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 225
+                    }
+                }
+            }
+        ]
+    }
+]

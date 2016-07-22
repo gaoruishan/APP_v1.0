@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/friends_circle_recycle_item_main_layout"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="55dp">
+
+        <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+            android:id="@+id/friends_circle_recycle_item_avator"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_avata_hint"
+            app:border_color="@color/white"
+            app:border_width="1dp"
+            app:oval="true"/>
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/friends_circle_recycle_item_avator"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/friends_circle_recycle_item_avator"
+            android:singleLine="true"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/friends_circle_recycle_item_avator"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/friends_circle_recycle_item_avator"
+            android:singleLine="true"
+            android:textColor="#ababab"
+            android:textSize="14sp"/>
+
+        <ImageView
+            android:id="@+id/friends_circle_recycle_item_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/sc"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/friends_circle_recycle_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/friends_circle_recycle_item_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/friends_circle_recycle_item_address_mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/friends_circle_location"
+            android:drawablePadding="4dp"
+            android:layout_toLeftOf="@+id/friends_circle_recycle_item_vote"
+            android:layout_marginRight="20dp"
+            android:singleLine="true"
+            android:textColor="#ababab"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_vote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/friends_circle_recycle_item_argument"
+            android:drawableLeft="@drawable/friends_description_vote_selector"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:maxWidth="75dp"
+            android:singleLine="true"
+            android:textColor="#ababab"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_argument"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:drawableLeft="@drawable/friends_circle_argument"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:maxWidth="75dp"
+            android:singleLine="true"
+            android:textColor="#ababab"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+</LinearLayout>

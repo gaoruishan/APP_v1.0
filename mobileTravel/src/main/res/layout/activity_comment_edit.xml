@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical"
+    android:id="@+id/root_container"
+    tools:context="com.cmcc.hyapps.andyou.activity.CommentEditActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/scenic_comment_rating_text"
+            android:textSize="17sp" >
+        </TextView>
+
+        <RatingBar
+            android:id="@+id/comment_rating"
+            style="@style/rating_bar_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <com.cmcc.hyapps.andyou.support.ExEditText
+        android:id="@+id/comment_text"
+        android:layout_width="match_parent"
+        android:layout_height="133.5dp"
+        android:background="@drawable/corners_grey"
+        android:ems="10"
+        android:gravity="left|top"
+        android:hint="@string/comment_edit_input_content"
+        android:inputType="textMultiLine"
+        android:padding="8dp"
+        android:textColor="@color/base_text_summary"
+        android:textColorHint="@color/base_text_summary" >
+
+        <requestFocus />
+    </com.cmcc.hyapps.andyou.support.ExEditText>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp" />
+
+</LinearLayout>

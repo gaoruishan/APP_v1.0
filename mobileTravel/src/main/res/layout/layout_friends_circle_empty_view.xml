@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg">
+
+    <TextView
+        android:id="@+id/friends_circle_empty_textview_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="@string/friends_circle_empty_first_text"
+        android:textColor="@color/friends_circle_empty_text_color"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/friends_circle_empty_textview_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/friends_circle_empty_textview_first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/friends_circle_empty_second_text"
+        android:textColor="@color/friends_circle_empty_text_color"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/friends_circle_empty_add_frocus"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/friends_circle_empty_add_trends"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/friends_circle_empty_background"
+        android:drawableLeft="@drawable/friends_circle_empty_books"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/friends_circle_empty_add_forcus"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/friends_circle_empty_add_trends"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/friends_circle_empty_background"
+        android:drawableLeft="@drawable/friends_cricle_empty_messages"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/friends_circle_empty_send_trends"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/base_bg"
+    android:divider="@drawable/divider_common"
+    android:orientation="vertical"
+    android:showDividers="beginning|middle|end" >
+    <include layout="@layout/layout_me_header_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_tb"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:showDividers="middle" >
+
+        <include
+            android:id="@+id/item_publish"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+        <include
+            android:id="@+id/item_collect"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+        <include
+            android:id="@+id/item_message"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+
+        <include
+            android:id="@+id/item_feedback"
+            layout="@layout/item_me" />
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+
+        <include
+            android:id="@+id/item_share"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+        <include
+            android:id="@+id/item_renovate"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+
+        <include
+            android:id="@+id/item_about"
+            layout="@layout/item_me" />
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+        <include
+            android:id="@+id/item_clear"
+            layout="@layout/item_me" />
+
+
+
+        <ImageView
+            style="@style/me_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description" />
+
+    </LinearLayout>
+
+</LinearLayout>

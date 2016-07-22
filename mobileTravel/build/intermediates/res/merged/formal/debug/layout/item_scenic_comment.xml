@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_comment_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin"
+        android:paddingTop="7dp" >
+
+        <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+            android:id="@+id/author_avatar"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_avata_hint"
+            app:border_color="@color/white"
+            app:border_width="1dp"
+            app:oval="true" />
+
+        <TextView
+            android:id="@+id/comment_author_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/default_text_color"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="2"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/default_text_color"
+            android:textSize="16sp"
+            android:gravity="right"
+            />
+       <!-- <RatingBar
+            android:id="@+id/comment_rating"
+            style="@style/rating_bar_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:isIndicator="true"
+            android:rating="0" />-->
+    </LinearLayout>
+
+    <com.cmcc.hyapps.andyou.widget.AdaptiveTextView
+        android:id="@+id/comment_content"
+        style="@style/scenery_detail_summary_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="@dimen/common_margin"
+        android:layout_marginRight="@dimen/common_margin"
+        android:layout_marginTop="6dp"
+        android:textSize="15sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone"
+        android:layout_marginRight="20dp"
+        android:padding="11dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/base_grey_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:orientation="horizontal" >
+
+
+        <TextView
+            android:id="@+id/comment_vote_count"
+            style="@style/scenery_detail_summary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/level_list_scenic_detail_praise"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:minHeight="40dp"
+            android:padding="10dp"
+            android:text="wwwwwwww"
+            android:layout_toLeftOf="@+id/comment_count"
+            />
+
+        <com.cmcc.hyapps.andyou.widget.AlwaysMarqueeTextView
+            android:id="@+id/comment_location"
+            style="@style/scenery_detail_summary_text"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/friends_circle_location"
+            android:drawablePadding="10dp"
+            android:minHeight="50dp"
+            android:padding="10dp"
+            android:layout_centerVertical="true"/>
+        <!--<TextView-->
+            <!--android:id="@+id/comment_location"-->
+            <!--style="@style/scenery_detail_summary_text"-->
+            <!--android:layout_width="250dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:drawableLeft="@drawable/myposition"-->
+            <!--android:drawablePadding="10dp"-->
+            <!--android:gravity="center"-->
+            <!--android:minHeight="40dp"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--/>-->
+            <TextView
+                android:id="@+id/comment_count"
+                style="@style/scenery_detail_summary_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/friends_circle_argument"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                />
+        <ImageView
+            android:visibility="gone"
+                android:id="@+id/comment_share"
+                style="@style/scenery_detail_summary_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/friends_circle_argument"
+                android:drawablePadding="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:minHeight="40dp"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:visibility="gone"
+        android:background="@color/base_grey_line" />
+
+</LinearLayout>

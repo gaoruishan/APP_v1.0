@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="14dp"
+    android:paddingBottom="21dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="自驾游必去"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_selfDrivingTravel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="亲子游"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_parentChildTravel"
+        android:layout_above="@+id/tags_natureContast"
+        android:layout_toRightOf="@+id/tags_selfDrivingTravel"
+        android:layout_toEndOf="@+id/tags_selfDrivingTravel"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="户外烧烤最佳去处"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_outdoorBarbecue"
+        android:layout_above="@+id/tags_natureContast"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="大自然亲密接触"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_natureContast"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/tags_selfDrivingTravel"
+        android:layout_alignLeft="@+id/tags_selfDrivingTravel"
+        android:layout_alignStart="@+id/tags_selfDrivingTravel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="油菜花欣赏"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_rapeFlowerAppr"
+        android:layout_alignTop="@+id/tags_natureContast"
+        android:layout_toLeftOf="@+id/tags_summerVacation"
+        android:layout_toStartOf="@+id/tags_summerVacation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="夏日避暑游"
+        android:clickable="true"
+        android:gravity="center"
+        android:textColor="#0fd5f2"
+        android:background="@drawable/bg_tv_corner_stroke"
+        android:id="@+id/tags_summerVacation"
+        android:layout_alignTop="@+id/tags_rapeFlowerAppr"
+        android:layout_alignRight="@+id/tags_outdoorBarbecue"
+        android:layout_alignEnd="@+id/tags_outdoorBarbecue" />
+</RelativeLayout>

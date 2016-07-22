@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/index_mask_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88000000"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/mask_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/mask_circle" />
+
+    <ImageView
+        android:id="@+id/mask_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/mask_circle"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/mask_arrow" />
+
+    <ImageView
+        android:id="@+id/mask_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/mask_arrow"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/mask_notice" />
+    <!-- <ImageView
+        android:id="@+id/mask_shake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mask_arrow"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/mask_shake" /> -->
+    <!--
+    <ImageView
+        android:id="@+id/mask_slide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mask_shake"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/mask_slide" />
+    -->
+
+    <ImageView
+        android:id="@+id/mask_i_know"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/mask_arrow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/mask_i_know" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emoji_gridview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnWidth="30dp"
+    android:gravity="center"
+    android:horizontalSpacing="5dp"
+    android:listSelector="@drawable/public_gv_item_slt"
+    android:numColumns="8"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:scrollbars="none"
+    android:stretchMode="columnWidth" />

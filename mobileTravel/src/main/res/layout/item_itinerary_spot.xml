@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="@drawable/corners_grey"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/black_text_color_selecter"
+        android:textSize="14sp" />
+
+    <CheckBox
+        android:duplicateParentState="true"
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:button="@drawable/itinerary_spot_selector" />
+
+</LinearLayout>

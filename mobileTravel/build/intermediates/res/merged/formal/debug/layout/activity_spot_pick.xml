@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical"
+    tools:context="com.cmcc.hyapps.andyou.activity.SpotPickActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <com.cmcc.hyapps.andyou.widget.ClearEditText
+        android:id="@+id/filter_edit"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/corners_grey"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="7dp"
+        android:hint="@string/city_list_hint"
+        android:imeOptions="actionSearch"
+        android:padding="13dp"
+        android:singleLine="true"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/category_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp"
+        android:text="@string/itinerary_hot_spot"
+        android:textColor="@color/base_text_summary"
+        android:textSize="13sp" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+</LinearLayout>

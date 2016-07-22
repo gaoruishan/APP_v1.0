@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/comment_cover_image"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_banner_hint" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/screen_padding"
+        android:paddingLeft="@dimen/screen_padding"
+        android:paddingRight="@dimen/screen_padding" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/corners_grey_round"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:gravity="center_vertical" >
+
+                <RatingBar
+                    android:id="@+id/comment_rating"
+                    style="@style/rating_bar_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:isIndicator="true"
+                    android:rating="0"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/comment_author_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="74dp"
+                    android:layout_toLeftOf="@+id/comment_rating"
+                    android:ellipsize="end"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/comment_content"
+                style="@style/text_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textSize="16sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="26dp"
+                android:padding="11dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:id="@+id/comment_vote_count"
+                    style="@style/scenery_detail_summary_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/comment_praise"
+                    android:drawablePadding="7dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/comment_count"
+                    style="@style/scenery_detail_summary_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:layout_toRightOf="@id/comment_vote_count"
+                    android:drawableLeft="@drawable/comment"
+                    android:drawablePadding="7dp"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/comment_time"
+                    style="@style/scenery_detail_summary_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/comment_time"
+                    android:drawablePadding="4dp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/base_grey_bg" />
+        </LinearLayout>
+
+        <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+            android:id="@+id/author_avatar"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_avata_hint"
+            app:border_color="@color/base_theme_highlight"
+            app:border_width="1px"
+            app:oval="true" />
+    </FrameLayout>
+
+</FrameLayout>

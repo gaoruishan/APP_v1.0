@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:background="@color/title_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/action_bar_left"
+            style="@style/action_tab_lr"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_action_bar_back_selecter" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:divider="@drawable/divider_line"
+            android:dividerPadding="3dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:showDividers="middle" >
+
+            <com.cmcc.hyapps.andyou.support.ExEditText
+                android:id="@+id/search_content"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/search_bg"
+                android:drawableLeft="@drawable/ic_action_bar_search_input"
+                android:drawablePadding="8dp"
+                android:imeOptions="actionSearch"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColorHint="#fface4ff" />
+
+            <TextView
+                android:id="@+id/search_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="取消"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_recycler_list" />
+
+    </FrameLayout>
+
+</LinearLayout>

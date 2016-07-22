@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/home_secnic_bg"
+             android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar" />
+
+    <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+        android:id="@+id/live_loading_progress"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/action_bar_height"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"/>
+
+
+    <FrameLayout
+        android:id="@+id/live_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/action_bar_height"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        >
+
+    </FrameLayout>
+
+</FrameLayout>

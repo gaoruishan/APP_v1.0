@@ -1,0 +1,212 @@
+<resources>
+    
+    <dimen name="radio_button_conner_radius">5dp</dimen>
+    
+    <!-- font size -->
+    <dimen name="font_size_10sp">10sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_18sp">18sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="font_size_22sp">22sp</dimen>
+    <dimen name="font_size_26sp">26sp</dimen>
+    
+    
+    <!-- padding  height  width -->
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_3dp">3dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_9dp">9dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_13dp">13dp</dimen>
+    <dimen name="size_14dp">14dp</dimen>
+    <dimen name="size_15dp">15dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_17.5dp">17.5dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_25dp">25dp</dimen>
+    <dimen name="size_29dp">29dp</dimen>
+    <dimen name="size_30dp">30dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_34dp">34dp</dimen>
+    <dimen name="size_38dp">38dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_52dp">52dp</dimen>
+    <dimen name="size_57dp">57dp</dimen>
+    <dimen name="size_60dp">60dp</dimen>
+    <dimen name="size_65dp">65dp</dimen>
+    <dimen name="size_120dp">120dp</dimen>
+    
+    
+    
+    <dimen name="size1">22dp</dimen>
+    <dimen name="size2">20dp</dimen>
+    <dimen name="size3">18dp</dimen>
+    <dimen name="size4">16dp</dimen>
+    <dimen name="size5">14dp</dimen>
+    <dimen name="size6">12dp</dimen>
+    <dimen name="size7">10dp</dimen>
+    <dimen name="b_size1">28dp</dimen>
+    <dimen name="b_size2">30dp</dimen>
+    <dimen name="b_size3">110dp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="info_item_height">50dp</dimen>
+    <dimen name="btn_height">50dp</dimen>
+    <dimen name="page_sides_padding">14dp</dimen>
+    
+    <!-- characters size -->
+    <dimen name="siz1">22dp</dimen>
+   	<dimen name="siz2">20dp</dimen>
+    <dimen name="siz3">18dp</dimen>
+    <dimen name="siz4">16dp</dimen>
+    <dimen name="siz5">14dp</dimen>
+    <dimen name="siz6">12dp</dimen>
+    <dimen name="siz7">10dp</dimen>
+    <dimen name="b_siz1">28dp</dimen>
+    <dimen name="b_siz2">30dp</dimen>
+    
+    <!-- RCS PassValue2 -->
+    <!-- public -->
+    <dimen name="live_show_pic_width">160dp</dimen>
+    <dimen name="live_show_pic_height">100dp</dimen>
+    <dimen name="live_show_video_height">100dp</dimen>
+    <dimen name="public_text_large">16dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    
+    <!-- New UI. Public -->
+    <dimen name="public_s_text_title">20dp</dimen>				<!-- 抬头标题 -->
+    <dimen name="public_s_text_title_btn">14dp</dimen>			<!-- 导航栏上按钮上的字，如“返回” -->
+    
+    <dimen name="public_s_text_input_clue">16dp</dimen>			<!-- 输入提示用语 -->
+    <dimen name="public_s_text_input">16dp</dimen>				<!-- 输入后的文字 -->
+    <dimen name="public_s_text_limit">14dp</dimen>				<!-- 限制字数17/300 -->
+    <dimen name="public_s_text_send_btn">16dp</dimen>			<!-- "发送" -->
+    
+    <dimen name="public_s_text_layer">16dp</dimen>			<!-- 分类的文字 -->
+    <dimen name="public_s_text_tab_pre">15dp</dimen>			<!-- Tab上的文字选中状态 -->
+    <dimen name="public_s_text_tab_nm">15dp</dimen>			<!-- Tab上的文字普通状态 -->
+    
+    <dimen name="public_s_text_toast">18dp</dimen>			<!-- Toast上的文字 -->
+    
+    <dimen name="public_s_text_input_bre">16dp</dimen>			<!-- 默认提示文字 -->
+    <dimen name="public_s_text_input_aft">16dp</dimen>			<!-- 输入后的文字 -->
+    
+    <dimen name="public_s_title_plain_list">18dp</dimen>		<!-- 朴素型列表的每个事项的标题 -->
+    <dimen name="public_s_text_title_plain_list">14dp</dimen>	<!-- 朴素型列表的列表群的标题 -->
+    <dimen name="public_s_title_grouped_list">16dp</dimen>		<!-- 分组型列表内的每个事项的标题 -->
+    <dimen name="public_s_title_grouped_lists">18dp</dimen>		<!-- 分组型列表的每个列表群的标题 -->
+    <dimen name="public_s_text_l_list">16dp</dimen>				<!-- 列表中的大标题 -->
+    <dimen name="public_s_text_sub1_list">12dp</dimen>			<!-- 列表中的第一副标题-灰色	 -->
+    <dimen name="public_s_text_sub2_list">12dp</dimen>			<!-- 列表中的第二副标题-蓝色  -->
+    <dimen name="public_s_text_sub3_list">14dp</dimen>			<!-- 列表中的第三副标题-灰色  -->
+    <dimen name="public_s_text_sub5_list">16dp</dimen>			<!-- 列表中的第五副标题-灰色  -->
+    
+    <dimen name="public_s_text_detail_list">16dp</dimen>		<!-- 有详情的列表的详情文字 -->
+    <dimen name="public_s_text_stress">16dp</dimen>				<!--  -->
+    <dimen name="public_s_text_stress2">14dp</dimen>				<!--  -->
+    
+    <dimen name="public_s_time_text_list2">12dp</dimen>			<!-- 讨论详情页列表 -->
+    <dimen name="public_s_time_text_list3">16dp</dimen>         <!-- 9.17日新加  -->
+    <dimen name="public_s_name_text_list2">14dp</dimen>			<!--  -->
+    <dimen name="public_s_text_list2">16dp</dimen>				<!--  -->
+    <dimen name="public_s_text_detail_list2">14dp</dimen>				<!--  -->
+    
+    <dimen name="public_s_text_ler_list">18dp</dimen>			<!-- 列表中的最大标题 -->
+    
+    <dimen name="public_s_text_content_btn">18dp</dimen>		<!-- 页面内蓝色大按钮上的字 -->
+    <dimen name="public_s_text_switcher">16dp</dimen>			<!-- 切换器上的文字 -->
+    <dimen name="public_s_text_reply_btn">14dp</dimen>			<!-- 页面内“回复”按钮的字 -->
+    
+    <dimen name="public_s_text_reply2_btn">14dp</dimen>			<!-- 页面内“回复”按钮点击后的字 -->
+    <dimen name="public_s_text_content_2_btn">16dp</dimen>			<!-- 页面内灰白色按钮上的字 -->
+    
+    <dimen name="public_s_text_toolbar_blue">14dp</dimen>			<!-- 下方工具栏内蓝色按钮上的字 -->
+    <dimen name="public_s_text_toolbar_white">14dp</dimen>			<!-- 下方工具栏内灰白色按钮上的字 -->
+    
+    
+    <dimen name="public_s_text_l_list2">14dp</dimen>			<!-- 黑色21号 -->
+    <dimen name="public_s_text_l_list3">20dp</dimen>			<!-- 黑色30号 -->
+    <dimen name="public_s_text_detail_list3">12dp</dimen>			<!-- #66灰色18号 -->
+    <dimen name="public_s_name_text_list3">16dp</dimen>			<!-- 灰蓝色24号 -->
+    <dimen name="public_s_text_2_list1">14dp</dimen>			<!-- 白色21号 -->
+    <dimen name="public_s_text_2_list2">16dp</dimen>			<!-- 白色24号 -->
+    <dimen name="public_s_text_2_list3">18dp</dimen>			<!-- 白色27号 -->
+    
+    
+    <dimen name="public_s_text_detail_list5">18dp</dimen>		<!-- #66灰色27号 -->
+    <dimen name="public_s_name_text_list4">18dp</dimen>		<!-- 灰蓝色27号 -->
+    
+    
+    <!-- 页面内Padding -->
+    <dimen name="public_padding_2">2dp</dimen> 
+    <dimen name="public_padding_4">4dp</dimen> 
+    <dimen name="public_padding_6">6dp</dimen> 
+    <dimen name="public_padding_7">7dp</dimen>	 
+    <dimen name="public_padding_8">8dp</dimen>	
+    <dimen name="public_padding_10">10dp</dimen>	
+    <dimen name="public_padding_12">12dp</dimen>	
+    <dimen name="public_padding_14">14dp</dimen>	
+    <dimen name="public_padding_15">15dp</dimen>	
+    <dimen name="public_padding_16">16dp</dimen>	
+    <dimen name="public_padding_18">18dp</dimen>	
+    <dimen name="public_padding_20">20dp</dimen>	
+    <dimen name="public_padding_22">22dp</dimen>		
+    <dimen name="public_padding_25">25dp</dimen>		
+    <dimen name="public_padding_52">52dp</dimen>
+    <dimen name="public_padding_56">56dp</dimen>		
+    <dimen name="public_padding_60">60dp</dimen>		
+    
+    <!-- New UI. Mail -->
+    <dimen name="mail_hint_size">90dp</dimen>
+    
+    <!-- New UI. PublicAccounts -->
+    <dimen name="public_account_grid_icon_size_width">60dp</dimen>
+    <dimen name="public_account_grid_icon_size_height">60dp</dimen>
+    <dimen name="public_account_grid_bottom_indicator_padding">5dp</dimen>
+    
+    <!-- Circle -->
+    <dimen name="circle_txt_post_area_height">216dp</dimen>
+    <dimen name="circle_personal_image_height">74dp</dimen>
+    <dimen name="list_header_image_height">240dp</dimen>
+    <dimen name="list_header_image_width">480dp</dimen>
+    <dimen name="list_header_avatar_height">90dp</dimen>
+    <dimen name="list_header_avatar_width">90dp</dimen>
+    
+   <dimen name="dialog_btn_height">42dp</dimen>
+	<!-- plugincenter -->
+   <dimen name="button_download_width">89dp</dimen>
+   <dimen name="button_download_height">35dp</dimen>
+   <dimen name="button_redownload_height">25dp</dimen>
+   <dimen name="button_redownload_width">64dp</dimen>
+   <dimen name="imageview_heicon_width">100dp</dimen>
+   <dimen name="imageview_heicon_height">100dp</dimen>
+   <dimen name="plugin_logo_icon_height">100dp</dimen>
+   <dimen name="plugin_logo_text_height">50dp</dimen>
+   <dimen name="plugin_app_preview_image_height">280dp</dimen>
+   <dimen name="plugin_progressbar_height">15dp</dimen>
+   <dimen name="plugin_progressbar_width">100dp</dimen>
+   <dimen name="plugin_app_logo_text_width">180dp</dimen>
+   <dimen name="plugin_app_logo_text_height">50dp</dimen>
+   <dimen name="plugin_app_logo_height">100dp</dimen> 
+   <dimen name="plugin_list_item_height">50dp</dimen>   
+   <dimen name="plugin_list_item_icon_height">40dp</dimen>   
+   <dimen name="plugin_list_item_icon_width">40dp</dimen>   
+   <dimen name="plugin_list_item_icon_update_height">28dp</dimen>   
+   <dimen name="plugin_list_item_icon_update_width">5dp</dimen> 
+   <dimen name="plugin_list_item_label_max_width">200dp</dimen> 
+   <dimen name="plugin_list_item_textview_height">30dp</dimen> 
+   <dimen name="plugin_list_item_new_image_height">30dp</dimen> 
+   <dimen name="plugin_list_item_download_progress_height">10dp</dimen> 
+   <dimen name="plugin_list_item_download_progress_width">62dp</dimen> 
+   <dimen name="plugin_list_item_right_icon_height">30dp</dimen> 
+ </resources>

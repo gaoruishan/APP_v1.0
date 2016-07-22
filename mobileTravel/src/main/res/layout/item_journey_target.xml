@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="51dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp" >
+
+    <ImageView
+        android:id="@+id/iv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description"
+        android:padding="10dp"
+        android:src="@drawable/journey_delete_selecter" />
+
+    <TextView
+        android:id="@+id/tv_target"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/base_text_title"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/corners_grey_round"
+        android:divider="@drawable/divider_line"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/content_description"
+            android:scaleType="center"
+            android:src="@drawable/journey_add_selecter" />
+
+        <com.cmcc.hyapps.andyou.support.ExEditText
+            android:id="@+id/et_num"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="1px"
+            android:layout_marginTop="1px"
+            android:background="@color/base_grey_bg"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/iv_minus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:contentDescription="@string/content_description"
+            android:scaleType="center"
+            android:src="@drawable/journey_minus_selecter" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_move_handler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/content_description"
+        android:padding="10dp"
+        android:src="@drawable/journey_move_selecter" />
+
+</LinearLayout>

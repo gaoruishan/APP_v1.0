@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:ptr="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar" />
+
+    <!-- <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:addStatesFromChildren="false" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/scenic_live_video_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_banner_hint"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop" >
+        </com.android.volley.toolbox.NetworkImageView>
+
+        <TextView
+            android:id="@+id/scenic_live_cameras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/common_margin"
+            android:background="@drawable/tag_badge_bg"
+            android:drawableLeft="@drawable/camera"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </FrameLayout> -->
+
+    <!-- <include
+        android:id="@+id/live_share_category"
+        layout="@layout/layout_category"
+        android:visibility="gone" /> -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp" >
+
+        <com.cmcc.hyapps.andyou.widget.PullToRefreshRecyclerView
+            android:id="@+id/pulltorefresh_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ptr:ptrMode="disabled" />
+
+        <ImageView
+            android:id="@+id/iv_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/common_margin"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_service" />
+    </FrameLayout>
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/live_share_container" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:divider="@drawable/divider_common" -->
+    <!-- android:orientation="horizontal" -->
+    <!-- android:paddingLeft="13dp" -->
+    <!-- android:paddingRight="13dp" -->
+    <!-- android:showDividers="middle" > -->
+    <!-- </LinearLayout> -->
+
+</LinearLayout>

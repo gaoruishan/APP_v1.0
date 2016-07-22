@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="177dp"
+    app:rippleInterceptTouchEvent="false"
+    app:rippleSuperTouch="true" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner_hint" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/fg_top_shadow"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+
+            <TextView
+                android:id="@+id/tv_views_count"
+                style="@style/text_summary_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/discovery_see"
+                android:drawableStart="@drawable/discovery_see" />
+
+            <TextView
+                android:id="@+id/tv_comment_count"
+                style="@style/text_summary_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:drawableLeft="@drawable/discovery_comment"
+                android:drawableStart="@drawable/discovery_comment" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|top"
+            android:layout_margin="7dp"
+            android:background="@drawable/tag_badge_bg"
+            android:gravity="center"
+            android:paddingBottom="6dp"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="6dp"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/fg_bottom_shadow"
+            android:gravity="bottom"
+            android:orientation="horizontal" >
+
+            <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_margin="8dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/scenery_detail_func_navi_selecter"
+                app:border_color="@color/base_theme_highlight"
+                app:border_width="1px"
+                app:oval="true" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/text_title_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/tv_user_name"
+                    style="@style/text_summary_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_create_time"
+                style="@style/text_summary_white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:drawablePadding="2dp"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/ic_discovery_time"
+                android:drawableStart="@drawable/ic_discovery_time"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+    </FrameLayout>
+
+</com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>

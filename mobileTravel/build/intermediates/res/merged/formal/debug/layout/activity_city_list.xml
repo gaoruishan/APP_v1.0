@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/layout_action_bar" />
+    <FrameLayout
+        android:id="@+id/search_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/action_bar_height" >
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/layout_recycler_list" />
+
+        <com.cmcc.hyapps.andyou.widget.pinyinsidebar.PinyinSideBar
+            android:id="@+id/sidebar"
+            android:layout_width="20dip"
+            android:layout_height="match_parent"
+            android:layout_gravity="right" />
+
+        <TextView
+            android:id="@+id/city_letter_dialog"
+            android:layout_width="80dip"
+            android:layout_height="80dip"
+            android:layout_gravity="center"
+            android:background="@color/base_grey_bg"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/action_bar_height"
+        android:visibility="gone" >
+    </FrameLayout>
+
+</merge>

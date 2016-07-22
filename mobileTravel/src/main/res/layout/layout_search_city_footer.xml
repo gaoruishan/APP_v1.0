@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/common_margin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="@dimen/common_margin"
+    android:drawableTop="@drawable/to_be_continue"
+    android:gravity="center"
+    android:text="其它省份陆续更新中..."
+    android:textColor="@color/base_text_summary" />

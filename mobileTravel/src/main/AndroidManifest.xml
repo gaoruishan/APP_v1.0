@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<manifest
+    package="com.cmcc.hyapps.andyou"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:versionCode="1103"
+    android:versionName="1.1.3">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <!-- take picture/record audio and video -->
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+
+    <!-- Network -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+
+    <!-- Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- Baidu push -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <!-- Other -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_SINTERNETWIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission
+        android:name="android.permission.INSTALL_PACKAGES"
+        tools:ignore="ProtectedPermissions"/>
+    <uses-permission
+        android:name="android.permission.DELETE_PACKAGES"
+        tools:ignore="ProtectedPermissions"/>
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE"/>
+
+    <application
+        android:name=".app.TravelApp"
+        android:allowBackup="false"
+        android:debuggable="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup"
+        >
+        <meta-data
+            android:name="Server_IP"
+            android:value="${SERVER_IP}"/>
+        <meta-data
+            android:name="BuildVersion"
+            android:value="1049"/>
+        <meta-data
+            android:name="BuildVersion"
+            android:value="1049"/>
+
+        <activity
+            android:name=".activity.IntroActivity"
+            android:screenOrientation="portrait"/>
+        <!-- Set theme Translucent to avoid screen blank while loading background. -->
+        <activity
+            android:name=".activity.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.IndexActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing"/>
+        <activity
+            android:name=".activity.ScenicDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FreshLoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicDetailMaskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name=".activity.ImageGalleryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CommentDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".activity.ScenicLiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicVideoListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TextFieldIntroduceActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.VideoPlaybackActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name="com.kj.guradc.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".activity.ServiceMapActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.lau.vlcdemo.VideoPlayerActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name=".activity.ServiceListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicOverviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicSpotListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CommentEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CommentListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.PasswordBackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ResetPasswordActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.PhotoPickActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.PhotoPreviewActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.NaviActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ListenActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+            <!--<action android:name="com.cmcc.hyapps.andyou.action.PLAYBACK_ACTIIVTY" />-->
+
+            <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".activity.ListenMaskActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity
+            android:name=".activity.VideoUploadActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.VideoRecorderActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.DownloadListActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>-->
+            <!--<action android:name="com.cmcc.hyapps.andyou.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />-->
+
+            <!--<category android:name="android.intent.category.DEFAULT" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MeSettingActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UserInformationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FriendsCircleMessageActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FriendsCircleSendTrendActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FriendsCircleDescriptionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FriendsCircleMyTrendsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuiderCollection"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FavoritesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicSpotsMapActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SearchActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.SearchScenicActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.OfficialActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.PublishActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TrafficActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.EnjoyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RoadConditionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CityChooseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing|stateHidden"/>
+        <activity
+            android:name=".activity.ItineraryEditStepOneActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"/>
+        <activity
+            android:name=".activity.FeedbackActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UserAgreementActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.UserProfileActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TextFieldEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize"/>
+        <activity
+            android:name=".activity.TrackDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TripDetailEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuideAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TripAddActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.TripDayEditActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.WebActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SpotPickActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.PostImagesActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CityScenicListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ScenicSpotsMapAct"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SecnicActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RouteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RestaurantDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.StrategyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.QHStrategyActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.EntertainmentsDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HotelActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.LiveActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.QHNavigationActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HotelDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HotelDetailsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.RouteDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.StrategyDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.CityListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.WaitActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.HotelMapActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuiderCollectionActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuiderPublishActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuiderRaidersCommentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.GuiderMarketCommentActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.QHAboutActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.NightLiveActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"/>
+        <activity
+            android:name=".activity.NavigationDetailActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SearchListActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.MarketHotelsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.EntertainmentsDetailActivity"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity"/>
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <service
+            android:name=".media.PlaybackService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.cmcc.hyapps.andyou.action.TOGGLE_PLAYBACK_NOTIFICATION"/>
+                <action android:name="com.cmcc.hyapps.andyou.action.CLOSE_NOTIFICATION"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.LocationService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.cmcc.hyapps.andyou.action.UPDATE_LOCATION"/>
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name=".download.DownloadProvider"
+            android:authorities="com.cmcc.hyapps.andyou"
+            android:exported="false">
+            <!--<grant-uri-permission android:pathPrefix="/all_downloads/" />-->
+        </provider>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5588b37067e58e8362005d6c"/>
+        <meta-data
+            android:name="UMENG_MESSAGE_SECRET"
+            android:value="72b08d7ce7f80ba30f7bb012df17e1db"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="UMENG_CHANNEL_VALUE"/>
+
+        <activity
+            android:name="com.umeng.socialize.view.ShareActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UMDialog"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:configChanges="orientation|keyboard"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <data android:scheme="tencent1105021272"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.umeng.fb.ConversationActivity"/>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+        <!-- Umeng Update -->
+        <service
+            android:name="com.umeng.update.net.DownloadingService"
+            android:process=":DownloadingService"/>
+
+        <activity
+            android:name="com.umeng.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name=".activity.TotalComment"/>
+        <activity android:name=".activity.MediaPlayerActivity"/>
+        <activity android:name=".activity.GuiderMessageDetailActivity"/>
+        <activity android:name=".activity.GuiderMessageListActivity"/>
+        <activity android:name=".activity.GuiderRecommandActivity"/>
+        <activity android:name=".activity.ShopDetailActivity"
+                  android:screenOrientation="portrait"/>
+        <activity
+            android:name=".navi.SimpleNaviActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FoodActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.FourSActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SpecialActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.SpecialDetailActivity"
+            android:screenOrientation="portrait"/>
+
+        <receiver
+            android:name=".download.DownloadReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+
+                <data android:scheme="file"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.cmcc.hyapps.andyou.intent.action.DOWNLOAD_INFORMATION"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.NotificationProxyBroadcastReceiver"
+            android:exported="false"/>
+        <receiver
+            android:name="com.umeng.message.RegistrationReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.UmengBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RECEIVE"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.cmcc.hyapps.andyou.intent.action.COMMAND"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.agoo.android.intent.action.RE_ELECTION_V2"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.umeng.message.BootBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.umeng.message.UmengService"
+            android:exported="false"
+            android:label="PushService"
+            android:process=":pushService_v1"/>
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="41542f1b19d51f003edd2c9c640aa864"/>
+
+        <service
+            android:name=".service.QHLocationService"
+            android:enabled="true"
+            android:exported="false"/>
+
+        <activity
+            android:name=".activity.QHScenicDetailPhotos"
+            android:label="@string/title_activity_qhscenic_detail_pics"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.QHScenicDetailShops"
+            android:label="@string/title_activity_qhscenic_detail_pics"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.QHScenicDetailPics"
+            android:label="@string/title_activity_qhscenic_detail_pics"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.NewPhotoPreviewActivity"
+            android:label="@string/title_activity_qhscenic_detail_pics"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.ShopsDetailActivity"
+            android:label="@string/title_activity_qhscenic_detail_pics"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="test.grs.com.ims.message.LoginsActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.contact.ContactsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.contact.ContactsTaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.contact.ContractListActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.MessageActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.ChatSettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.ZoomPicActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+
+        <service
+            android:name="test.grs.com.ims.message.BackgroundService"
+            android:enabled="true"
+            android:exported="false"
+            tools:replace="android:exported">
+        </service>
+
+        <activity
+            android:name="test.grs.com.ims.contact.AddContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.contact.GroupContactsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.UnNotifyActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.SearchContactActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.MessageListActivity"
+            android:alwaysRetainTaskState="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name="test.grs.com.ims.message.MessageCenterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".activity.BlackListActivity"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".service.MobileTravelToIMService"
+            android:enabled="true"
+            android:exported="false">
+        </service>
+        <service
+            android:name=".service.FriendsIsHasMessageServices">
+        </service>
+
+        <receiver
+            android:name=".activity.IndexActivity$FriendsCircleBroadcast"
+            android:exported="false">
+
+        </receiver>
+    </application>
+
+</manifest>

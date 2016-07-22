@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="178dp"
+    app:rippleDelayClick="true" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_banner_hint" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_margin="7dp"
+        android:background="@drawable/tag_badge_bg"
+        android:gravity="center"
+        android:text="@string/trip_not_publish"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/fg_bottom_shadow"
+        android:gravity="bottom"
+        android:padding="6dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="19岁,行云川 趣行四姑娘的故事"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginLeft="6dp"
+            android:drawableLeft="@drawable/ic_left_indicate_time"
+            android:drawableStart="@drawable/ic_left_indicate_time"
+            android:gravity="center"
+            android:text="9-26 11:11"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>

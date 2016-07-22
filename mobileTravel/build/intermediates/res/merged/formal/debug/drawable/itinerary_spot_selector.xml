@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/itinerary_minus_spot_selected" android:state_checked="false" android:state_focused="true"></item>
+    <item android:drawable="@drawable/itinerary_minus_spot_selected" android:state_checked="false" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/itinerary_minus_spot" android:state_checked="false"></item>
+    <item android:drawable="@drawable/itinerary_add_spot_selected" android:state_focused="true"></item>
+    <item android:drawable="@drawable/itinerary_add_spot_selected" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/itinerary_add_spot"></item>
+
+</selector>

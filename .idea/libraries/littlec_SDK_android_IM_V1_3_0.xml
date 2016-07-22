@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="littlec_SDK_android_IM_V1.3.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/IM/libs/littlec_SDK_android_IM_V1.3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

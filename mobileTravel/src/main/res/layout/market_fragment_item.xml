@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+
+    <com.cmcc.hyapps.andyou.widget.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rippleInterceptTouchEvent="false"
+        app:rippleSuperTouch="true">
+
+        <RelativeLayout
+            android:id="@+id/item_click_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:padding="10dp"
+            >
+
+            <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                android:id="@+id/iv_cover_image"
+                android:layout_width="130dp"
+                android:layout_height="110dp"
+                android:layout_centerVertical="true"
+                android:clickable="false"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_banner_hint"
+                app:corner_radius="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:clickable="false"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingRight="8dp"
+                >
+
+                <ImageView
+                    android:id="@+id/home_item_isaudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/icon_audio"
+                    android:orientation="horizontal"
+                    android:visibility="gone"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_cover_image"
+                android:clickable="false"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/home_item_secnic_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left|bottom"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="6dp"
+                        android:textColor="@color/black"
+                        android:textSize="14sp"
+                        android:layout_toLeftOf="@+id/home_item_secnic_sales"
+                        android:layout_marginRight="10dp"
+                        />
+                    <ImageView
+                        android:id="@+id/home_item_secnic_sales"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="gone"
+                        android:src="@drawable/cu_03"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/home_item_secnic_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:clickable="false"
+                    android:maxLines="2"
+                    android:paddingBottom="3dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/dialog_grey"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/home_item_sales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:maxLines="2"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="6dp"
+                    android:textColor="@color/dialog_grey"
+                    android:textSize="12sp"
+                    android:visibility="gone"/>
+
+                <LinearLayout
+                    android:id="@+id/home_item_price_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="6dp"
+                        android:text="@string/market_item_per_capita"
+                        android:textColor="@color/dialog_grey"
+                        android:textSize="12sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/home_item_intro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:ellipsize="end"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingLeft="1dp"
+                        android:paddingTop="6dp"
+                        android:singleLine="true"
+                        android:text="@string/home_bed_price"
+                        android:textColor="@color/red"
+                        android:textSize="14sp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="3dp"
+        android:background="#e1e1e1"
+        />
+</LinearLayout>

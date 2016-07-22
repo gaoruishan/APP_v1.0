@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_item_tb"
+    android:padding="13dp" >
+
+    <TextView
+        android:id="@+id/transport_title"
+        style="@style/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="火车" />
+
+    <TextView
+        android:id="@+id/transport_desc"
+        style="@style/text_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="火车叨唠叨唠去--周杰伦火车叨唠叨唠去--周杰伦火车叨唠叨唠去--周杰伦火车叨唠叨唠去--周"
+        android:textSize="11sp" />
+
+</LinearLayout>

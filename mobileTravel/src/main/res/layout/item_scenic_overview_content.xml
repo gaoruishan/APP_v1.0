@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:background="@color/base_grey_line" />
+
+    <TextView
+        android:id="@+id/scenic_overview_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="13dp" />
+
+</LinearLayout>

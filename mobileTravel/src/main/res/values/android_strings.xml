@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <plurals name="duration_seconds">
+        <item quantity="one">"1秒"</item>
+        <item quantity="other">"%d秒"</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="one">"1分钟"</item>
+        <item quantity="other">"%d分钟"</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="one">"1小时"</item>
+        <item quantity="other">"%d小时"</item>
+    </plurals>
+
+</resources>

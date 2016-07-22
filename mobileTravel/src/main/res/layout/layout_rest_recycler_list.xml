@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar" />
+    <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+        android:id="@+id/loading_progress"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateOnly="true" />
+
+    <include
+        android:id="@+id/empty_hint_view"
+        layout="@layout/layout_empty"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/reload_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/click_screen_to_reload"
+            android:textColor="@color/base_theme_normal"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <com.cmcc.hyapps.andyou.widget.PullToRefreshRecyclerView
+        android:id="@+id/pulltorefresh_twowayview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/action_bar_height"
+        />
+
+</FrameLayout>

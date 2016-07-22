@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:orientation="vertical" 
+    android:descendantFocusability="blocksDescendants" ><!--不允许button有默认焦点,否则长按无效 -->
+
+    <TextView
+        android:id="@+id/im_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/cor19"
+        android:textSize="@dimen/font_size_12sp" />
+
+    <test.grs.com.ims.view.CircleImageView
+        android:id="@+id/portrait"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/im_item_date"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/icon_chat_header" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/im_item_date"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/portrait" >
+
+        <TextView
+            android:id="@+id/tv_received_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:text=";jlvodsjkv"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxWidth="@dimen/size_120dp"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/font_size_10sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_received_name"
+            android:layout_gravity="right|center"
+            android:background="@drawable/chat_from_bg"
+            android:gravity="left|center_vertical"
+            android:maxWidth="225dip"
+            android:minWidth="50dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="10dp"
+            android:text="recv"
+            android:textColor="@color/cor4"
+            android:textSize="@dimen/font_size_16sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

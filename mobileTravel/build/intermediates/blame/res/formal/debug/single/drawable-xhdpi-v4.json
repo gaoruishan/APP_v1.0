@@ -1,0 +1,650 @@
+[
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/selected_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/selected_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_file_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_file_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatting_biaoqing_btn_normal.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_return.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_return.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_icon_smile_default.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_icon_smile_default.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatfrom_voice_playing_f1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatfrom_voice_playing_f1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_bg_item_nm.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_bg_item_nm.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_user_detalis_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_user_detalis_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_user_detalis_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_user_detalis_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_sound.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_sound.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_09.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_09.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/library/unspecified/res/drawable-xhdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/spiner.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/spiner.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_cancel_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_cancel_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/login_icon_password_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/login_icon_password_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/nan.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/nan.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_keyboard.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_keyboard.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_from_bg_nor.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_from_bg_nor.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_remove_buddy.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_remove_buddy.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/btn_exit_pre.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/btn_exit_pre.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_bar_add.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_bar_add.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatting_biaoqing_btn_enable.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_shoot_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_shoot_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_sound4.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_sound4.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_cancel_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_cancel_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_icon_titlebar_bg.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_icon_titlebar_bg.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_play_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_play_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_icon_smile_defined.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_icon_smile_defined.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/star.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/star.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/sx.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/sx.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_default_avatar.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_default_avatar.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/jgz.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/jgz.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_search_bar_icon.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_search_bar_icon.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_search_clear_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_search_clear_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_add_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_add_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_smilelist_dot2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_smilelist_dot2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/btn_setting_icon_off.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/btn_setting_icon_off.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_voicemail_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_voicemail_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_group_detail_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_group_detail_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_08.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_08.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_smilelist_dot1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_smilelist_dot1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_file_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_file_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/jgz1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/jgz1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_add.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_add.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_single_phone_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_single_phone_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_add_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_add_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_icon_content_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_icon_content_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/tu1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/tu1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_11.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_11.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/tz.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/tz.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/acm_inputbox.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/acm_inputbox.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_start_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_start_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_video_mask_to.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_video_mask_to.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/imsearch2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/imsearch2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatto_voice_playing_f2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatto_voice_playing_f2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatto_voice_playing_f3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatto_voice_playing_f3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_stop_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_stop_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/zp.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/zp.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatfrom_voice_playing_f3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatfrom_voice_playing_f3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/txl.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/txl.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/tx.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/tx.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/gd.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/gd.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_07.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_07.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_chat_header.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_chat_header.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatfrom_voice_playing_f2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatfrom_voice_playing_f2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_play_03.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_play_03.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_sound3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_sound3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/recommand_bgs.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/recommand_bgs.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/indicator_arrow.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/library/unspecified/res/drawable-xhdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_search_clear_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_search_clear_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_dialog_content.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_dialog_content.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/login_icon_password_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/login_icon_password_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_receive_voicemail3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_receive_voicemail3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_sound5.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_sound5.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_video_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_video_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_image_select_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_image_select_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/app_icon.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/app_icon.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_icon_send_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_icon_send_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_active.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/record_active.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_sound2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_sound2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_receive_voicemail2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_receive_voicemail2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/yuan.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/yuan.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_seach_bg.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_seach_bg.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/selected_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/selected_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/left_click.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/left_click.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/fanhui3x.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/fanhui3x.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_group_detail_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_group_detail_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatting_setmode_keyboard_btn_normal.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatting_setmode_keyboard_btn_normal.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/yy.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/yy.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_icon_cancel_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_icon_cancel_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_shoot_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_shoot_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_group_phone_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_group_phone_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_sms.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_sms.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/emoji_del_btn_nor.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/emoji_del_btn_nor.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/tj.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/tj.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_13.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_13.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_05.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_05.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_video_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_video_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatting_setmode_keyboard_btn_pressed.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatting_setmode_keyboard_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_02.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_02.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_icon_send_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_icon_send_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/bq.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/bq.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_icon_tabbar_notify.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_icon_tabbar_notify.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/button_tonghua_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/button_tonghua_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_location_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_location_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/field_input_pre.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/field_input_pre.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_sound1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_sound1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/button_tonghua_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/button_tonghua_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/setting.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/setting.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_search_clear_slt.xml",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_search_clear_slt.xml"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_record.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_record.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/msg_icon_content_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/msg_icon_content_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_send_voicemail2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_send_voicemail2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/btn_setting_icon_on.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/btn_setting_icon_on.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/empty.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/empty.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/voicemail_icon_cancel_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/voicemail_icon_cancel_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_add_buddy.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_add_buddy.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/input_bar_bg_active.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/input_bar_bg_active.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_take_photo_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_take_photo_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_from_bg_pre.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_from_bg_pre.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chatto_voice_playing_f1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chatto_voice_playing_f1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/left_normal.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/left_normal.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_take_photo_nor.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_take_photo_nor.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_send_voicemail1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_send_voicemail1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/emotionstore_progresscancelbtns.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/emotionstore_progresscancelbtns.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_message_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_message_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_04.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_04.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_message_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_message_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/input_bar_bg_normal.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/input_bar_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_start_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_start_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/hx.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/hx.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_play_01.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_play_01.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_stop_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_stop_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_location_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_location_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_to_bg_pre.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_to_bg_pre.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_01.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_01.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/login_icon_name_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/login_icon_name_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/xz.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/xz.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_play_bg.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_play_bg.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_icon_voicemail_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_icon_voicemail_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/record.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/btn_exit_nm.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/btn_exit_nm.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_12.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_12.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_03.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_03.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_06.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_06.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_send_voicemail3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_send_voicemail3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/xx.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/xx.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_dialog_cancel.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_dialog_cancel.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/umeng_fb_audio_play_02.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-xhdpi/umeng_fb_audio_play_02.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/login_icon_name_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/login_icon_name_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/nv.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/nv.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/video_icon_play_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/video_icon_play_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_group_phone_pre.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_group_phone_pre.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_single_phone_nm.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_single_phone_nm.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_to_bg_nor.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_to_bg_nor.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_10.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_10.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/dh.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/dh.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/chat_image_select_nor.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/chat_image_select_nor.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/icon_receive_voicemail1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/icon_receive_voicemail1.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/public_bg_item_pre.9.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/public_bg_item_pre.9.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-xhdpi-v4/record_animate_14.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/res/drawable-xhdpi-v4/record_animate_14.png"
+    }
+]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar"/>
+
+    <RelativeLayout
+        android:id="@+id/map_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/bmap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true">
+        </com.amap.api.maps.MapView>
+
+        <LinearLayout
+            android:id="@+id/route_view_pager_root"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:clipChildren="false">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/route_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="73dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="11dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:clipChildren="false"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/show_listen_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/route_view_pager_root"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/scenery_detail_play"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/show_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/route_view_pager_root"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/show_my_location"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

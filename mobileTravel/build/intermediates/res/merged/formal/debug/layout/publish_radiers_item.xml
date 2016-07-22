@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/base_bg"
+    android:layout_marginTop="0dp"
+    >
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout
+    android:layout_width="match_parent"
+    android:layout_height="177dp"
+    app:rippleInterceptTouchEvent="false"
+    app:rippleSuperTouch="true" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner_hint" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/fg_bottom_shadow"
+            android:layout_gravity="bottom"
+            />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <!--圆形的头像-->
+            <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                android:id="@+id/iv_me_avata"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_avata_hint"
+                app:border_color="@color/white"
+                app:border_width="1dp"
+                app:oval="true"
+                />
+
+            <TextView
+                android:id="@+id/item_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@id/iv_me_avata"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="20dp"
+                android:text="@string/home_item_name"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:singleLine="true"
+                />
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/item_intro"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:layout_toRightOf="@id/iv_me_avata"
+                android:layout_below="@+id/item_name"
+                android:gravity="center"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:text="@string/home_item_intro"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:id="@+id/item_date"
+                android:text="发布时间"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:drawablePadding="5dp"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+
+                android:paddingRight="10dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginEnd="6dp"
+                android:drawableLeft="@drawable/clock"
+                android:drawableStart="@drawable/icon_distance"
+                android:layout_below="@+id/item_name"/>
+          </RelativeLayout>
+    </FrameLayout>
+
+    </com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>
+</LinearLayout>

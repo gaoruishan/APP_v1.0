@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom" >
+
+    <RelativeLayout
+        android:id="@+id/xlistview_header_content"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" >
+
+        <ProgressBar
+            android:id="@+id/xlistview_header_progressbar"
+            style="@android:style/Widget.Holo.Light.ProgressBar.Large"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" />
+        <TextView 
+            android:id="@+id/tv_tishi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_size_10sp"
+            android:textColor="@color/cor2"
+            android:text="@string/read_more"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/xlistview_header_progressbar"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

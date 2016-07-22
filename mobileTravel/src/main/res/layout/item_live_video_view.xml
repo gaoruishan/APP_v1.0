@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/video_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        app:corner_radius="5dp"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp">
+
+        <ImageView
+            android:id="@+id/video_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/content_description"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/video_play"
+             />
+
+        <LinearLayout
+            android:id="@+id/video_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/video_play"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/video_name"
+                style="@style/scenery_cover_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/home_recommand_item"
+                android:drawablePadding="8dp"
+                android:textSize="18sp"
+                android:layout_marginTop="@dimen/common_margin" />
+            <TextView
+                android:id="@+id/video_description"
+                style="@style/scenery_cover_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                />
+            <RelativeLayout
+                android:id="@+id/video_info_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/play_times"
+                    style="@style/scenery_cover_intro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" />
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:textColor="@color/white"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

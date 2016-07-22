@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/friends_circle_recycle_item_main_layout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+            android:id="@+id/friends_circle_recycle_item_avator"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_avata_hint"
+            app:border_color="@color/white"
+            app:border_width="1dp"
+            app:oval="true" />
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/friends_circle_recycle_item_avator"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/friends_circle_recycle_item_avator"
+            android:singleLine="true"
+            android:text="冰冰"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/friends_circle_recycle_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/friends_circle_recycle_item_avator"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/friends_circle_recycle_item_avator"
+            android:singleLine="true"
+            android:textColor="#ababab"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/friends_circle_recycle_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+         />
+
+    <ImageView
+        style="@style/me_all_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/content_description"/>
+</LinearLayout>

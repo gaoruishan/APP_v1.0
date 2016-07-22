@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_action_bar"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/white">
+
+                    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                        android:id="@+id/user_information_avator"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:scaleType="centerCrop"
+                        app:border_color="@color/white"
+                        app:border_width="1dp"
+                        app:oval="true"/>
+
+                    <LinearLayout
+                        android:id="@+id/user_information_linear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:layout_toRightOf="@+id/user_information_avator"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/user_information_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawablePadding="6dp"
+                            android:maxWidth="160dp"
+                            android:singleLine="true"
+                            android:textColor="#2c3232"
+                            android:textSize="16sp"/>
+
+                        <TextView
+                            android:id="@+id/user_information_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxWidth="180dp"
+                            android:singleLine="true"
+                            android:textColor="#565656"
+                            android:textSize="16sp"/>
+
+                        <TextView
+                            android:id="@+id/user_information_introduce"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:maxWidth="180dp"
+                            android:singleLine="true"
+                            android:textColor="#999999"
+                            android:textSize="16sp"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/user_information_add_forcus"
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/user_information_linear"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/user_information_add_forcus_bg">
+
+                        <TextView
+                            android:clickable="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:drawableLeft="@drawable/user_information_add_forcus"
+                            android:drawablePadding="5dp"
+                            android:text="加关注"
+                            android:id="@+id/tv_isAttention"
+                            android:textColor="@color/market_actionbar"
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    style="@style/me_all_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    >
+
+                    <RelativeLayout
+                        android:id="@+id/user_information_his_forcus_view"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_item_base_selecter"
+                        android:layout_weight="1"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="TA关注的人"
+                                android:textSize="16sp"/>
+
+                            <TextView
+                                android:id="@+id/user_information_his_forcus"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="14dp"
+                                android:textSize="16sp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="1px"
+                        android:layout_height="match_parent"/>
+
+                    <RelativeLayout
+                        android:id="@+id/user_information_his_fans_view"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/bg_item_base_selecter"
+                        android:layout_weight="1"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="关注TA的人"
+                                android:textSize="16sp"/>
+
+                            <TextView
+                                android:id="@+id/user_information_his_fans"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="14dp"
+                                android:textSize="16sp"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    style="@style/me_all_divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"/>
+                    <include
+                        android:id="@+id/user_information_his_trends"
+                        layout="@layout/item_me"/>
+
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:contentDescription="@string/content_description"/>
+
+                    <include
+                        android:id="@+id/user_information_his_travel"
+                        layout="@layout/item_me"/>
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:contentDescription="@string/content_description"/>
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:contentDescription="@string/content_description"/>
+
+                    <!--<include-->
+                        <!--android:id="@+id/user_information_his_argument"-->
+                        <!--layout="@layout/item_me"/>-->
+
+                    <!--<ImageView-->
+                        <!--style="@style/me_all_divider"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="1px"-->
+                        <!--android:contentDescription="@string/content_description"/>-->
+
+                    <include
+                        android:id="@+id/user_information_his_collect"
+                        layout="@layout/item_me"/>
+
+                    <ImageView
+                        style="@style/me_all_divider"
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:contentDescription="@string/content_description"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/user_information_start_chat"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_userinformation_begin_chat">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/user_information_chat"
+                android:drawablePadding="5dp"
+                android:text="聊天"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

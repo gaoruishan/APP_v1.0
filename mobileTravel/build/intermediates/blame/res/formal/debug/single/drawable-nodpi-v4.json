@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/banner_icon.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/banner_icon.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/guide4.jpg",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/guide4.jpg"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/bg_base.jpg",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/bg_base.jpg"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/bg_banner_me.jpg",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/bg_banner_me.jpg"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/guide2.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/guide2.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/bg_splash.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/bg_splash.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/guide3.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/guide3.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/drawable-nodpi-v4/guide1.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/drawable-nodpi/guide1.png"
+    }
+]

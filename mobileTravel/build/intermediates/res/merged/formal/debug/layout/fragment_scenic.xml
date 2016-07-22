@@ -1,0 +1,57 @@
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pull_refresh_scrollview"
+    style="@style/scenery_scrollbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cmcc.hyapps.andyou.fragment.ScenicFragment" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/base_grey_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="13dp" >
+
+            <com.cmcc.hyapps.andyou.widget.AutoScrollViewPager
+                android:id="@+id/banner_pager"
+                android:layout_width="match_parent"
+                android:layout_height="218dp" />
+
+            <include
+                android:id="@+id/scenic_nearby_category"
+                layout="@layout/layout_category" />
+
+            <LinearLayout
+                android:id="@+id/scenic_nearby_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_common"
+                android:orientation="horizontal"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:showDividers="middle" >
+            </LinearLayout>
+
+            <include
+                android:id="@+id/scenic_recommend_category"
+                layout="@layout/layout_category" />
+
+            <LinearLayout
+                android:id="@+id/scenic_recommend_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <include layout="@layout/layout_action_bar" />
+    </FrameLayout>
+
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

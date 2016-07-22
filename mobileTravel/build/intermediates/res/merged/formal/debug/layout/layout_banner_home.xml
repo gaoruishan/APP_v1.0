@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:rippleInterceptTouchEvent="false"
+    app:rippleSuperTouch="true" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="233dp" >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/discovery_banner_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg_banner_hint" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/banner_pager"
+            android:background="@drawable/fg_bottom_shadow"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:id="@+id/discovery_banner_title"
+            style="@style/text_title_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/fg_bottom_shadow"
+            android:duplicateParentState="false"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:paddingTop="13dp"
+            android:paddingBottom="13dp"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>

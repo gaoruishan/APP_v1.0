@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/public_padding_20"
+    android:layout_marginRight="@dimen/public_padding_20"
+    android:background="@drawable/public_corner_bg_white"
+    android:minHeight="75dp"
+    android:minWidth="150dp"
+    android:padding="@dimen/size_10dp"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/public_padding_20"
+        android:layout_marginRight="@dimen/public_padding_20"
+        android:layout_marginTop="@dimen/public_padding_20"
+        android:gravity="center"
+        android:text="登录"
+        android:textColor="@color/cor5"
+        android:textSize="@dimen/size4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/public_padding_20"
+        android:layout_marginRight="@dimen/public_padding_20"
+        android:paddingBottom="@dimen/public_padding_20"
+        android:paddingTop="@dimen/public_padding_20" 
+        android:orientation="vertical">
+       <!-- 
+       <ImageView
+            android:id="@+id/ani_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/public_padding_10"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/spiner" 
+            android:visibility="gone"/>
+         -->
+        <EditText
+            android:id="@+id/dialog_username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="用户名"
+            android:textColor="@color/cor3"
+            android:textSize="@dimen/size4" />
+        <EditText
+            android:id="@+id/dialog_psw"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="密码"
+            android:textColor="@color/cor3"
+            android:textSize="@dimen/size4" />
+    </LinearLayout>
+    <!--
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:alpha="0.6"
+        android:background="@color/cor4" />
+    -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:layout_height="@dimen/size_30dp">
+        <TextView
+            android:id="@+id/dialog_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_20dp"
+            android:background="@drawable/btn_bottom_right_radius"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/ok"
+            android:layout_weight="1"
+            android:textColor="@color/btn_blue_nm"
+            android:textSize="@dimen/size4" />
+
+        <TextView
+            android:id="@+id/dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@id/dialog_ok_btn"
+            android:layout_toLeftOf="@id/dialog_ok_btn"
+            android:background="@drawable/btn_bottom_left_radius"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/cancel"
+            android:textColor="@color/btn_blue_nm"
+            android:textSize="@dimen/size4" />
+
+        <!--  
+        <View
+            android:id="@+id/divider"
+            android:layout_width="1px"
+            android:layout_height="fill_parent"
+            android:alpha="0.6"
+            android:background="@color/cor4" />
+        -->
+        
+    </LinearLayout>
+
+</LinearLayout>

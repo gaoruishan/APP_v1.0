@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.BottomTab
+    android:id="@+id/bottom_tab"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_tab_height"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            style="@style/bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_bottom_tab_home_selector"
+            android:text="@string/bottom_tab_title_destiy"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            style="@style/bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_bottom_tab_shop_selector"
+            android:text="@string/bottom_tab_title_market"/>
+    </FrameLayout>
+    <!--<TextView-->
+    <!--style="@style/bottom_tab"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:drawableTop="@drawable/ic_bottom_tab_friends_selecter"-->
+    <!--android:text="@string/bottom_tab_title_friends_circle" />-->
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            style="@style/bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_bottom_tab_friends_selecter"
+            android:text="@string/bottom_tab_title_friends_circle"/>
+
+        <ImageView
+            android:id="@+id/bottom_tab_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/red_dot"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            style="@style/bottom_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_bottom_tab_me_selecter"
+            android:text="@string/bottom_tab_title_me"/>
+    </FrameLayout>
+</com.cmcc.hyapps.andyou.widget.BottomTab>

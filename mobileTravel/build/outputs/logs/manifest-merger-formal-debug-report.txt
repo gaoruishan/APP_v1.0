@@ -1,0 +1,1428 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:3:1-720:12
+	xmlns:tools
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:6:5-51
+	xmlns:android
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:5:5-63
+	package
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:4:5-37
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:8:5-32
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:7:5-31
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:10:5-12:40
+MERGED from [com.android.support:multidex:1.0.1] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:5:5-7:41
+MERGED from [APP_v1.0:library:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/library/unspecified/AndroidManifest.xml:7:5-9:40
+MERGED from [APP_v1.0:volley:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/volley/unspecified/AndroidManifest.xml:7:5-9:40
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:12:9-38
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:11:9-35
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:14:5-16:34
+	android:required
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:16:9-32
+	android:glEsVersion
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:15:9-41
+uses-permission#android.permission.WRITE_APN_SETTINGS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:18:22-74
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:19:5-68
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:22:5-69
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:19:22-66
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:20:5-79
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:20:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:21:5-71
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:21:22-69
+uses-permission#android.permission.REORDER_TASKS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:22:5-71
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:22:22-69
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:23:5-70
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:38:5-71
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:23:22-68
+uses-feature#android.hardware.camera
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:25:5-59
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:25:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:26:19-67
+uses-permission#android.permission.CAMERA
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:28:5-64
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:28:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:29:5-70
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:29:22-68
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:30:5-70
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:30:22-68
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:33:5-66
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:12:5-67
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:33:22-64
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:34:5-75
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:34:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:35:5-75
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:35:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:36:5-78
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:18:5-79
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:37:5-78
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:40:5-80
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:40:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:41:5-78
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:41:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:44:5-80
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:44:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:47:5-70
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:37:5-71
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:47:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:48:5-73
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:36:5-74
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:48:22-71
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:49:5-73
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:49:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:50:5-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:50:22-77
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:51:5-84
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:51:22-82
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:52:5-74
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:52:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:53:5-80
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:14:5-81
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:33:5-81
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:53:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:54:5-79
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:54:22-77
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:55:5-74
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:55:22-72
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:56:5-72
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:56:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:57:5-67
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:16:5-68
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:34:5-68
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:57:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:58:5-68
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:17:5-69
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:58:22-66
+uses-permission#android.permission.READ_PHONE_SINTERNETWIFI_STATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:59:5-88
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:59:22-86
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:60:5-67
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:17:5-68
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:60:22-65
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:61:5-83
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:26:5-84
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:61:22-81
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:62:5-65
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:35:5-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:62:22-63
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:63:5-78
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:63:22-76
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:64:5-67
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:64:22-65
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:65:5-67:46
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:66:9-59
+	tools:ignore
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:67:9-44
+uses-permission#android.permission.DELETE_PACKAGES
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:68:5-70:46
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:69:9-58
+	tools:ignore
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:70:9-44
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:71:5-73
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:71:22-71
+application
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:73:5-718:19
+MERGED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:9:5-10:19
+MERGED from [APP_v1.0:library:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/library/unspecified/AndroidManifest.xml:11:5-20
+MERGED from [APP_v1.0:volley:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/volley/unspecified/AndroidManifest.xml:11:5-20
+MERGED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:21:5-40:19
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:40:5-130:19
+MERGED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:9:5-10:19
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:78:9-41
+	android:debuggable
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:76:9-35
+	android:allowBackup
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:75:9-36
+		REJECTED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:9:18-44
+		REJECTED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:22:9-35
+		REJECTED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:41:9-35
+		REJECTED from [APP_v1.0:recyclerview:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/recyclerview/unspecified/AndroidManifest.xml:9:18-44
+	android:icon
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:77:9-45
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:80:9-40
+	android:largeHeap
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:79:9-33
+	tools:replace
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:81:9-44
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:74:9-38
+meta-data#Server_IP
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:83:9-85:43
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:84:13-37
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:85:13-41
+		INJECTED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml
+meta-data#BuildVersion
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:86:9-88:35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:87:13-40
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:88:13-33
+activity#com.cmcc.hyapps.andyou.activity.IntroActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:93:9-95:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:94:13-51
+activity#com.cmcc.hyapps.andyou.activity.SplashActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:97:9-106:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:99:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:100:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:98:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:101:13-105:29
+action#android.intent.action.MAIN
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:102:17-68
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:102:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:104:17-76
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:104:27-74
+activity#com.cmcc.hyapps.andyou.activity.IndexActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:107:9-111:58
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:111:13-56
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:110:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:109:13-47
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:108:13-51
+activity#com.cmcc.hyapps.andyou.activity.ScenicDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:112:9-114:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:113:13-58
+activity#com.cmcc.hyapps.andyou.activity.LoginActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:115:9-117:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:117:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:116:13-51
+activity#com.cmcc.hyapps.andyou.activity.FreshLoginActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:118:9-120:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:120:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:119:13-56
+activity#com.cmcc.hyapps.andyou.activity.ScenicDetailMaskActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:121:9-124:74
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:123:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:124:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:122:13-62
+activity#com.cmcc.hyapps.andyou.activity.ImageGalleryActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:125:9-127:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:127:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:126:13-58
+activity#com.cmcc.hyapps.andyou.activity.CommentDetailsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:128:9-131:57
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:131:13-55
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:130:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:129:13-60
+activity#com.cmcc.hyapps.andyou.activity.ScenicLiveActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:132:9-134:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:133:13-56
+activity#com.cmcc.hyapps.andyou.activity.ScenicVideoListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:135:9-137:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:137:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:136:13-61
+activity#com.cmcc.hyapps.andyou.activity.TextFieldIntroduceActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:138:9-140:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:140:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:139:13-64
+activity#com.cmcc.hyapps.andyou.activity.VideoPlaybackActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:141:9-143:76
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:143:13-74
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:142:13-59
+activity#com.kj.guradc.VideoActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:144:9-146:76
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:146:13-74
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:145:13-55
+activity#com.cmcc.hyapps.andyou.activity.ServiceMapActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:147:9-149:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:148:13-56
+activity#com.lau.vlcdemo.VideoPlayerActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:150:9-152:73
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:152:13-71
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:151:13-63
+activity#com.cmcc.hyapps.andyou.activity.ServiceListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:153:9-155:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:154:13-57
+activity#com.cmcc.hyapps.andyou.activity.ScenicListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:156:9-158:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:158:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:157:13-56
+activity#com.cmcc.hyapps.andyou.activity.ScenicOverviewActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:159:9-161:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:161:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:160:13-60
+activity#com.cmcc.hyapps.andyou.activity.ScenicSpotListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:162:9-164:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:164:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:163:13-60
+activity#com.cmcc.hyapps.andyou.activity.CommentEditActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:165:9-168:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:168:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:167:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:166:13-57
+activity#com.cmcc.hyapps.andyou.activity.CommentListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:169:9-171:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:171:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:170:13-57
+activity#com.cmcc.hyapps.andyou.activity.PasswordBackActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:172:9-174:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:174:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:173:13-58
+activity#com.cmcc.hyapps.andyou.activity.ResetPasswordActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:175:9-177:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:177:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:176:13-59
+activity#com.cmcc.hyapps.andyou.activity.PhotoPickActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:178:9-180:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:180:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:179:13-55
+activity#com.cmcc.hyapps.andyou.activity.PhotoPreviewActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:181:9-183:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:183:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:182:13-58
+activity#com.cmcc.hyapps.andyou.activity.NaviActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:184:9-186:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:186:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:185:13-50
+activity#com.cmcc.hyapps.andyou.activity.RegisterActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:187:9-189:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:189:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:188:13-54
+activity#com.cmcc.hyapps.andyou.activity.ListenActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:190:9-198:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:192:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:191:13-52
+activity#com.cmcc.hyapps.andyou.activity.ListenMaskActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:199:9-202:74
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:201:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:202:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:200:13-56
+activity#com.cmcc.hyapps.andyou.activity.VideoUploadActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:203:9-205:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:205:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:204:13-57
+activity#com.cmcc.hyapps.andyou.activity.VideoRecorderActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:206:9-208:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:207:13-59
+activity#com.cmcc.hyapps.andyou.activity.DownloadListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:209:9-217:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:211:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:210:13-58
+activity#com.cmcc.hyapps.andyou.activity.SettingsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:218:9-220:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:220:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:219:13-54
+activity#com.cmcc.hyapps.andyou.activity.MeSettingActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:221:9-223:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:223:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:222:13-55
+activity#com.cmcc.hyapps.andyou.activity.UserInformationActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:224:9-226:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:225:13-61
+activity#com.cmcc.hyapps.andyou.activity.FriendsCircleMessageActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:227:9-229:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:229:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:228:13-66
+activity#com.cmcc.hyapps.andyou.activity.FriendsCircleSendTrendActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:230:9-232:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:232:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:231:13-68
+activity#com.cmcc.hyapps.andyou.activity.FriendsCircleDescriptionActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:233:9-235:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:235:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:234:13-70
+activity#com.cmcc.hyapps.andyou.activity.FriendsCircleMyTrendsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:236:9-238:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:238:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:237:13-67
+activity#com.cmcc.hyapps.andyou.activity.GuiderCollection
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:239:9-241:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:241:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:240:13-54
+activity#com.cmcc.hyapps.andyou.activity.FavoritesActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:242:9-244:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:244:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:243:13-55
+activity#com.cmcc.hyapps.andyou.activity.ScenicSpotsMapActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:245:9-247:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:247:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:246:13-60
+activity#com.cmcc.hyapps.andyou.activity.SearchActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:248:9-251:70
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:251:13-68
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:250:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:249:13-52
+activity#com.cmcc.hyapps.andyou.activity.SearchScenicActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:252:9-255:70
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:255:13-68
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:254:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:253:13-58
+activity#com.cmcc.hyapps.andyou.activity.OfficialActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:256:9-258:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:258:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:257:13-54
+activity#com.cmcc.hyapps.andyou.activity.PublishActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:259:9-261:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:261:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:260:13-53
+activity#com.cmcc.hyapps.andyou.activity.TrafficActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:262:9-264:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:264:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:263:13-53
+activity#com.cmcc.hyapps.andyou.activity.EnjoyActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:265:9-267:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:267:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:266:13-51
+activity#com.cmcc.hyapps.andyou.activity.RoadConditionActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:268:9-270:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:270:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:269:13-59
+activity#com.cmcc.hyapps.andyou.activity.CityChooseActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:271:9-274:70
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:274:13-68
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:273:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:272:13-56
+activity#com.cmcc.hyapps.andyou.activity.ItineraryEditStepOneActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:275:9-279:74
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:279:13-72
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:278:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:277:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:276:13-66
+activity#com.cmcc.hyapps.andyou.activity.FeedbackActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:280:9-282:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:282:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:281:13-54
+activity#com.cmcc.hyapps.andyou.activity.AboutActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:283:9-285:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:285:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:284:13-51
+activity#com.cmcc.hyapps.andyou.activity.UserAgreementActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:286:9-288:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:288:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:287:13-59
+activity#com.cmcc.hyapps.andyou.activity.UserProfileActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:289:9-291:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:291:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:290:13-57
+activity#com.cmcc.hyapps.andyou.activity.TextFieldEditActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:292:9-296:76
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:296:13-74
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:295:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:294:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:293:13-59
+activity#com.cmcc.hyapps.andyou.activity.TrackDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:297:9-299:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:299:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:298:13-57
+activity#com.cmcc.hyapps.andyou.activity.TripDetailEditActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:300:9-303:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:303:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:302:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:301:13-60
+activity#com.cmcc.hyapps.andyou.activity.GuideAddActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:304:9-307:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:307:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:306:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:305:13-54
+activity#com.cmcc.hyapps.andyou.activity.TripAddActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:308:9-311:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:311:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:310:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:309:13-53
+activity#com.cmcc.hyapps.andyou.activity.TripDayEditActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:312:9-315:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:315:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:314:13-63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:313:13-57
+activity#com.cmcc.hyapps.andyou.activity.WebActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:316:9-318:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:318:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:317:13-49
+activity#com.cmcc.hyapps.andyou.activity.SpotPickActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:319:9-321:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:321:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:320:13-54
+activity#com.cmcc.hyapps.andyou.activity.PostImagesActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:322:9-324:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:324:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:323:13-56
+activity#com.cmcc.hyapps.andyou.activity.CityScenicListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:325:9-327:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:327:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:326:13-60
+activity#com.cmcc.hyapps.andyou.activity.ScenicSpotsMapAct
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:328:9-330:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:330:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:329:13-55
+activity#com.cmcc.hyapps.andyou.activity.SecnicActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:331:9-333:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:333:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:332:13-52
+activity#com.cmcc.hyapps.andyou.activity.RouteActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:334:9-336:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:336:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:335:13-51
+activity#com.cmcc.hyapps.andyou.activity.RestaurantDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:337:9-339:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:339:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:338:13-62
+activity#com.cmcc.hyapps.andyou.activity.StrategyActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:340:9-342:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:342:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:341:13-54
+activity#com.cmcc.hyapps.andyou.activity.QHStrategyActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:343:9-345:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:345:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:344:13-56
+activity#com.cmcc.hyapps.andyou.activity.EntertainmentsDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:346:9-348:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:348:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:347:13-66
+activity#com.cmcc.hyapps.andyou.activity.HotelActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:349:9-351:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:351:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:350:13-51
+activity#com.cmcc.hyapps.andyou.activity.LiveActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:352:9-354:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:354:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:353:13-50
+activity#com.cmcc.hyapps.andyou.activity.QHNavigationActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:355:9-357:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:357:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:356:13-58
+activity#com.cmcc.hyapps.andyou.activity.HotelDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:358:9-360:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:360:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:359:13-57
+activity#com.cmcc.hyapps.andyou.activity.HotelDetailsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:361:9-363:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:363:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:362:13-58
+activity#com.cmcc.hyapps.andyou.activity.RouteDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:364:9-366:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:366:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:365:13-57
+activity#com.cmcc.hyapps.andyou.activity.StrategyDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:367:9-369:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:369:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:368:13-60
+activity#com.cmcc.hyapps.andyou.activity.CityListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:370:9-372:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:372:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:371:13-54
+activity#com.cmcc.hyapps.andyou.activity.WaitActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:373:9-375:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:375:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:374:13-50
+activity#com.cmcc.hyapps.andyou.activity.HotelMapActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:376:9-378:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:378:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:377:13-54
+activity#com.cmcc.hyapps.andyou.activity.GuiderCollectionActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:379:9-381:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:381:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:380:13-62
+activity#com.cmcc.hyapps.andyou.activity.GuiderPublishActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:382:9-384:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:384:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:383:13-59
+activity#com.cmcc.hyapps.andyou.activity.GuiderRaidersCommentActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:385:9-387:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:387:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:386:13-66
+activity#com.cmcc.hyapps.andyou.activity.GuiderMarketCommentActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:388:9-390:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:390:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:389:13-65
+activity#com.cmcc.hyapps.andyou.activity.QHAboutActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:391:9-393:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:393:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:392:13-53
+activity#com.cmcc.hyapps.andyou.activity.NightLiveActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:394:9-398:79
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:397:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:396:13-74
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:398:13-77
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:395:13-55
+activity#com.cmcc.hyapps.andyou.activity.NavigationDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:399:9-401:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:401:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:400:13-62
+activity#com.cmcc.hyapps.andyou.activity.SearchListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:402:9-404:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:404:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:403:13-56
+activity#com.cmcc.hyapps.andyou.activity.MarketHotelsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:405:9-407:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:407:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:406:13-58
+activity#com.cmcc.hyapps.andyou.wxapi.WXEntryActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:412:9-417:74
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:416:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:414:13-74
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:417:13-72
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:415:13-36
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:413:13-50
+service#com.cmcc.hyapps.andyou.media.PlaybackService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:419:9-427:19
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:422:13-37
+	android:enabled
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:421:13-35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:420:13-50
+intent-filter#com.cmcc.hyapps.andyou.action.CLOSE_NOTIFICATION+com.cmcc.hyapps.andyou.action.TOGGLE_PLAYBACK_NOTIFICATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:423:13-426:29
+action#com.cmcc.hyapps.andyou.action.TOGGLE_PLAYBACK_NOTIFICATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:424:17-100
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:424:25-98
+action#com.cmcc.hyapps.andyou.action.CLOSE_NOTIFICATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:425:17-90
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:425:25-88
+service#com.cmcc.hyapps.andyou.service.LocationService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:428:9-435:19
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:431:13-37
+	android:enabled
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:430:13-35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:429:13-52
+intent-filter#com.cmcc.hyapps.andyou.action.UPDATE_LOCATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:432:13-434:29
+action#com.cmcc.hyapps.andyou.action.UPDATE_LOCATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:433:17-87
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:433:25-85
+provider#com.cmcc.hyapps.andyou.download.DownloadProvider
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:437:9-442:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:440:13-37
+	android:authorities
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:439:13-57
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:438:13-54
+meta-data#UMENG_APPKEY
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:444:9-446:55
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:445:13-40
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:446:13-53
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:447:9-449:63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:448:13-48
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:449:13-61
+meta-data#UMENG_CHANNEL
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:450:9-452:50
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:451:13-41
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:452:13-48
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:454:9-461:70
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:461:13-68
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:459:13-49
+	android:noHistory
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:458:13-37
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:456:13-57
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:460:13-50
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:455:13-66
+	android:launchMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:457:13-44
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:462:9-476:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:467:13-49
+	android:noHistory
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:466:13-37
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:464:13-57
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:463:13-58
+	android:launchMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:465:13-44
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:468:13-475:29
+action#android.intent.action.VIEW
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:469:17-68
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:469:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:471:17-75
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:471:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:472:17-77
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:472:27-75
+data
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:474:17-59
+	android:scheme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:474:23-57
+activity#com.umeng.fb.ConversationActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:477:9-69
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:477:19-67
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:478:9-481:74
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:480:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:481:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:479:13-69
+service#com.umeng.update.net.DownloadingService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:484:9-486:52
+	android:process
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:486:13-50
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:485:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:488:9-490:74
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:490:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:489:13-65
+activity#com.cmcc.hyapps.andyou.activity.TotalComment
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:491:9-58
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:491:19-56
+activity#com.cmcc.hyapps.andyou.activity.MediaPlayerActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:492:9-65
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:492:19-63
+activity#com.cmcc.hyapps.andyou.activity.GuiderMessageDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:493:9-73
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:493:19-71
+activity#com.cmcc.hyapps.andyou.activity.GuiderMessageListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:494:9-71
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:494:19-69
+activity#com.cmcc.hyapps.andyou.activity.GuiderRecommandActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:495:9-69
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:495:19-67
+activity#com.cmcc.hyapps.andyou.activity.ShopDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:496:9-497:57
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:497:19-55
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:496:19-62
+activity#com.cmcc.hyapps.andyou.navi.SimpleNaviActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:498:9-501:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:501:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:500:13-45
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:499:13-52
+activity#com.cmcc.hyapps.andyou.activity.FoodActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:502:9-504:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:504:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:503:13-50
+activity#com.cmcc.hyapps.andyou.activity.FourSActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:505:9-507:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:507:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:506:13-51
+activity#com.cmcc.hyapps.andyou.activity.SpecialActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:508:9-510:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:510:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:509:13-53
+activity#com.cmcc.hyapps.andyou.activity.SpecialDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:511:9-513:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:513:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:512:13-59
+receiver#com.cmcc.hyapps.andyou.download.DownloadReceiver
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:515:9-529:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:517:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:516:13-54
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:518:13-520:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:519:17-78
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:519:25-76
+intent-filter#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:521:13-525:29
+action#android.intent.action.MEDIA_MOUNTED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:522:17-77
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:522:25-75
+intent-filter#com.cmcc.hyapps.andyou.intent.action.DOWNLOAD_INFORMATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:526:13-528:29
+action#com.cmcc.hyapps.andyou.intent.action.DOWNLOAD_INFORMATION
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:527:17-99
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:527:25-97
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:530:9-532:39
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:532:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:531:13-80
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:533:9-547:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:535:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:534:13-66
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:539:13-543:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:540:17-79
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:540:25-77
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:544:13-546:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:545:17-78
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:545:25-76
+receiver#com.umeng.message.UmengBroadcastReceiver
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:548:9-560:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:550:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:549:13-68
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:551:13-553:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:552:17-80
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:552:25-78
+intent-filter#com.cmcc.hyapps.andyou.intent.action.COMMAND
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:554:13-556:29
+action#com.cmcc.hyapps.andyou.intent.action.COMMAND
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:555:17-86
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:555:25-84
+intent-filter#org.agoo.android.intent.action.RE_ELECTION_V2
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:557:13-559:29
+action#org.agoo.android.intent.action.RE_ELECTION_V2
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:558:17-87
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:558:25-85
+receiver#com.umeng.message.BootBroadcastReceiver
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:561:9-567:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:563:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:562:13-67
+service#com.umeng.message.UmengService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:569:9-573:48
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:572:13-40
+	android:process
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:573:13-46
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:571:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:570:13-58
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:575:9-577:63
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:576:13-50
+	android:value
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:577:13-61
+service#com.cmcc.hyapps.andyou.service.QHLocationService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:579:9-582:39
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:582:13-37
+	android:enabled
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:581:13-35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:580:13-54
+activity#com.cmcc.hyapps.andyou.activity.QHScenicDetailPhotos
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:584:9-587:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:587:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:586:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:585:13-58
+activity#com.cmcc.hyapps.andyou.activity.QHScenicDetailShops
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:588:9-591:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:591:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:590:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:589:13-57
+activity#com.cmcc.hyapps.andyou.activity.QHScenicDetailPics
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:592:9-595:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:595:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:594:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:593:13-56
+activity#com.cmcc.hyapps.andyou.activity.NewPhotoPreviewActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:596:9-599:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:599:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:598:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:597:13-61
+activity#com.cmcc.hyapps.andyou.activity.ShopsDetailActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:600:9-603:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:603:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:602:13-72
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:601:13-57
+activity#test.grs.com.ims.message.LoginsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:604:9-617:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:45:9-57:20
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:609:13-70
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:607:13-49
+	android:label
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:606:13-45
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:608:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:605:13-67
+activity#test.grs.com.ims.contact.ContactsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:618:9-624:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:58:9-63:20
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:623:13-70
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:621:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:620:13-63
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:622:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:619:13-69
+activity#test.grs.com.ims.contact.ContactsTaActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:625:9-631:20
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:630:13-70
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:628:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:627:13-63
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:629:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:626:13-71
+activity#test.grs.com.ims.contact.ContractListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:632:9-638:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:64:9-69:20
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:637:13-70
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:635:13-49
+	android:configChanges
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:634:13-63
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:636:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:633:13-73
+activity#test.grs.com.ims.message.MessageActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:639:9-644:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:70:9-75:20
+	android:windowSoftInputMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:643:13-73
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:641:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:642:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:640:13-68
+activity#test.grs.com.ims.message.ChatSettingActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:645:9-649:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:76:9-80:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:647:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:648:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:646:13-72
+activity#test.grs.com.ims.message.ZoomPicActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:650:9-654:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:81:9-85:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:652:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:653:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:651:13-68
+service#test.grs.com.ims.message.BackgroundService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:656:9-661:19
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:87:9-91:19
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:659:13-37
+		REJECTED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:90:13-36
+	tools:replace
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:660:13-45
+	android:enabled
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:658:13-35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:657:13-70
+activity#test.grs.com.ims.contact.AddContactActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:663:9-667:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:93:9-97:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:665:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:666:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:664:13-71
+activity#test.grs.com.ims.contact.GroupContactsActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:668:9-672:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:98:9-102:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:670:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:671:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:669:13-74
+activity#test.grs.com.ims.message.UnNotifyActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:673:9-677:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:103:9-107:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:675:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:676:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:674:13-69
+activity#test.grs.com.ims.message.SearchContactActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:678:9-682:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:108:9-112:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:680:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:681:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:679:13-74
+activity#test.grs.com.ims.message.RegisterActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:683:9-687:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:113:9-117:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:685:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:686:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:684:13-69
+activity#test.grs.com.ims.message.MessageListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:688:9-694:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:118:9-124:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:692:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:693:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:689:13-72
+	android:alwaysRetainTaskState
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:690:13-49
+	android:launchMode
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:691:13-44
+activity#test.grs.com.ims.message.MessageCenterActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:695:9-699:20
+MERGED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:125:9-129:20
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:697:13-49
+	android:theme
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:698:13-66
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:696:13-74
+activity#com.cmcc.hyapps.andyou.activity.BlackListActivity
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:700:9-702:51
+	android:screenOrientation
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:702:13-49
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:701:13-55
+service#com.cmcc.hyapps.andyou.service.MobileTravelToIMService
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:704:9-708:19
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:707:13-37
+	android:enabled
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:706:13-35
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:705:13-60
+service#com.cmcc.hyapps.andyou.service.FriendsIsHasMessageServices
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:709:9-711:19
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:710:13-64
+receiver#com.cmcc.hyapps.andyou.activity.IndexActivity$FriendsCircleBroadcast
+ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:713:9-717:20
+	android:exported
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:715:13-37
+	android:name
+		ADDED from /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/AndroidManifest.xml:714:13-74
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:13:5-86
+	android:name
+		ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:13:22-83
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:15:22-72
+activity#com.example.rtspdemo.PlayerActivity
+ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:36:9-39:20
+	android:configChanges
+		ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:38:13-59
+	android:name
+		ADDED from [APP_v1.0:Rtsp_lib:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/Rtsp_lib/unspecified/AndroidManifest.xml:37:13-63
+uses-permission#android.permission.hardware.camera
+ADDED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:20:22-71
+uses-permission#android.permission.hardware.camera.autofocus
+ADDED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:21:5-84
+	android:name
+		ADDED from [APP_v1.0:IM:unspecified] /Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/exploded-aar/APP_v1.0/IM/unspecified/AndroidManifest.xml:21:22-81

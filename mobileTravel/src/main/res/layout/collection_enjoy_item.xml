@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/iv_cover_image"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recommand_bg"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        app:corner_radius="5dp" />
+
+    <TextView
+        android:id="@+id/enjoy_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_cover_image"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@+id/iv_cover_image"
+        android:singleLine="true"
+        android:textColor="#293231"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/enjoy_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_cover_image"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@+id/iv_cover_image"
+        android:maxLines="3"
+        android:textColor="#565656" />
+</RelativeLayout>

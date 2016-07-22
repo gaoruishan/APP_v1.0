@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/layout_action_bar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar" />
+
+    <TextView
+        android:id="@+id/start_routing"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/navi_bg_btn_blue_selecter"
+        android:gravity="center"
+        android:text="@string/start_routing"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+</RelativeLayout>

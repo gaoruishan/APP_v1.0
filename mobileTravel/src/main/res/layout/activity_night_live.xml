@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"/>
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/movie_stop_bt" />
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="top"
+        android:background="#00000000"
+        android:focusable="true"
+        android:gravity="top">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/back_bt_seletor"
+            android:paddingLeft="5dp"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="10sp" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="12dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/back"
+            android:background="@drawable/seek_bar"
+            android:thumb="@drawable/seek_bar_seletor" />
+
+    </RelativeLayout>
+</FrameLayout>
+

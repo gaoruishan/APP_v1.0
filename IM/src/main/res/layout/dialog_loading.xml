@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:minHeight="80dp"
+        android:minWidth="150dp" 
+        android:padding="10dp"
+        android:background="@drawable/public_corner_bg_black">
+        <ImageView
+            android:id="@+id/ani_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/spiner" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/ani_img"
+            android:layout_marginTop="10dp" 
+            android:text="@string/hint_logouting"
+            android:textColor="@color/cor1"
+            android:textSize="@dimen/size4"
+            android:shadowColor="@color/cor5"
+            android:shadowDx="1"
+            android:shadowDy="1"/>
+</RelativeLayout>

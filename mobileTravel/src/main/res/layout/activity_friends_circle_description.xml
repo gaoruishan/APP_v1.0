@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include
+        layout="@layout/layout_action_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="55dp">
+
+            <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+                android:id="@+id/friends_circle_description_loading_progress"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:indeterminateOnly="true"
+                android:visibility="gone"
+                />
+
+            <include layout="@layout/layout_recycler_list"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/friends_circle_description_argument_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="invisible"
+            android:layout_marginBottom="2dp"
+            android:layout_alignParentBottom="true">
+
+            <com.cmcc.hyapps.andyou.support.ExEditText
+                android:id="@+id/friends_circle_description_argument_content"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_toLeftOf="@+id/friends_circle_description_send_argument"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+               android:background="@drawable/send_friends_trends_layer_all">
+        </com.cmcc.hyapps.andyou.support.ExEditText>
+
+            <Button
+                android:id="@+id/friends_circle_description_send_argument"
+                android:layout_width="70dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_send_friends_trends"
+                android:text="发送"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

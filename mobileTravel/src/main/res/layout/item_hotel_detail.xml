@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/video_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+    >
+    <View
+        android:id="@+id/dilver"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/base_grey_line"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp">
+
+    <TextView
+        android:id="@+id/bed_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/home_bed_name"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        />
+    <TextView
+        android:id="@+id/room_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/home_bed_info"
+        android:textColor="@color/default_text_color"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:layout_below="@+id/bed_name"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        />
+
+        <TextView
+            android:id="@+id/room_prise_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_bed_price_tip"
+            android:textColor="@color/default_text_color"
+            android:textSize="16sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/room_prise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_bed_price"
+            android:textColor="@color/red_p"
+            android:textSize="20sp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/room_prise_tip"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

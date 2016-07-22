@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/mail_base_list_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/message_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#0fd5f2"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="doBack"
+            android:orientation="horizontal" >
+            <!--返回-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fanhui3x" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="添加通讯录好友"
+            android:textColor="@color/whites"
+            android:textSize="@dimen/font_size_20sp" />
+        <LinearLayout
+            android:layout_width="40dp"
+            android:onClick="showSingleDetail"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/show_single_detail"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/setting"
+            android:scaleType="center"
+            />
+
+    </RelativeLayout>
+
+    <test.grs.com.ims.view.CircularProgressBar
+        android:id="@+id/loading_progress"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+         />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/dialog_empty"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="120.0dip"
+            android:layout_height="120.0dip"
+            android:background="@drawable/empty"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="35.0dip"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="空空如也"
+            android:textColor="@color/gray_font"
+            android:gravity="center"
+            android:id="@+id/textView"
+            />
+    </LinearLayout>
+    <test.grs.com.ims.contact.LoadingView
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/contract_content"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:layout_below="@+id/message_title"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <test.grs.com.ims.contact.ClearEditText
+            android:id="@+id/filter_edit"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/acm_inputbox"
+            android:drawableLeft="@drawable/imsearch2"
+            android:drawablePadding="@dimen/size_6dp"
+            android:hint="请输入查询关键字"
+            android:paddingLeft="@dimen/size_6dp"
+            android:singleLine="true"
+            android:textSize="15.0dip" />
+
+
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ListView
+                android:id="@+id/country_lvcountry"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/dialog"
+                android:layout_width="80.0dip"
+                android:layout_height="80.0dip"
+                android:layout_gravity="center"
+                android:background="@color/gray_font"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="35.0dip"
+                android:visibility="invisible" />
+            <!-- android:clickable="true"-->
+            <test.grs.com.ims.contact.SideBar
+                android:id="@+id/sidrbar"
+                android:layout_width="28.0dip"
+                android:layout_height="match_parent"
+                android:layout_gravity="right|bottom" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/contract_empty"
+        android:visibility="gone"
+        android:layout_below="@+id/message_title"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="@dimen/font_size_16sp"
+            android:text="你的通讯录好友中还未安装和畅游哦"
+            android:layout_marginTop="@dimen/size_120dp"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textColor="#999999"
+            android:textSize="@dimen/font_size_16sp"
+            android:text="快去邀请吧！"
+            android:layout_marginTop="@dimen/public_padding_8"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_gravity="center"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:id="@+id/recommend_to_friend"
+            android:background="#FF5454"
+            android:textSize="@dimen/font_size_18sp"
+            android:text="推荐给好友"
+            android:clickable="true"
+            android:layout_marginTop="40dp"
+            android:layout_height="36dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

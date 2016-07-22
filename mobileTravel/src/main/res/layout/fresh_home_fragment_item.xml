@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/base_bg"
+    android:layout_marginTop="0dp"
+    >
+    <com.cmcc.hyapps.andyou.widget.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        app:rippleInterceptTouchEvent="false"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:rippleSuperTouch="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:src="@drawable/bg_banner_hint"/>
+            <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                android:id="@+id/iv_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                app:corner_radius="5dp"
+                app:border_width="1dp"
+                app:border_color="@color/white"
+                 />
+            <TextView
+                android:id="@+id/iv_recommand_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:background="@drawable/recommand_type_back"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:paddingRight="8dp"
+                >
+                <ImageView
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/icon_audio"
+                    android:orientation="horizontal"
+                    android:id="@+id/home_item_isaudio" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/home_item_recommand_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/home_recommand_item"
+                        android:drawablePadding="10dp"
+                        android:layout_gravity="left|bottom"
+                        android:gravity="center"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="6dp"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="center"
+                        android:id="@+id/home_item_secnic_distance"
+                        android:text="@string/home_item_distance"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:drawablePadding="5dp"
+                        android:layout_alignParentRight="true"
+                        android:visibility="gone"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp"
+
+                        android:layout_marginRight="6dp"
+                        android:layout_marginEnd="6dp"
+                        android:drawableLeft="@drawable/icon_distance"
+                        android:drawableStart="@drawable/icon_distance" />
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    >
+                    <TextView
+                        android:id="@+id/home_item_recommand_intro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:paddingLeft="12dp"
+                        android:layout_marginRight="40dp"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:ellipsize="end"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+    </com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>
+
+</LinearLayout>

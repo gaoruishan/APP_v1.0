@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dslv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <include layout="@layout/layout_title_and_date" />
+
+    <TextView
+        android:id="@+id/tv_add_target"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/corners_blue_round"
+        android:gravity="center"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="@string/journey_btn_add_target"
+        android:textColor="@color/blue_text_color_selecter"
+        android:textSize="16sp" />
+
+    <com.cmcc.hyapps.andyou.widget.dragsortlistview.DragSortListView
+        android:id="@+id/drag_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1px"
+        dslv:click_remove_id="@+id/iv_delete"
+        dslv:collapsed_height="2dp"
+        dslv:drag_enabled="true"
+        dslv:drag_handle_id="@+id/iv_move_handler"
+        dslv:drag_scroll_start="0.33"
+        dslv:drag_start_mode="onDown"
+        dslv:float_alpha="0.6"
+        dslv:max_drag_scroll_speed="0.5"
+        dslv:remove_enabled="true"
+        dslv:remove_mode="clickRemove"
+        dslv:slide_shuffle_speed="0.3"
+        dslv:sort_enabled="true"
+        dslv:track_drag_sort="false"
+        dslv:use_default_controller="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/base_grey_line" />
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn_blue_corners_selecter"
+        android:gravity="center"
+        android:text="@string/journey_btn_next"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

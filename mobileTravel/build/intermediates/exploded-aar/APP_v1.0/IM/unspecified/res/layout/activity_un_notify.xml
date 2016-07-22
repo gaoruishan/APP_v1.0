@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="test.grs.com.ims.message.UnNotifyActivity">
+
+    <RelativeLayout
+        android:id="@+id/message_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="#0fd5f2"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="doBack"
+            android:orientation="horizontal" >
+            <!--返回-->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fanhui3x" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="未关注的人"
+            android:textColor="@color/whites"
+            android:textSize="@dimen/font_size_20sp" />
+        <LinearLayout
+            android:layout_width="40dp"
+            android:onClick="showSingleDetail"
+            android:layout_alignParentRight="true"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/show_single_detail"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/setting"
+            android:scaleType="center"
+            />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/dialog_empty"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="120.0dip"
+            android:layout_height="120.0dip"
+            android:background="@drawable/empty"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="35.0dip"
+            />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="空空如也"
+            android:textColor="@color/gray_font"
+            android:gravity="center"
+            android:id="@+id/textView"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/converstaion_list"
+        android:layout_below="@+id/message_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/cor2"
+        android:dividerHeight="1px"
+        android:scrollbarSize="4dp"
+        android:scrollbarThumbVertical="@drawable/scrollbar_thumb_vertical"
+        android:splitMotionEvents="false" />
+
+</RelativeLayout>

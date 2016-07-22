@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RoundedImageView">
+        <attr name="corner_radius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="mutate_background" format="boolean" />
+        <attr name="oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+    <declare-styleable name="RatioImageView">
+        <attr name="limit" format="integer" />
+        <attr name="imageRatio" format="float" />
+    </declare-styleable>
+    <declare-styleable name="DragSortListView">
+        <attr name="collapsed_height" format="dimension" />
+        <attr name="drag_scroll_start" format="float" />
+        <attr name="max_drag_scroll_speed" format="float" />
+        <attr name="float_background_color" format="color" />
+        <attr name="remove_mode">
+            <enum name="clickRemove" value="0" />
+            <enum name="flingRemove" value="1" />
+        </attr>
+        <attr name="track_drag_sort" format="boolean" />
+        <attr name="float_alpha" format="float" />
+        <attr name="slide_shuffle_speed" format="float" />
+        <attr name="remove_animation_duration" format="integer" />
+        <attr name="drop_animation_duration" format="integer" />
+        <attr name="drag_enabled" format="boolean" />
+        <attr name="sort_enabled" format="boolean" />
+        <attr name="remove_enabled" format="boolean" />
+        <attr name="drag_start_mode">
+            <enum name="onDown" value="0" />
+            <enum name="onMove" value="1" />
+            <enum name="onLongPress" value="2" />
+        </attr>
+        <attr name="drag_handle_id" format="integer" />
+        <attr name="fling_handle_id" format="integer" />
+        <attr name="click_remove_id" format="integer" />
+        <attr name="use_default_controller" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Timeline">
+        <attr name="type" format="integer">
+            <enum name="add" value="0" />
+            <enum name="date" value="1" />
+            <enum name="scenic" value="2" />
+            <enum name="text" value="3" />
+            <enum name="image" value="4" />
+            <enum name="city" value="5" />
+            <enum name="time" value="6" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="PullToZoomScrollView">
+        <attr name="scrollHeadView" format="reference" />
+        <attr name="scrollContentView" format="reference" />
+        <attr name="scrollZoomView" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="MaterialRippleLayout">
+        <attr name="rippleColor" format="color" />
+        <attr name="rippleDimension" format="dimension" />
+        <attr name="rippleOverlay" format="boolean" />
+        <attr name="rippleAlpha" format="float" />
+        <attr name="rippleDuration" format="integer" />
+        <attr name="rippleFadeDuration" format="integer" />
+        <attr name="rippleHover" format="boolean" />
+        <attr name="rippleBackground" format="color" />
+        <attr name="rippleDelayClick" format="boolean" />
+        <attr name="ripplePersistent" format="boolean" />
+        <attr name="rippleInAdapter" format="boolean" />
+        <attr name="rippleInterceptTouchEvent" format="boolean" />
+        <attr name="rippleSuperTouch" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpbStyle" format="reference" />
+        <attr name="cpb_color" format="color" />
+        <attr name="cpb_colors" format="reference" />
+        <attr name="cpb_stroke_width" format="dimension" />
+        <attr name="cpb_min_sweep_angle" format="integer" />
+        <attr name="cpb_max_sweep_angle" format="integer" />
+        <attr name="cpb_sweep_speed" format="float" />
+        <attr name="cpb_rotation_speed" format="float" />
+    </declare-styleable>
+
+</resources>

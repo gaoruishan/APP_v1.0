@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/rl_login"
+    android:background="@color/cor1" >
+
+    <LinearLayout
+        android:id="@+id/login_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/size_17.5dp"
+        android:layout_marginRight="@dimen/size_17.5dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/public_padding_52" >
+
+        <ImageView
+            android:id="@+id/user_header"
+            android:layout_width="@dimen/size_120dp"
+            android:layout_height="@dimen/size_120dp"
+            android:layout_marginBottom="@dimen/size_40dp"
+            android:padding="@dimen/size_6dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+
+        <LinearLayout
+            android:id="@+id/ll_edittext"
+            style="@style/my_edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <View
+                android:layout_width="@dimen/size_2dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/public_padding_10"
+                android:layout_marginTop="@dimen/public_padding_10"
+                android:background="@color/cor3"
+                android:visibility="gone" />
+
+            <test.grs.com.ims.view.EditTextWithDel
+                android:id="@+id/et_username"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:background="@drawable/input_bg"
+                android:drawableLeft="@drawable/login_input_usericon_slt"
+                android:drawablePadding="@dimen/size_13dp"
+                android:drawableRight="@drawable/public_search_clear_slt"
+                android:hint="@string/hint_username"
+                android:paddingBottom="@dimen/size_9dp"
+                android:paddingLeft="@dimen/size_10dp"
+                android:paddingRight="@dimen/size_9dp"
+                android:paddingTop="@dimen/size_9dp"
+                android:singleLine="true"
+                android:textColor="@drawable/input_color_selector"
+                android:textColorHint="@drawable/input_color_selector"
+                android:textSize="@dimen/font_size_16sp" />
+        </LinearLayout>
+
+        <test.grs.com.ims.view.EditTextWithDel
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_50dp"
+            android:layout_marginTop="@dimen/size_25dp"
+            android:background="@drawable/input_bg"
+            android:drawableLeft="@drawable/login_input_passwordicon_slt"
+            android:drawablePadding="@dimen/size_13dp"
+            android:drawableRight="@drawable/public_search_clear_slt"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:paddingBottom="@dimen/size_9dp"
+            android:paddingLeft="@dimen/size_10dp"
+            android:paddingRight="@dimen/size_9dp"
+            android:paddingTop="@dimen/size_9dp"
+            android:singleLine="true"
+            android:textColor="@drawable/input_color_selector"
+            android:textColorHint="@drawable/input_color_selector"
+            android:textSize="@dimen/font_size_16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/size_48dp"
+            android:layout_marginTop="@dimen/size_29dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_blue"
+                android:text="@string/register"
+                android:textColor="@color/cor1"
+                android:textSize="@dimen/public_s_text_content_btn" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/size_20dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_green"
+                android:text="@string/login"
+                android:textColor="@color/cor1"
+                android:textSize="@dimen/public_s_text_content_btn" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/size_20dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btn_find_psd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:paddingBottom="@dimen/size_16dp"
+                android:paddingRight="@dimen/size_4dp"
+                android:paddingTop="@dimen/size_4dp"
+                android:text="@string/find_psd"
+                android:textColor="@color/find_pwd"
+                android:textSize="@dimen/font_size_16sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/btn_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/btn_find_psd"
+                android:paddingRight="@dimen/size_4dp"
+                android:text="设置"
+                android:textColor="@color/find_pwd"
+                android:textSize="@dimen/font_size_16sp"
+                android:visibility="gone" />
+            
+           
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+         >
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/public_c_text_input_bre"
+            android:layout_marginBottom="5dip"
+            android:text="版本号："
+            android:textSize="@dimen/font_size_10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:text="Copyright© 2015 CMCC All Rights Reserved."
+            android:textColor="@color/public_c_text_input_bre"
+            android:textSize="@dimen/font_size_10sp" />
+    </LinearLayout>
+
+</RelativeLayout>

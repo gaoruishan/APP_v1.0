@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:id="@+id/service_container"
+              android:layout_margin="6dp"
+              android:layout_alignParentRight="true"
+              android:layout_alignParentTop="true"
+              android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/show_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/ic_map_catering_img_selecter"/>
+
+    <ImageView
+        android:id="@+id/show_shop"
+        android:src="@drawable/ic_map_specialty_img_selecter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        />
+    <ImageView
+        android:id="@+id/show_hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/ic_map_hotel_img_selecter"/>
+
+    <ImageView
+        android:id="@+id/show_wc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/ic_map_wc_img_selecter"/>
+
+    <ImageView
+        android:id="@+id/show_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:src="@drawable/ic_map_traffic_img_selecter"/>
+
+    <ImageView
+        android:id="@+id/show_route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_map_route_img_selecter"/>
+
+</LinearLayout>

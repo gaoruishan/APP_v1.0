@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="53dp"
+              android:background="@drawable/bg_item_base_selecter"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/item_text_indicate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="@string/hint_login_input_pwd_indicate"
+        android:textColor="@color/blue_text_color_selecter"
+        android:textSize="16sp"/>
+
+    <com.cmcc.hyapps.andyou.support.ExEditText
+        android:id="@+id/et_login_pwd"
+        style="@style/settings_btn_blur"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:hint="@string/hint_login_input_pwd"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin"
+        android:textColor="@color/black_text_color_selecter"
+        android:textColorHint="@color/base_text_summary"/>
+
+    <TextView
+        android:id="@+id/tv_login_valid_code"
+        style="@style/settings_btn_grey"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_btn_send_security_code"/>
+
+</LinearLayout>

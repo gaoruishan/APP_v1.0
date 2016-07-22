@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/base_grey_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_action_bar"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_item_tb"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/fresh_login_email"
+                layout="@layout/item_field_email"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:contentDescription="@string/content_description"
+                android:src="@color/base_grey_line"/>
+
+            <include
+                android:id="@+id/fresh_login_email_password"
+                layout="@layout/item_field_email_password"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:contentDescription="@string/content_description"
+                android:src="@color/base_grey_line"/>
+
+            <include
+                android:id="@+id/fresh_login_code"
+                layout="@layout/item_field_find_password"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/fresh_login"
+            style="@style/settings_btn_grey"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_margin="@dimen/common_margin"
+            android:text="@string/login_btn_login"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/fresh_login_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="忘记密码"
+                android:textColor="@color/market_actionbar"/>
+
+            <TextView
+                android:id="@+id/fresh_login_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:text="注册"
+                android:textColor="@color/market_actionbar"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@color/base_grey_line"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/third_login"/>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:src="@color/base_grey_line"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/refresh_login_message"
+                style="@style/login"
+                android:drawableTop="@drawable/login_phone"
+                android:text="@string/login_message"/>
+
+            <TextView
+                android:id="@+id/refresh_login_qq"
+                style="@style/login"
+                android:drawableTop="@drawable/login_qq"
+                android:text="@string/login_qq"/>
+
+            <TextView
+                android:id="@+id/refresh_login_sina"
+                style="@style/login"
+                android:drawableTop="@drawable/login_sina"
+                android:text="@string/login_sina"/>
+
+            <TextView
+                android:id="@+id/refresh_login_wechat_circle"
+                style="@style/login"
+                android:drawableTop="@drawable/login_wechat"
+                android:text="@string/login_wechat"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+        android:id="@+id/loading_progress"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"
+        android:visibility="gone"/>
+</RelativeLayout>

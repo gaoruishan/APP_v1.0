@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_no_type"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_result_item_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.cmcc.hyapps.andyou.widget.RoundImageViews
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:id="@+id/iv_black_icon"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/icon_default_avatar" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_blackname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="@dimen/font_size_16sp" />
+            <TextView
+                android:id="@+id/tv_black_introduce"
+                android:layout_marginTop="1.5dp"
+                android:text=" "
+                android:visibility="gone"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_blackname"
+                android:textColor="@color/gray_font"
+                android:textSize="@dimen/font_size_13sp" />
+
+            <!--<TextView-->
+                <!--android:id="@+id/search_result_add_contact_textView"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:textSize="@dimen/font_size_16sp"-->
+                <!--android:clickable="true"-->
+                <!--android:visibility="gone"-->
+                <!--android:background="@drawable/jgz"-->
+                <!--android:textColor="@drawable/btn_text_green" />-->
+            <!-- -->
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

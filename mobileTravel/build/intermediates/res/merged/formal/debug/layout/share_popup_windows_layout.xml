@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/share_extra"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#50000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="分享到"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/share_wechat_friends"
+                style="@style/share"
+                android:drawableTop="@drawable/share_wechat"
+                android:text="微信"/>
+
+            <TextView
+                android:id="@+id/share_qq"
+                style="@style/share"
+                android:drawableTop="@drawable/share_qq"
+                android:text="QQ"/>
+
+            <TextView
+                android:id="@+id/share_sina"
+                style="@style/share"
+                android:drawableTop="@drawable/share_sina"
+                android:text="微博"/>
+
+            <TextView
+                android:id="@+id/share_wechat_circle"
+                style="@style/share"
+                android:drawableTop="@drawable/share_wechat_circle"
+                android:text="朋友圈"/>
+
+        </LinearLayout>
+
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="10dp"
+            android:contentDescription="@string/content_description"/>
+
+        <TextView
+            android:id="@+id/share_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/market_actionbar"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</RelativeLayout>

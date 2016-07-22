@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/base_theme_highlight" />
+
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="22dp"
+        android:textColor="#18ACF3"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/base_theme_highlight" />
+
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:minHeight="100dp"
+            android:padding="33dp"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <TextView
+            android:id="@+id/btn_dialog_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_btn_blue_highlight_selecter"
+            android:gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@drawable/bg_dialog_btn_text_selecter"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/btn_dialog_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_dialog_btn_blue_selecter"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@drawable/bg_dialog_btn_text_selecter"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

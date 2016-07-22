@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cmcc.hyapps.andyou.activity.QHScenicDetailPhotos">
+
+    <include layout="@layout/layout_action_bar" />
+
+   <GridView
+       android:layout_width="match_parent"
+       android:gravity="center"
+       android:id="@+id/qhscenic_detail_pics_gv"
+       android:horizontalSpacing="2dp"
+       android:numColumns="3"
+       android:layout_margin="5dp"
+       android:verticalSpacing="2dp"
+       android:listSelector="@drawable/list_selector"
+       android:layout_height="wrap_content">
+
+   </GridView>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="qiniu-sdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mobileTravel/libs/qiniu-sdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

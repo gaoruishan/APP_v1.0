@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar" />
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateOnly="true" />
+        <include
+            android:id="@+id/empty_hint_view"
+            layout="@layout/layout_empty"
+            android:visibility="gone" />
+        <include
+            android:id="@+id/reload_view"
+            layout="@layout/layout_reload"
+            android:visibility="gone" />
+        <com.cmcc.hyapps.andyou.widget.PullToRefreshRecyclerView
+            android:id="@+id/pulltorefresh_twowayview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <com.cmcc.hyapps.andyou.widget.PullToRefreshRecyclerView
+            android:id="@+id/pulltorefresh_newview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>

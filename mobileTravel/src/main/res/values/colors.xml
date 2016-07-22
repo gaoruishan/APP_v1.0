@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="item_common">#F111</color>
+    <color name="item_1">#F222</color>
+    <color name="item_2">#F000</color>
+    <color name="orange">#FFF48B00</color>
+    <color name="darkorange">#FF824600</color>
+    <color name="transparent_gray">#A000</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- Common colors -->
+    <color name="black">#ff000000</color>
+    <color name="black_p">#88000000</color>
+    <color name="black_transprent">#44000000</color>
+    <color name="black_half_transprent">#20000000</color>
+    <color name="black_map_transprent">#50000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_p">#88ffffff</color>
+    <color name="white_disable">#44ffffff</color>
+    <color name="red">#ffff2524</color>
+    <color name="red_p">#ffe62120</color>
+    <color name="blue">#ff18acf3</color>
+    <color name="blue_p">#ff1699db</color>
+    <color name="green">#ff0fc00c</color>
+    <color name="green_p">#880fc00c</color>
+    <color name="dialog_blue">#ff0480be</color>
+    <color name="dialog_grey">#ffc8ccd4</color>
+    <color name="half_alpha_white">#80ffffff</color>
+    <color name="transparency">#00ffffff</color>
+
+    <!-- Base color for theme -->
+    <color name="base_theme_highlight">#ff19abf3</color>
+    <color name="base_theme_normal">#ffb4b4b4</color>
+    <color name="base_bg">#ffffffff</color>
+    <color name="base_grey_bg">#fff4f4f4</color>
+    <color name="base_grey_line">#ffdbdbdb</color>
+    <color name="base_text_title">#ff000000</color>
+    <color name="base_text_summary">#ff919293</color>
+
+    <!-- Shadow -->
+    <color name="shadow_action_bar_title">#4c000000</color>
+    <color name="register_grey_btn">#ffdfdfdf</color>
+    <color name="timeline_itinerary_text">#ff8c8c8c</color>
+
+    <!-- Trip -->
+    <color name="text_item_trip_content">#ff2a3331</color>
+    <color name="text_item_trip_create">#ff19a9f0</color>
+    <color name="card_trip_bg">#ffb7e7fe</color>
+    <color name="card_trip_selected_bg">#88b7e7fe</color>
+    <color name="trip_blue_color">#ff18abf1</color>
+    <color name="trip_blue_selected_color">#8818abf1</color>
+
+    <color name="service_phone">#35df19</color>
+    <color name="service_phone_selected">#27ca0d</color>
+    <color name="service_phone_disable">#cbcbcb</color>
+    <color name="home_secnic_name">#4a545e</color>
+    <color name="home_secnic_bg">#FFf4f4f4</color>
+    <color name="title_bg">#ff10d7f1</color>
+
+    <color name="bg_popupwindow_list_pressed">#eeeeee</color>
+    <color name="market_actionbar">#29d5f0</color>
+    <color name="market_actionbar_press">#7029d5f0</color>
+    <color name="choose_popupwindow_text">#666666</color>
+
+    <color name="home_recommand">#2c3232</color>
+
+    <color name="gray_line">#f4f4f4</color>
+    <color name="road_tab_text_color">#565656</color>
+
+    <color name="friends_circle_empty_text_color">#565656</color>
+    <color name="bg_login_click">#70ff7b6a</color>
+    <color name="bg_login_unclick">#ff7b6a</color>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/friends_circle_actionbar"
+                style="@style/action_bar"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="51dp">
+
+    <ImageView
+        android:id="@+id/friends_circle_books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/friends_circle_book"/>
+
+    <ImageView
+        android:id="@+id/friends_circle_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/friends_circle_message"/>
+
+    <TextView
+        android:id="@+id/friends_circle_title_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/friends_circle_down_arrow"
+        android:text="圈子"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+</RelativeLayout>

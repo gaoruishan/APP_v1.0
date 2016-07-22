@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    >
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="177dp">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/rest_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/content_description"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_banner_hint" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/fg_bottom_shadow" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:gravity="right"
+                android:orientation="horizontal"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/home_item_isaudio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/icon_audio"
+                    android:orientation="horizontal"
+                    android:padding="8dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom">
+
+                <!--圆形的头像-->
+                <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                    android:id="@+id/iv_me_avata"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_avata_hint"
+                    android:visibility="gone"
+                    app:border_color="@color/white"
+                    app:border_width="1dp"
+                    app:oval="true" />
+
+                <TextView
+                    android:id="@+id/restaurant_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/iv_me_avata"
+                    android:gravity="center"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="6dp"
+                    android:text="@string/home_item_name"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/restaurant_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/restaurant_name"
+                    android:layout_gravity="left|bottom"
+                    android:layout_toRightOf="@id/iv_me_avata"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:singleLine="true"
+                    android:text="@string/home_item_intro"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/home_item_secnic_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginRight="6dp"
+                    android:drawableLeft="@drawable/icon_distance"
+                    android:drawablePadding="5dp"
+                    android:drawableStart="@drawable/icon_distance"
+                    android:gravity="center"
+                    android:paddingBottom="6dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="6dp"
+                    android:text="发布时间"
+                    android:textColor="@color/black_p"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </FrameLayout>
+
+
+
+    <!--下面的替换上面的-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/base_grey_line"
+        android:paddingBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingBottom="6dp"
+        android:paddingTop="6dp"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:id="@+id/restaurant_address_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+
+            >
+
+            <TextView
+                android:id="@+id/restaurant_average_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="@string/home_restaurant_average_cost"
+                android:textColor="@color/red"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/restaurant_average_cost_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/restaurant_average_cost"
+                android:text="@string/home_restaurant_average_cost_tips"
+                android:textColor="@color/default_text_color"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/restaurant_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/home_restaurant_distance"
+                android:textColor="@color/shadow_action_bar_title"
+                android:textSize="16sp"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <RatingBar
+                android:id="@+id/testaurant_rating"
+                style="@style/restaurant_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="6dp"
+                android:isIndicator="true"
+                android:rating="0" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

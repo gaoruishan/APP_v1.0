@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/size_10dp"
+    android:id="@+id/rl_msg"
+    android:background="@drawable/bg_no_type"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="@dimen/size_10dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="10dp"
+        android:text="title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_title"
+        android:layout_alignStart="@+id/tv_title"
+        android:layout_below="@+id/tv_title"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/gray" />
+
+    <ImageView
+        android:id="@+id/iv_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_time"
+        android:layout_alignRight="@+id/tv_time"
+        android:layout_below="@+id/tv_time"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/tz" />
+</RelativeLayout>

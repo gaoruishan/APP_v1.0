@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar" />
+
+    <com.cmcc.hyapps.andyou.support.ExEditText
+        android:id="@+id/et_text"
+        style="@style/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/bg_item_tb"
+        android:hint="50个字以内，介绍下自己"
+        android:gravity="top"
+        android:padding="@dimen/common_margin"
+         />
+
+</LinearLayout>

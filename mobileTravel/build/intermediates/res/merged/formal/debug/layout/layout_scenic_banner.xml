@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/scenic_banner_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/scenic_banner_title"
+        style="@style/text_banner_title"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content" />
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="13dp"
+        layout="@layout/layout_weather_view" />
+
+</FrameLayout>

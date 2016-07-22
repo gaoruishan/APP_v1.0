@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="service_food" type="id"/>
+    <item name="service_traffic" type="id"/>
+    <item name="service_specialty" type="id"/>
+    <item name="service_complaint" type="id"/>
+    <item name="service_help" type="id"/>
+    <item name="service_video" type="id"/>
+    <item name="service_picture" type="id"/>
+    <item name="service_wc" type="id"/>
+    <item name="service_hotel" type="id"/>
+    <item name="recylerview" type="id"/>
+    <item name="twowayview" type="id"/>
+
+</resources>

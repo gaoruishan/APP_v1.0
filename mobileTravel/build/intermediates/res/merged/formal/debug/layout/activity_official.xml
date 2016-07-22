@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/base_bg"
+            android:orientation="vertical" >
+
+            <TextView
+                style="@style/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/official_category_qrcode" />
+
+            <com.cmcc.hyapps.andyou.widget.RatioImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28dp"
+                android:layout_marginRight="28dp"
+                android:src="@drawable/qrcode"
+                app:imageRatio="1"
+                app:limit="1" />
+
+            <TextView
+                style="@style/text_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="18dp"
+                android:text="@string/official_category_account" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="16dp"
+                android:paddingLeft="44dp"
+                android:paddingTop="13dp" >
+
+                <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/ic_launcher"
+                    app:border_color="@color/base_theme_highlight"
+                    app:border_width="1dp"
+                    app:oval="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/text_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="最专业的旅行工具"
+                        android:textColor="@color/base_text_summary"
+                        android:textSize="13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow_line" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

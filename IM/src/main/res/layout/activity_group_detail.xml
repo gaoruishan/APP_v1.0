@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/message_title"
+        android:layout_width="match_parent"
+
+        android:layout_height="@dimen/title_height"
+        android:background="#0fd5f2"
+        android:splitMotionEvents="false" >
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="doBack"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fanhui3x" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="1dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:text="聊天设置"
+            android:textColor="@color/whites"
+            android:textSize="@dimen/font_size_18sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/mail_base_list_bg"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_grp_center"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_60dp"
+                android:layout_below="@+id/title_convers"
+                android:background="@color/whites"
+                android:orientation="horizontal"
+                android:onClick="doGroupName"
+                android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/size_20dp"
+                    android:text="群名称"
+                    android:singleLine="true"
+                    android:textColor="@color/cor4"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/font_size_18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@color/cor4"
+                    android:gravity="right"
+                    android:text=""
+                    android:ellipsize="end"
+                    android:maxWidth="200dp"
+                    android:singleLine="true"
+                    android:id="@+id/tv_groupName"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/gd"
+                    android:layout_weight="0.4"
+                    android:layout_marginRight="@dimen/public_padding_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_grp_center1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_60dp"
+                android:layout_below="@+id/title_convers"
+                android:background="@color/whites"
+                android:orientation="horizontal"
+                android:onClick="doGroupMemeber"
+                android:gravity="center_vertical" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="@dimen/size_20dp"
+                    android:text="群成员"
+                    android:textColor="@color/cor4"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/font_size_18sp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@color/cor4"
+                    android:gravity="right"
+                    android:text=""
+                    android:id="@+id/tv_groupMemeber"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:src="@drawable/gd"
+                    android:layout_weight="0.4"
+                    android:layout_marginRight="@dimen/public_padding_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+            <test.grs.com.ims.view.WrapGridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:isScrollContainer="false"
+                android:listSelector="@drawable/bg_no_type"
+                android:numColumns="4"
+                android:paddingLeft="@dimen/public_padding_8"
+                android:paddingRight="@dimen/public_padding_8"
+                android:paddingTop="@dimen/public_padding_12"
+                android:paddingBottom="@dimen/public_padding_12"
+                android:scrollbars="none"
+                android:verticalSpacing="5dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_60dp"
+                android:background="@color/whites"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_mark_top_group"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/cor4"
+                    android:layout_marginLeft="@dimen/size_20dp"
+                    android:textSize="@dimen/font_size_16sp" />
+
+                <ToggleButton
+                    android:id="@+id/top_message_toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size_18dp"
+                    android:background="@drawable/btn_settings_on_off_slt"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+             <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_60dp"
+                android:background="@color/whites"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_mark_ignore"
+                    android:textColor="@color/cor4"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/size_20dp"
+                    android:textSize="@dimen/font_size_16sp" />
+
+                <ToggleButton
+                    android:id="@+id/ignore_message_toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size_18dp"
+                    android:background="@drawable/btn_settings_on_off_slt"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_60dp"
+                android:background="@color/whites"
+                android:id="@+id/rl_save_to"
+                android:visibility="gone"
+                android:gravity="center_vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menu_save_to"
+                    android:textColor="@color/cor4"
+                    android:gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="@dimen/size_20dp"
+                    android:textSize="@dimen/font_size_16sp" />
+                <ToggleButton
+                    android:id="@+id/save_to_toggleButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="32dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/size_18dp"
+                    android:background="@drawable/btn_settings_on_off_slt"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_1dp"
+                android:background="@drawable/divider_gray" />
+
+            <Button
+                android:id="@+id/clear_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn_radius"
+                android:onClick="doDeleteChatData"
+                android:text="@string/clear_chat_records"
+                android:textColor="@color/red"
+                android:textSize="@dimen/font_size_18sp" />
+            <Button
+                android:id="@+id/exit_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_50dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_radius"
+                android:onClick="doAddBlackList"
+                android:text="@string/add_chat_black"
+                android:textColor="@color/red"
+                android:textSize="@dimen/font_size_18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

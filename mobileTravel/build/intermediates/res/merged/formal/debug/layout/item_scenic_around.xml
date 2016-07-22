@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/base_bg"
+    android:layout_marginTop="0dp"
+    >
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout
+    android:layout_width="match_parent"
+    android:layout_height="177dp"
+    app:rippleInterceptTouchEvent="false"
+    app:rippleSuperTouch="true" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner_hint" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/fg_bottom_shadow"
+            android:layout_gravity="bottom"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:padding="8dp" >
+            <ImageView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/icon_audio"
+                android:orientation="horizontal"
+                android:padding="8dp"
+                android:id="@+id/home_item_isaudio" />
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <!--圆形的头像-->
+
+            <TextView
+                android:id="@+id/home_item_secnic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="20dp"
+                android:text="@string/home_item_name"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                />
+        </RelativeLayout>
+    </FrameLayout>
+
+    </com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>
+</LinearLayout>

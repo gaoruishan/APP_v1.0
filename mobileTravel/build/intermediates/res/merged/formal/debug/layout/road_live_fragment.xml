@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/base_grey_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_action_bar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <com.cmcc.hyapps.andyou.widget.VerticalScapeScrollerView
+                android:id="@+id/road_tab_ver"
+                android:layout_width="80dp"
+                android:layout_height="match_parent">
+
+            </com.cmcc.hyapps.andyou.widget.VerticalScapeScrollerView>
+
+            <TextView
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:background="#e1e1e1"/>
+
+            <FrameLayout
+                android:id="@+id/live_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginTop="6dp">
+
+            </FrameLayout>
+        </LinearLayout>
+        <!--<com.cmcc.hyapps.andyou.widget.LandScapeScrollerView-->
+            <!--android:id="@+id/road_tab"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="38dp"-->
+            <!--android:background="@color/base_grey_bg"-->
+            <!--android:visibility="gone">-->
+        <!--</com.cmcc.hyapps.andyou.widget.LandScapeScrollerView>-->
+
+
+    </LinearLayout>
+
+    <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+        android:id="@+id/live_loading_progress"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateOnly="true"/>
+
+</RelativeLayout>

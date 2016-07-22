@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:descendantFocusability="blocksDescendants" ><!--不允许button有默认焦点,否则长按无效 -->
+
+    <TextView
+        android:id="@+id/im_item_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:textColor="@color/cor19"
+        android:textSize="@dimen/font_size_12sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/im_item_date"
+        android:layout_marginTop="15dp" >
+
+        <test.grs.com.ims.view.CircleImageView
+            android:id="@+id/portrait"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/icon_chat_header" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/portrait" >
+
+            <TextView
+                android:id="@+id/tv_received_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:text=""
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:maxWidth="@dimen/size_120dp"
+                android:textColor="@color/cor4"
+                android:textSize="@dimen/size7"
+                android:visibility="gone" />
+
+            <test.grs.com.ims.view.BubbleImageView
+                android:id="@+id/iv_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_received_name"
+                android:adjustViewBounds="true"
+                android:maxHeight="240dp"
+                android:maxWidth="150dp"
+                android:minHeight="80dp"
+                android:minWidth="80dp"
+                android:src="@null"
+                app:bubble_angle="15dp"
+                app:bubble_arrowHeight="5dp"
+                app:bubble_arrowLocation="left"
+                app:bubble_arrowOffset="0dp"
+                app:bubble_arrowTop="17dp"
+                app:bubble_arrowWidth="5dp" />
+
+            <ImageButton
+                android:id="@+id/iv_send_state_outgoing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/iv_img"
+                android:background="@drawable/chat_error_bg"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

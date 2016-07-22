@@ -1,0 +1,26 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    tools:context="com.cmcc.hyapps.andyou.activity.ScenicSpotListActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/action_bar_height" >
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/iv_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="@dimen/common_margin"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/ic_service" />
+
+</FrameLayout>

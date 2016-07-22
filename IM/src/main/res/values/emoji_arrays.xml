@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="emoji_smiley_texts">
+        	<item>1f604</item>
+			<item>1f60a</item>
+			<item>1f603</item>
+			<item>263a</item>
+			<item>1f609</item>
+			<item>1f60d</item>
+			<item>1f618</item>
+			<item>1f61a</item>
+			<item>1f633</item>
+			<item>1f60c</item>
+			<item>1f601</item>
+			<item>1f61c</item>
+			<item>1f61d</item>
+			<item>1f612</item>
+			<item>1f60f</item>
+			<item>1f613</item>
+			<item>1f614</item>
+			<item>1f61e</item>
+			<item>1f616</item>
+			<item>1f625</item>
+			<!-- xxxxxxxxxxxxxxxxxxxx -->
+			<item>1f630</item>
+			<item>1f628</item>
+			<item>1f623</item>
+			<item>1f622</item>
+			<item>1f62d</item>
+			<item>1f602</item>
+			
+			
+			<item>1f632</item>
+			<item>1f631</item>
+			<item>1f620</item>
+			<item>1f621</item>
+			<item>1f62a</item>
+			<item>1f637</item>
+			
+			
+			<item>1f47f</item>
+			<item>1f47d</item>
+			<item>1f49b</item>
+			<item>1f499</item>
+			<item>1f49c</item>
+			<item>1f497</item>
+			
+			<item>1f49a</item>
+			<item>2764</item>
+			
+			
+			<!-- 
+			<item>1f494</item>
+			<item>1f493</item>
+			<item>1f498</item>
+			<item>2728</item>
+			<item>1f31f</item>
+			
+			
+			<item>1f4a2</item>
+			<item>2755</item>
+			<item>2754</item>
+			<item>1f4a4</item>
+			<item>1f4a8</item>
+			<item>1f4a6</item>
+			<item>1f3b6</item>
+			<item>1f3b5</item>
+			<item>1f525</item>
+			<item>1f4a9</item>
+			<item>1f44d</item>
+			<item>1f44e</item>
+			<item>1f44c</item>
+			<item>1f44a</item>
+			<item>270a</item>
+			<item>270c</item>
+			<item>1f44b</item>
+			<item>270b</item>
+			<item>1f450</item>
+			<item>1f446</item>
+			<item>1f447</item>
+			<item>1f449</item>
+			<item>1f448</item>
+			<item>1f64c</item>
+			<item>1f64f</item>
+			<item>261d</item>
+			<item>1f44f</item>
+			<item>1f4aa</item>
+			<item>1f6b6</item>
+			<item>1f3c3</item>
+			<item>1f46b</item>
+			<item>1f483</item>
+			<item>1f46f</item>
+			<item>1f646</item>
+			<item>1f645</item>
+			<item>1f481</item>
+			<item>1f647</item>
+			<item>1f48f</item>
+			<item>1f491</item>
+			<item>1f486</item>
+			<item>1f487</item>
+			<item>1f485</item>
+			<item>1f466</item>
+			<item>1f467</item>
+			<item>1f469</item>
+			<item>1f468</item>
+			<item>1f476</item>
+			<item>1f475</item>
+			<item>1f474</item>
+			<item>1f471</item>
+			<item>1f472</item>
+			<item>1f473</item>
+			<item>1f477</item>
+			<item>1f46e</item>
+			<item>1f47c</item>
+			<item>1f478</item>
+			<item>1f482</item>
+			<item>1f480</item>
+			<item>1f463</item>
+			<item>1f48b</item>
+			<item>1f444</item>
+			<item>1f442</item>
+			<item>1f440</item>
+			<item>1f443</item> -->
+    </string-array>
+    <string-array name="emoji_smiley_another_texts">
+        	<item>/:smile@</item>
+			<item>/:happy@</item>
+			<item>/:tooth@</item>
+			<item>/:laughter@</item>
+			<item>/:cry@</item>
+			<item>/:thin@</item>
+			<item>/:light@</item>
+			<item>/:mad@</item>
+			<item>/:clatter@</item>
+			<item>/:awkward@</item>
+			<item>/:shy@</item>
+			<item>/:simper@</item>
+			<item>/:sweat@</item>
+			<item>/:flash@</item>
+			<item>/:terrified@</item>
+			<item>/:sinister@</item>
+			<item>/:lol@</item>
+			<item>/:loveliness@</item>
+			<item>/:arrogance@</item>
+			<item>/:sleepy@</item>
+			<item>/:grim@</item>
+			<item>/:tear@</item>
+			<item>/:bud@</item>
+			<item>/:sea@</item>
+			<item>/:ill@</item>
+			<item>/:vomit@</item>
+			<item>/:lips@</item>
+			<item>/:kiss@</item>
+			<item>/:lust@</item>
+			<item>/:love@</item>
+			<item>/:cable@</item>
+			<item>/:naughty@</item>
+			<item>/:angel@</item>
+			<item>/:tongue@</item>
+			<item>/:stupid@</item>
+			<item>/:grievance@</item>
+			<item>/:however@</item>
+			<item>/:speechless@</item>
+			<item>/:monster@</item>
+			<item>/:perturbation@</item>
+			<item>/:glass@</item>
+			<item>/:dizzy@</item>
+			<item>/:blink@</item>
+			<item>/:abuse@</item>
+    </string-array>
+</resources>

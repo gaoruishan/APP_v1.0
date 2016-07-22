@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/video_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/road_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        app:corner_radius="5dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="178dp">
+
+        <TextView
+            android:id="@+id/road_content"
+            style="@style/scenery_cover_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/home_recommand"
+            android:drawablePadding="5dp"
+            android:textSize="18sp"/>
+    </RelativeLayout>
+
+</FrameLayout>

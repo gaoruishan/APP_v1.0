@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/pick_address_wheel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <com.cmcc.hyapps.andyou.widget.wheel.WheelView
+            android:id="@+id/pick_provice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+        </com.cmcc.hyapps.andyou.widget.wheel.WheelView>
+
+        <com.cmcc.hyapps.andyou.widget.wheel.WheelView
+            android:id="@+id/pick_city"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+        </com.cmcc.hyapps.andyou.widget.wheel.WheelView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pick_address_wheel"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pick_address_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="确定"/>
+
+        <Button
+            android:id="@+id/pick_address_cancle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="取消"/>
+    </LinearLayout>
+</RelativeLayout>

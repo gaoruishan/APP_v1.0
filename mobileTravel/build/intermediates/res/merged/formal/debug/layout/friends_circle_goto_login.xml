@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frieds_no_login_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="#80000000">
+    <ImageView
+        android:id="@+id/frieds_no_login_images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/friends_circle_no_login"/>
+    <Button
+        android:id="@+id/frieds_no_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/frieds_no_login_images"
+        android:background="@drawable/friends_circle_go_to_login"/>
+</RelativeLayout>

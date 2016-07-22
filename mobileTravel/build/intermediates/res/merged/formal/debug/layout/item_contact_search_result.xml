@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/search_result_item_panel"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="14dp"
+            android:src="@drawable/icon_default_avatar" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="3"
+            android:clickable="true"
+            android:id="@+id/ll_search_name"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="徐永杰"
+                android:textColor="@color/cor4"
+                android:textSize="@dimen/font_size_16sp" />
+            <TextView
+                android:id="@+id/username_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@id/name_textView"
+                android:textColor="@color/gray_font"
+                android:textSize="@dimen/font_size_13sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/search_result_add_contact_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:textSize="@dimen/font_size_16sp"
+            android:clickable="true"
+            android:background="@drawable/jgz"
+            android:textColor="@drawable/btn_text_green" />
+
+    </LinearLayout>
+
+</LinearLayout>

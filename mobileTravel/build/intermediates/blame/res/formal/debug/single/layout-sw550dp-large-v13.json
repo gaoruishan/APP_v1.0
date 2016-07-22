@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/layout-sw550dp-large-v13/umeng_socialize_titile_bar.xml",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/layout-sw550dp-large/umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/layout-sw550dp-large-v13/umeng_socialize_full_alert_dialog.xml",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/layout-sw550dp-large/umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/layout-sw550dp-large-v13/umeng_socialize_oauth_dialog.xml",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/layout-sw550dp-large/umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/build/intermediates/res/merged/formal/debug/layout-sw550dp-large-v13/umeng_socialize_post_share.xml",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/mobileTravel/src/main/res/layout-sw550dp-large/umeng_socialize_post_share.xml"
+    }
+]

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/me_switch_bg">
+
+    <RadioGroup
+        android:visibility="visible"
+        android:id="@+id/fragment_switch"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/my_travel"
+            android:button="@null"
+            android:text="自驾游"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_switch_selector"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/common_tab_color_selecter"
+            android:textSize="18sp"
+            />
+
+        <RadioButton
+            android:id="@+id/group_travel"
+            android:button="@null"
+            android:text="团队游"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/fragment_switch_selector"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/common_tab_color_selecter"
+            android:textSize="18sp"
+            />
+    </RadioGroup>
+
+</LinearLayout>

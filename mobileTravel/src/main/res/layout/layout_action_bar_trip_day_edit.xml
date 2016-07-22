@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_bar"
+    style="@style/action_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height" >
+
+    <ImageView
+        android:id="@+id/action_bar_left"
+        style="@style/action_tab_lr"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:id="@+id/action_bar_right_text"
+        style="@style/action_tab_lr"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:textColor="@color/base_bg"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:drawableRight="@drawable/ic_action_bar_arrow_collapse"
+        android:checked="true"
+        android:drawablePadding="6dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/base_bg"
+        android:textSize="21sp" />
+</RelativeLayout>

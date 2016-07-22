@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mediaplayersdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Rtsp_lib/libs/mediaplayersdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

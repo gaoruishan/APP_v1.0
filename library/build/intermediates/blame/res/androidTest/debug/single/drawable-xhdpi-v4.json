@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/indicator_arrow.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/gaoruishan/Android/Android Studio/Work_Projects/Trunk/APP_v1.0/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_flip.png"
+    }
+]

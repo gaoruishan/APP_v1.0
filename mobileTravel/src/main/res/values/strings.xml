@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="filebrowser_sdfail">Unable to open SD card. Please check it is mounted correctly.</string>
+    <string name="filebrowser_root">Root</string>
+    <string name="filebrowser_title">Select media to play</string>
+    <string name="ml_no_media_dir">No media directory</string>
+    <string name="sortby">Sort by…</string>
+    <string name="sortby_name">Name</string>
+    <string name="sortby_length">Length</string>
+    <string name="searchable_hint">Search…</string>
+    <string name="history">History</string>
+    <plurals name="search_found_results_quantity">
+        <item quantity="one">%d result found</item>
+        <item quantity="other">%d results found</item>
+    </plurals>
+    <string name="show_player">Show player</string>
+    <string name="hide_mini_player">Hide mini-player</string>
+    <string name="play">Play</string>
+    <string name="play_as_audio">Play as audio</string>
+    <string name="play_as_video">Play as video</string>
+    <string name="append">Append</string>
+    <string name="play_all">Play all</string>
+    <string name="append_all">Append all</string>
+    <string name="set_song">Set as ringtone</string>
+    <string name="info">Information</string>
+    <string name="confirm_delete">Delete the file \'%1$s\' ?</string>
+    <string name="pause">Pause</string>
+    <string name="close">Close</string>
+    <string name="not_show_again">"Don't show this message again."</string>
+    <string name="beta_warning">This is a beta version.\n\nThis version is NOT STABLE!\n\nDo NOT use, unless you know what you are doing.\n\nIt might kill your kitten, destroy your house and start the mayan apocalypse.\nUse it at your own risk.\n\nHave Fun! :)</string>
+    <string name="info_title">VLC Beta</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="unknown_genre">Unknown Genre</string>
+    <string name="songs">Songs</string>
+    <plurals name="songs_quantity">
+        <item quantity="one">1 song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <plurals name="albums_quantity">
+        <item quantity="one">1 album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="subfolders_quantity">
+        <item quantity="one">1 subfolder</item>
+        <item quantity="other">%d subfolders</item>
+    </plurals>
+    <string name="parent_folder">Up to parent folder</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="all_albums">All albums</string>
+    <string name="genres">Genres</string>
+    <string name="playlists">Playlists</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="directory">Directory</string>
+    <string name="directories">Directories</string>
+    <string name="loading">Loading…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="nomedia">No media files found, please transfer files to your device or adjust your preferences.</string>
+    <string name="mediafiles">Media files</string>
+    <string name="notavailable">not available</string>
+    <string name="nosubdirectory">No subdirectories.</string>
+    <string name="validation">Are you sure?</string>
+    <string name="lock_rotation">Lock screen rotation</string>
+    <string name="locked">Locked</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="surface_best_fit">Best fit</string>
+    <string name="surface_fit_horizontal">Fit horizontal</string>
+    <string name="surface_fit_vertical">Fit vertical</string>
+    <string name="surface_fill">Fill</string>
+    <string name="surface_original">Center</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="refresh">Refresh</string>
+    <string name="track_audio">Audio track</string>
+    <string name="track_video">Video track</string>
+    <string name="track_text">Subtitles track</string>
+    <string name="track_unknown">Unknown track</string>
+    <string name="track_codec_info">Codec: %1$s\n</string>
+    <string name="track_language_info">Language: %1$s\n</string>
+    <plurals name="track_channels_info_quantity">
+        <item quantity="one">1 channel\n</item>
+        <item quantity="other">%1$d channels\n</item>
+    </plurals>
+    <string name="track_samplerate_info">Sample rate: %1$d Hz\n</string>
+    <string name="track_resolution_info">Resolution: %1$dx%2$d\n</string>
+    <string name="track_framerate_info">Frame rate: %1$.3f\n</string>
+    <string name="open">Open</string>
+    <string name="open_mrl">Open MRL</string>
+    <string name="open_mrl_dialog_title">Open network stream</string>
+    <string name="open_mrl_dialog_msg">Enter network MRL: e.g. http://, mms:// or rtsp://</string>
+    <string name="media_library">Media library</string>
+    <string name="error_not_compatible">Sorry, your device is currently not supported by this version of VLC for Android™.</string>
+    <string name="error_problem">Sorry, VLC for Android had a problem loading and had to close.</string>
+    <string name="error_message_is">The error message is (please mention this when debugging):\n</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="time_0" translatable="false">0:00</string>
+    <string name="speed_placeholder" translatable="false">1.00x</string>
+
+    <!-- About -->
+    <string name="app_name_full">VLC for Android™</string>
+    <string name="version">Version</string>
+    <string name="licence">Licence</string>
+    <string name="revision">Revision</string>
+    <string name="about">About</string>
+    <string name="about_text">VLC for Android™ is a port of VLC media player, the popular open source media player. The Android™ version can read most files and network streams.</string>
+    <string name="for_android">for Android™</string>
+    <string name="compiled_by">This version of VLC is compiled by:</string>
+    <string name="vlc_authors">VLC Authors.</string>
+    <string name="about_link" translatable="false">
+        &lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;http://www.videolan.org/vlc/&lt;/a&gt;</string>
+    <string name="authors" translatable="false">Sébastien&#160;Toque, Rafaël&#160;Carré, Jean-Baptiste&#160;Kempf, Edward&#160;Wang, Michael&#160;Merg, Ludovic&#160;Fauvet, Adrien&#160;Maglo, Rémi&#160;Duraffort, Dominique&#160;Martinet, Jean-Philippe&#160;André, Martin&#160;Storsjö, Alexandre&#160;Perraud, Hugo&#160;Beauzée-Luyssen, Felix&#160;Paul&#160;Kühne, John Mooring, Pavol Rusnak, Rohit Yadav, Tanguy Pruvot, Thomas Clavier, Asad Mehmood, Christoph Miebach, David Carré, Garret Kelly, Philipp Dreimann, Walter Heck.</string>
+
+    <!--  Preferences -->
+    <string name="preferences">Preferences</string>
+    <string name="main_prefs_category">Main</string>
+    <string name="privacy_prefs_category">Privacy</string>
+    <string name="clear_history">Clear search history</string>
+    <string name="advanced_prefs_category">Advanced</string>
+    <string name="enable_iomx">Enable hardware accelerated decoding</string>
+    <string name="advanced_debugging">Advanced debugging</string>
+    <string name="clear_media_db">Clear media database</string>
+    <string name="media_db_cleared">Media database cleared!</string>
+    <string name="set_locale">Set locale</string>
+    <string name="set_locale_detail">Leave blank to reset</string>
+    <string name="set_locale_popup">Quit and reset VLC for changes to take effect.</string>
+    <string name="detect_headset">Detect headset</string>
+    <string name="detect_headset_detail">Pause on headset removed; resume on headset inserted</string>
+    <string name="enable_wheel_bar">Enable wheel bar</string>
+    <string name="enable_gesture_brightness">Enable brightness gesture</string>
+    <string name="enable_verbose_mode">Verbose</string>
+    <string name="enable_verbose_mode_detail">Increase the verbosity (logcat)</string>
+    <string name="aout">Audio output</string>
+    <string name="aout_audiotrack">AudioTrack (native)</string>
+    <string name="aout_audiotrack_java">AudioTrack (Java)</string>
+    <string name="aout_opensles">OpenSL ES</string>
+    <string name="enable_time_stretching_audio">Enable time-stretching audio</string>
+    <string name="enable_time_stretching_audio_detail">Speed up and slow down audio without changing the pitch (requires a fast device)</string>
+    <string-array name="aouts_froyo">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+    </string-array>
+    <string-array name="aouts">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+        <item>@string/aout_opensles</item>
+    </string-array>
+
+    <string name="vlc_demo_dir">文件夹</string>
+    <string name="video_player_best_fit">最为合适</string>
+    <string name="video_player_fit_horizontal">水平匹配</string>
+    <string name="video_player_fit_vertical">垂直匹配</string>
+    <string name="video_player_fill">填充</string>
+    <string name="video_player_16x9">16:9</string>
+    <string name="video_player_4x3">4:3</string>
+    <string name="video_player_original">居中</string>
+
+    <string name="app_name">和畅游</string>
+    <!-- BEGIN Introduce -->
+    <string name="enter_btn">立即进入</string>
+    <!-- END Introduce -->
+
+
+    <!-- BEGIN Common -->
+    <string name="content_description"></string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_cancel_sending">取消发送</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+    <string name="create">创建</string>
+    <string name="error_not_login">需要登录</string>
+    <string name="error_no_sdcard">未找到SD卡</string>
+    <string name="error_sdcard_not_rw">SD卡不能读写</string>
+    <string name="error_unknown">未知错误</string>
+    <string name="press_back_to_exit">再按一次 退出程序</string>
+    <string name="text_empty">空空如也</string>
+    <string name="loading_failed">加载失败</string>
+    <string name="page_index">%1$d/%2$d</string>
+    <string name="click_screen_to_reload">加载失败，点击屏幕重新加载</string>
+    <string name="software_update">软件更新</string>
+    <string name="network_unavailable">网络异常，请稍后重试</string>
+    <string name="network_timeout">网络链接超时</string>
+    <string name="upload_success">上传成功</string>
+    <string name="msg_no_more_data">没有更多内容啦！</string>
+    <string name="zero">0</string>
+    <string name="delete">删除</string>
+    <string name="quit">退出</string>
+    <string name="msg_list_reach_end">已经是最底部了</string>
+    <string name="error_network">搜索失败,请检查网络连接！</string>
+    <string name="error_key">key验证无效！</string>
+    <string name="error_other">未知错误，请稍后重试!错误码为</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <!-- END Common -->
+
+
+    <!-- BEGIN Bottom tab -->
+    <string name="bottom_tab_title_destiy">首页</string>
+    <string name="bottom_tab_title_areas">景区</string>
+    <string name="bottom_tab_title_live">发现</string>
+    <string name="bottom_tab_title_market">商户</string>
+    <string name="bottom_tab_title_friends_circle">圈子</string>
+    <string name="bottom_tab_title_me">我的</string>
+    <!-- END Bottom tab -->
+
+
+    <!-- BEGIN Scenic -->
+    <string name="action_bar_title_scenic">景区</string>
+    <string name="get_location_timeout">获取位置超时</string>
+    <string name="location_failed">定位失败，点击手动定位</string>
+    <string name="action_bar_title_city">城市选择</string>
+    <string name="city_list_hint">输入城市或拼音</string>
+    <string name="detected_city">定位城市</string>
+    <string name="hot_cities">热门城市</string>
+    <string name="unknown_city">未定位</string>
+    <!-- END Scenic -->
+
+
+    <!-- BEGIN Search -->
+    <string name="hint_action_bar_search_scenic">青海</string>
+    <string name="hint_action_bar_search_video">搜索视频</string>
+    <string name="search_hot_scenics">热门景区</string>
+    <string name="search_target">目的地</string>
+    <string name="search_result">搜索结果</string>
+    <!-- END Search -->
+
+
+    <!-- BEGIN Live -->
+    <string name="action_bar_title_live">实况</string>
+    <string name="hint_live_search">输入关键字</string>
+    <string name="live_share">游客分享</string>
+    <string name="live_recommend">推荐视频</string>
+    <string name="video_play_times">播放：%1$d 次</string>
+    <string name="video_play_error">播放出错</string>
+    <!-- END Live -->
+
+
+    <!-- BEGIN Trip -->
+    <string name="action_bar_title_discovery">发现</string>
+    <string name="action_bar_title_trip_list">编辑游记</string>
+    <string name="action_bar_title_trip_day_edit">写路书</string>
+    <string name="action_bar_title_trip_detail">游记</string>
+    <string name="action_bar_title_trip_write">创建游记</string>
+    <string name="action_bar_title_my_trip_detail">写游记</string>
+    <string name="trip_add">添加新的游记</string>
+    <string name="trip_add_map_info">点击添加地图信息</string>
+    <string name="trip_share_title">分享</string>
+    <string name="timeline_trip_add_city">添加目的地</string>
+    <string name="timeline_trip_add_content">添加旅行感悟</string>
+    <string name="trip_content_edit_input_hint">来说点感想吧</string>
+    <string name="trip_not_publish">未发布</string>
+    <string name="trip_has_update">有更新</string>
+    <string name="trip_format_date">第%1$d天 yyyy-MM-dd</string>
+    <string name="trip_format_date_count">%1$d天</string>
+    <string name="trip_unknown_scenic">未知地点</string>
+    <string name="trip_dropdown_add">创建新的攻略</string>
+    <string name="error_title_less_length">标题不能少于三个字</string>
+    <string name="error_title_more_length">标题最长16个字</string>
+    <string name="dialog_title_publishing_trips">发送提示</string>
+    <string name="dialog_content_publishing_trips_image">正在上传图片...</string>
+    <string name="dialog_content_publishing_trips">正在发表攻略，请稍后</string>
+    <string name="trip_day_post_failed">路书发表失败</string>
+    <string name="radiers_day_post_failed">攻略发表失败</string>
+    <string name="trip_day_post_failed_no_photo">拍张照片吧</string>
+    <string name="bottom_tab_share">分享</string>
+    <!-- END Trip -->
+
+
+    <!-- BEGIN Me -->
+    <string name="action_bar_title_me">我的</string>
+    <string name="action_bar_title_user_profile">个人信息</string>
+    <string name="me_item_publish">我的发布</string>
+    <string name="me_item_trends">我的动态</string>
+    <string name="me_item_trends_information">动态详情</string>
+    <string name="me_item_collect">我的收藏</string>
+    <string name="me_item_message">我的消息</string>
+    <string name="me_item_download">我的消息</string>
+    <string name="user_information_his_trends">TA的动态</string>
+    <string name="user_information_his_publish">TA的发布</string>
+    <string name="user_information_his_travel">TA的游记</string>
+    <string name="user_information_his_argument">TA的点评</string>
+    <string name="user_information_his_collect">TA的收藏</string>
+    <!--
+    设置
+    -->
+    <string name="me_item_blacklist">黑名单设置</string>
+    <!--意见反馈在别的地方-->
+    <string name="me_item_share">推荐给朋友</string>
+    <string name="me_item_renovate">检查更新</string>
+    <string name="me_item_clear">清除缓存</string>
+    <string name="me_item_about">关于</string>
+
+    <string name="me_item_journey">我的行程</string>
+    <string name="me_item_settings">设置</string>
+    <string name="me_item_avatar">头像</string>
+    <string name="me_item_name">名字</string>
+    <string name="me_item_nickname">昵称</string>
+    <string name="me_item_sexy">性别</string>
+    <string name="me_item_address">所在地</string>
+    <string name="me_item_introduce">简介</string>
+    <string name="me_item_phone">手机号</string>
+    <string name="hint_me_login">点击登录</string>
+    <string name="msg_user_name_change_success">用户名更新成功</string>
+    <string name="msg_user_name_change_failed">用户名更新失败</string>
+    <string name="msg_user_avata_change_success">用户头像更新成功</string>
+    <string name="msg_user_avata_change_failed">用户头像更新失败</string>
+    <!-- END Me -->
+
+
+    <!-- BEGIN Settings -->
+    <string name="action_bar_title_settings">设置</string>
+    <string name="settings_item_comment">去评价</string>
+    <string name="settings_item_feedback">意见反馈</string>
+    <string name="settings_item_qrcode">官方微信</string>
+    <string name="settings_item_about">关于</string>
+    <string name="settings_item_logout">注销登录</string>
+    <string name="settings_dialog_content_logout">是否确定注销登录</string>
+    <!-- END Settings -->
+
+
+    <!-- BEGIN Favorites -->
+    <string name="action_bar_title_favorites">想去的地方</string>
+    <string name="action_bar_right_edit">编辑</string>
+    <!-- END Favorites -->
+
+
+    <!-- BEGIN Scenic detail -->
+    <string name="action_bar_title_scenic_detail">景区详情</string>
+    <string name="scenery_detail_play_title">景区导览</string>
+    <string name="scenery_detail_play_summary">一座来了就不想走的城市...</string>
+    <string name="scenery_detail_play">收听</string>
+    <string name="scenery_detail_func_scenery">景点</string>
+    <string name="scenery_detail_func_listen">收听</string>
+    <string name="scenery_detail_func_navi">导航</string>
+    <string name="scenery_detail_func_live">微视</string>
+    <string name="scenery_detail_func_live_title">自游微视</string>
+    <string name="scenery_detail_func_service">服务</string>
+    <string name="scenery_detail_title_comment">自游说</string>
+    <string name="scenery_detail_service_dial_complaint">拨打投诉电话：%1$s</string>
+    <string name="scenery_detail_service_dial_help">拨打求助电话：%1$s</string>
+    <string name="scenery_detail_service_dialog_title">景区服务</string>
+    <string name="scenery_detail_wish_to_go">想去</string>
+    <string name="scenery_detail_loading_comments">正在加载评论列表</string>
+    <string name="weather_pm25">PM2.5  %1$s</string>
+    <string name="weather_temperature_range">%1$d~%2$d &#x2103;</string>
+    <string name="address">景区地址：%1$s</string>
+    <string name="open_hours">开放时间：%1$s</string>
+    <string name="ticket_price">门票价格：%1$s</string>
+    <string name="scenic_level">景区星级：%1$s</string>
+    <string name="nearby_count">%1$d人在附近</string>
+    <string name="audio_resource_unavailable">暂无音频资源</string>
+    <string name="offline_download">离线下载</string>
+    <string name="offline_download_delete_confirm">确认删除吗？</string>
+    <string name="offline_download_prompt">%1$s景区离线包共%2$s, 是否下载？</string>
+    <string name="map_pop_up_distance">距离：%1$s</string>
+    <string name="scenic_video_title">微视</string>
+    <string name="action_bar_title_record_video">录制视频</string>
+    <string name="error_already_voted">已经点过赞了</string>
+    <string name="scenic_info_any">%1$s：%2$s</string>
+    <string name="distance_less_than">&lt;%1$s</string>
+    <string name="recommend_route">推荐路线</string>
+    <string name="route">路线</string>
+    <string name="route_info">%1$s个景点</string>
+    <string name="general_cost">人均：%1$s元</string>
+    <string name="no_route_available">暂无导航路线</string>
+    <string name="route_failed">路线规划失败</string>
+    <!-- END Scenic -->
+
+
+    <!-- BEGIN Comment edit -->
+    <string name="action_bar_title_comment_edit">写点评</string>
+    <string name="comment_edit_input_rating">请输入评分</string>
+    <string name="comment_edit_input_content">请输入评论内容</string>
+    <string name="comment_edit_input_hint">这个景区怎么样</string>
+    <string name="comment_edit_from_album">从相册中选取</string>
+    <string name="comment_edit_from_camera">拍照</string>
+    <string name="comment_edit_preview">查看大图</string>
+    <string name="dialog_title_publishing_comments">发送提示</string>
+    <string name="dialog_content_publishing_comments">正在发表评论，请稍后</string>
+    <string name="hint_new_comment">输入内容</string>
+    <string name="error_no_comment">说点什么吧</string>
+    <string name="comment_post_failed">发表失败</string>
+    <string name="comment_post_sucess">发表成功</string>
+    <string name="pick_image_max_limit_hint">您最多只能选择%1$s张图片</string>
+    <string name="action_title_choose_image">选择图片</string>
+    <string name="scenic_comment_rating_text">景区评分</string>
+    <!-- END Comment edit -->
+
+
+    <!-- BEGIN Video upload -->
+    <string name="action_bar_title_video_upload">发布微视</string>
+    <string name="video_upload_input_hint">给你拍的视频起个拉风的名字吧~</string>
+    <string name="dialog_title_publishing_video">上传提示</string>
+    <string name="dialog_content_publishing_video">正在上传视频... %1$d%%</string>
+    <string name="video_post_error">视频上传失败</string>
+    <string name="video_error_missing_title">给你的视频起个名字吧</string>
+    <string name="video_error_not_support">没有视频录制客户端</string>
+    <string name="dialog_title_camera_disabled">权限许可</string>
+    <string name="dialog_content_camera_disabled">
+        应用摄像头权限被禁用，请前应用权限设置页面打开</string>
+    <!-- END Video upload -->
+
+
+    <!-- BEGIN Download -->
+    <string name="action_bar_title_download">我的下载</string>
+    <string name="download_process">%d%</string>
+    <string name="error_download_reach_max">任务队列已满</string>
+    <!-- END Download -->
+
+
+    <!-- BEGIN Navigation -->
+    <string name="action_bar_title_navi">导航</string>
+    <string name="action_bar_title_navi_route">景点路线规划</string>
+    <string name="action_bar_right_route">路线</string>
+    <string name="tab_recommend">推荐路线</string>
+    <string name="tab_density">旅客密度</string>
+    <string name="navi_route_distance">距离当前位置：%1$s</string>
+    <string name="start_routing">开始导航</string>
+    <!-- END Navigation -->
+
+    <string name="more">更多</string>
+    <string name="nearby_scenic">附近景区</string>
+    <string name="recommend_scenic">推荐景区</string>
+    <string name="search">搜索</string>
+    <string name="search_result_scenic">景区</string>
+    <string name="search_result_trips">游记</string>
+
+    <!-- BEGIN Service -->
+    <string name="service_food">餐饮</string>
+    <string name="service_food_title">周边餐饮</string>
+    <string name="service_traffic">交通</string>
+    <string name="service_hotel">酒店</string>
+    <string name="service_hotel_title">周边酒店</string>
+    <string name="service_specialty">特产</string>
+    <string name="service_specialty_title">周边商铺</string>
+    <string name="service_complaint">投诉</string>
+    <string name="service_help">求助</string>
+    <string name="service_video">发布微视</string>
+    <string name="service_picture">发布美图</string>
+    <string name="service_wc">厕所</string>
+    <string name="service_wc_title">周边厕所</string>
+    <string name="service_food_keyword">餐饮</string>
+    <string name="service_hotel_keyword">酒店</string>
+    <string name="service_specialty_keyword">购物</string>
+    <string name="service_wc_keyword">厕所</string>
+    <string name="action_bar_title_post_images">发布美图</string>
+    <string name="dialog_content_posting_images">正在发布，请稍后</string>
+    <string name="dialog_content_posting_images_progress">正在上传第%1$d张图片...</string>
+    <string name="post_image_input_title">请输入标题</string>
+    <string name="post_image_add_images">请添加要发布的图片</string>
+    <string name="post_image_input_hint">写句美好的心情吧</string>
+    <string name="image_post_success">发布成功</string>
+    <string name="image_post_failed">发布失败</string>
+    <string name="service_address">地址：%1$s</string>
+    <!-- END Service -->
+
+
+    <!-- BEGIN Listen -->
+    <string name="duration_format_short" translatable="false">%2$d:%5$02d</string>
+    <string name="duration_format_long" translatable="false">%1$d:%3$02d:%5$02d</string>
+    <string name="auto_guide">边走边听</string>
+    <string name="allusion">历史典故</string>
+    <string name="playback_error">播放错误</string>
+    <string name="auto_guide_on">自动导游打开</string>
+    <string name="auto_guide_off">自动导游关闭</string>
+    <string name="audio_invalid">音频地址无效</string>
+    <string name="audio_title_intro" translatable="false">简介</string>
+    <string name="auto_guide_hint">正在收听%1$s景点简介</string>
+    <string name="auto_guide_prompt">需要退出边走边听才能收听</string>
+
+    <string name="map_listen_summary_title">简介</string>
+    <string name="map_listen_story_title">典故</string>
+
+    <!-- END Listen -->
+
+
+    <!-- BEGIN Login -->
+    <string name="action_bar_title_login">快速登录</string>
+    <string name="action_bar_title_change_pwd">更改密码</string>
+    <string name="register_welcome">欢迎来到自游无限</string>
+    <string name="hint_register_input_phone_num">填写手机号码</string>
+    <string name="hint_register_input_pwd">请输入密码</string>
+    <string name="hint_register_input_security_code">请输入验证码</string>
+    <string name="register_btn_send_security_code">获取验证码</string>
+    <string name="register_btn_security_code_sending">发送中</string>
+    <string name="register_btn_count_time">%ds后重新发送</string>
+    <string name="register_btn_security_code_resend">重新发送验证码</string>
+    <string name="error_security_code_expire">验证码过期</string>
+    <string name="register_btn_register">注册</string>
+    <string name="register_text_protocol">注册即同意</string>
+    <string name="register_text_protocol_link">&lt;自游无限用户协议 &gt;</string>
+    <string name="hint_forget_input_phone_num">填写手机号码</string>
+    <string name="hint_change_input_password">输入新的密码</string>
+    <string name="hint_change_input_password_confirm">验证新的密码</string>
+    <string name="hint_forget_input_security_code">输入验证码</string>
+    <string name="forget_btn_send_security_code">发送验证码</string>
+    <string name="forget_btn_next">下一步</string>
+    <string name="hint_login_input_phone_num_indicate">手机号</string>
+    <string name="hint_login_input_email_indicate">邮箱</string>
+    <string name="hint_login_input_phone_num">请输入11位手机号码</string>
+    <string name="hint_login_input_email">请输入邮箱</string>
+    <string name="hint_login_input_ok_email">请输入正确的邮箱</string>
+    <string name="hint_login_input_ok_password">密码8-16位必须包含数字和字母,且以字母开头</string>
+    <string name="hint_login_input_password">请输入密码</string>
+    <string name="hint_login_input_register_email">请输入注册邮箱</string>
+    <string name="hint_login_input_email_password">请输入密码</string>
+    <string name="hint_login_input_fresh_email_password">请输入新密码</string>
+    <string name="hint_login_input_pwd_indicate">验证码</string>
+    <string name="hint_login_input_pwd">请输入验证码</string>
+    <string name="hint_login">输入验证码即可登录，无需注册。</string>
+    <string name="login_btn_login">登录</string>
+    <string name="find_password_commit">提交</string>
+    <string name="find_password_change_code">换一张</string>
+    <string name="login_btn_forget">忘记密码？</string>
+    <string name="find_password">找回密码</string>
+    <string name="login_btn_register">注册</string>
+    <string name="action_bar_title_password">重置密码</string>
+    <string name="hint_username_input">取个闪亮的名字吧</string>
+    <string name="hint_password_input">输入新密码</string>
+    <string name="hint_password_input_ensure">确认密码</string>
+    <string name="third_login">使用合作账号登录</string>
+    <string name="register_progress_start">正在注册帐号&#8230;</string>
+    <string name="login_progress_start">正在登录&#8230;</string>
+    <string name="prompt_password">密码</string>
+    <string name="prompt_password_updated">密码修改成功</string>
+    <string name="error_phone_empty">手机号为空</string>
+    <string name="error_password_empty">密码为空</string>
+    <string name="error_phone_not_exist">用户未注册</string>
+    <string name="error_phone_exist">用户名已存在</string>
+    <string name="error_incorrect_password">密码不正确</string>
+    <string name="error_invalid_phone">手机号码不正确</string>
+    <string name="error_invalid_password">密码不正确</string>
+    <string name="error_mismatch_password">密码不一致</string>
+    <string name="error_invalid_password_short">密码太短</string>
+    <string name="error_invalid_password_short_register">请输入6~16位字符</string>
+    <string name="error_invalid_confirm_code">验证码错误</string>
+    <string name="error_confirm_code_required">请输入验证码</string>
+    <string name="error_field_required">此项不能为空</string>
+    <string name="error_avata_update_failed">头像更新失败</string>
+    <!-- END Login -->
+
+
+    <!-- BEGIN Official -->
+    <string name="action_bar_title_official">官方微信</string>
+    <string name="official_category_qrcode">二维码</string>
+    <string name="official_category_account">帐号</string>
+    <!-- END Official -->
+
+
+    <!-- BEGIN Publish -->
+    <string name="action_bar_title_trips">我的游记</string>
+    <string name="tab_publish">我的发布</string>
+    <string name="tab_comment">我的点评</string>
+    <!-- END Publish -->
+
+
+    <!-- BEGIN Traffic -->
+    <string name="action_bar_title_traffic">交通</string>
+    <!-- END Traffic -->
+
+
+    <!-- BEGIN Itinerary -->
+    <string name="action_bar_title_journey">我的旅程</string>
+    <string name="action_bar_title_spot_pick">选择景点</string>
+    <string name="journey_summary_format">%1$s -- %2$s&#160;&#160;共%3$d天</string>
+    <string name="journey_detail_categary_format">第%1$d天(%2$s)</string>
+    <string name="journey_spot_title_format">景点%1$d</string>
+    <string name="journey_detail_title">景点</string>
+    <string name="journey_btn_next">下一步</string>
+    <string name="journey_input_title">标题</string>
+    <string name="journey_input_start_date">出发日期</string>
+    <string name="journey_btn_add_target">添加目的地</string>
+    <string name="journey_day_index">第%1$d天</string>
+    <string name="msg_no_itinerary">你可以添加行程到本页面</string>
+    <string name="timeline_add_day">增加天数</string>
+    <string name="timeline_add_city">添加城市</string>
+    <string name="timeline_add_scenic">添加景点</string>
+    <string name="itinerary_hot_spot">热门景点</string>
+    <!-- END Itinerary -->
+
+
+    <!-- BEGIN Listen -->
+    <string name="listen">-收听</string>
+    <!-- END Listen -->
+
+
+    <!-- BEGIN My Tracks -->
+    <string name="action_bar_title_my_tracks">我的足迹</string>
+    <!-- END My Tracks -->
+
+
+    <!-- BEGIN City choose -->
+    <string name="action_bar_title_city_choose">城市选择</string>
+    <string name="hint_input_city">输入城市或拼音</string>
+    <string name="city_choose_loc">定位城市</string>
+    <string name="city_choose_hot">热门城市</string>
+    <!-- END City choose -->
+
+
+    <!-- BEGIN Feedback -->
+    <string name="action_bar_title_feedback">意见反馈</string>
+    <string name="hint_input_content">请输入您的意见，我们会为您不断改进我们的产品</string>
+    <string name="hint_input_contact">您的联系方式：手机/QQ/邮箱</string>
+    <string name="msg_feedback_success">谢谢您的反馈</string>
+    <string name="msg_feedback_error">反馈失败</string>
+    <string name="msg_feedback_contact_empty">请输入联系方式</string>
+    <string name="msg_feedback_content_empty">请给点反馈建议吧</string>
+    <!-- END Feedback -->
+
+
+    <!-- BEGIN About -->
+    <string name="action_bar_title_about">关于</string>
+    <string name="about_version_name">版本:%1$s</string>
+    <string name="about_current_newest">当前最新版本</string>
+    <string name="about_content">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;自游无限是一家专注于智慧旅游产品发展的移动互联网企业，是新型互联网企业，创新双软企业，高新技术公司，发展目标“打造智慧景区旅游第一品牌“。</string>
+    <string name="about_copyright">自游无限 www.selftravel.com.cn</string>
+    <!-- END About -->
+
+
+    <!-- Title summarizing active downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_active">
+        <item quantity="one">1 file downloading</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> files downloading</item>
+    </plurals>
+
+    <!-- Title summarizing waiting downloads. [CHAR LIMIT=32] -->
+    <plurals name="notif_summary_waiting">
+        <item quantity="one">1 file waiting</item>
+        <item quantity="other"><xliff:g id="number">%d</xliff:g> files waiting</item>
+    </plurals>
+
+    <string name="notification_download_complete">"下载已完成。"</string>
+    <string name="notification_download_failed">"下载失败。"</string>
+    <string name="notification_need_wifi_for_size">"文件过大，需要通过WLAN网络下载。"</string>
+    <string name="notification_paused_in_background">"已在后台暂停。"</string>
+    <string name="download_percent">已下载%1$d%%</string>
+    <string name="download_remaining">%1$s</string>
+    <!--
+    <string name="duration_seconds">$1%d秒</string>
+    <string name="duration_minutes">$1%d分钟</string>
+    <string name="duration_hours">$1%d小时</string>
+    -->
+    <string name="msg_emoji_not_support">暂不支持Emoji表情</string>
+    <string name="hainan">海南用户</string>
+    <string name="non_hainan">非海南用户</string>
+
+    <!-- User home -->
+    <string name="home_tab_loacl_special">游记攻略</string>
+    <string name="home_tab_food">路线</string>
+    <string name="home_tab_live">景点直播</string>
+    <string name="home_tab_scenic_360">景区360°</string>
+    <string name="home_tab_road_condition">路况直播</string>
+    <string name="home_tab_4s">4s店</string>
+    <string name="home_tab_hotel">景点导航</string>
+    <string name="home_tab_enjoy">吃喝玩乐</string>
+    <string name="home_recommand">特色推荐</string>
+    <string name="home_tab_guide">私人导游</string>
+    <string name="home_my_near">我的附近</string>
+    <string name="home_item_intro">故宫是神圣向往之地，风景很美</string>
+    <string name="home_item_name">故宫博物院</string>
+    <string name="home_nearby_restaurant">路线</string>
+    <string name="home_nearby_restaurant_detail">餐厅详情</string>
+    <string name="home_nearby_hotel_detail">酒店详情</string>
+    <string name="home_nearby_hotel">导航</string>
+    <string name="home_bed_name">大床</string>
+    <string name="home_bed_info">wifi 2米大床</string>
+    <string name="home_bed_price">￥%1$s</string>
+    <string name="home_bed_price_tip">起</string>
+    <string name="home_restaurant_address">车公庄2号楼</string>
+    <string name="home_restaurant_name">俏江南</string>
+
+    <string name="send_argument">发送</string>
+    <string name="rest_info">商户信息</string>
+    <string name="rest_special">特色推荐</string>
+    <string name="rooms_info">房间信息</string>
+    <string name="rest_special_foods">宫保鸡丁   牛柳</string>
+    <string name="rest_tel">订餐电话：%1$s</string>
+    <string name="hotel_tel">酒店电话：%1$s</string>
+    <string name="rest_address">地址：%1$s</string>
+    <string name="home_restaurant_distance">%1$dm</string>
+    <string name="home_restaurant_average_cost_tip">人均:</string>
+    <string name="home_restaurant_average_cost">￥%1$s</string>
+    <string name="home_restaurant_average_cost_tips">人均:</string>
+    <string name="home_item_distance">%1$dkm</string>
+    <string name="home_select_city">选择城市</string>
+    <string name="rest_detail_title">餐厅详情</string>
+    <string name="special_detail_title">特产详情</string>
+    <string name="special_title">攻略</string>
+    <string name="special_intro_title">特产介绍</string>
+    <string name="home_defaulst_city">北京</string>
+    <string name="map_dialog_secnic_name">颐和园</string>
+    <string name="map_dialog_secnic_wait">敬请期待</string>
+    <string name="map_dialog_secnic_distance">%1$d米</string>
+    <string name="home_defaulst_cityen">beijing</string>
+    <string name="map_auto_guide_fail">亲，您当前不在景区内，无法使用边走边听！</string>
+    <string name="map_secnic_no_audio">亲，当前景点没有音频,可以看文字介绍！</string>
+    <!-- User agreement -->
+    <string name="action_bar_title_agreement">用户协议</string>
+    <string name="content_agreement">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;欢迎您来到自游无限（http://www.ziyou01.com及自游无限手机应用），请您仔细阅读以下条款，该条款适用于用户与自游无限的交互行为以及用户登记和使用自游无限的在线服务，当用户注册成功，即意味着用户完全接受本条款下的全部内容。\n\n
+1. 使用规则\n\n
+1.1 用户注册成功后，用户将获得自游无限用户帐号及相应的密码，该用户帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。用户须对在自游无限的注册信息的真实性、合法性、有效性承担全部责任，否则自游无限有权立即停止提供服务，收回其帐号并由用户独自承担由此产生的一切法律责任。\n
+1.2 用户不得以任何方式利用自游无限直接或间接从事违反中国法律和社会公德的行为；不得利用自游无限服务制作、上载、复制、发布、传播或者转载违反中国法律和社会公德的内容。\n
+1.3 自游无限有权对用户使用自游无限的情况进行审查和监督，如用户在使用自游无限时违反任何上述规定，自游无限或其授权的人有权要求用户改正或直接采取一切必要的措施（包括但不限于更改或删除用户张贴的内容、暂停或终止用户使用自游无限的权利）以减轻用户不当行为造成的影响。并且自游无限的相关系统记录有可能作为用户违反法律的证据，并应司法机关的要求而据实提交给司法机关。\n\n
+2. 所有权及版权\n\n
+2.1 自游无限提供的服务内容可能包括：文字、软件、声音、图片、录像、图表等。所有这些内容受版权、商标和其它财产所有权法律的保护。\n
+2.2 用户只有在获得自游无限或其他相关权利人的授权之后才能使用这些内容，不能擅自复制、再造这些内容、或创造与内容有关的派生产品。\n
+2.3 自游无限鼓励用户充分利用自游无限平台自由地张贴和共享自己的信息，但这些内容必须位于公共领域内，或者用户拥有这些内容的使用权。同时，用户对于其创作并在自游无限发布的合法内容依法享有著作权及其相关权利。用户不应通过自游无限张贴其它受版权保护的内容。自游无限如果收到正式版权投诉，将会删除这些内容，并由用户独自承担相应的法律责任。\n
+2.4 用户同意已就用户于自游无限公开使用区域及自游无限其它任何公开使用区域张贴之内容，包括照片、文字或影音资料等内容，授予自游无限全球性、免许可费及非独家的使用权，自游无限可以为了展示、散布及推广张贴前述内容之特定服务目的，将前述内容复制、修改、改写、改编或出版，对于照片及文字影音资料的上述使用，仅为张贴该照片或文字影音于自游无限之目的而为之。\n\n
+3. 隐私保护\n\n
+3.1 保护用户隐私是自游无限的一项基本政策，自游无限保证不对外公开或向第三方提供用户注册资料及用户在使用自游无限时存储在自游无限的非公开内容，但下列情况除外： 1) 事先获得用户的明确授权 2) 根据有关的法律法规要求 3) 按照相关政府主管部门的要求 4) 为维护社会公众的利益 5) 维护自游无限的合法权益\n
+3.2 自游无限可能会与第三方合作向用户提供相关的本服务，在此情况下，如该第三方同意承担与自游无限同等的保护用户隐私的责任，则自游无限可将用户的注册资料等提供给该第三方。\n
+3.3 在不透露单个用户隐私资料的前提下，自游无限有权对整个用户数据库进行分析并对用户数据库进行商业上的利用。\n\n
+4. 免责声明\n\n
+4.1 用户将照片、个人信息等资料上传到互联网上，有可能会被其他组织或个人复制、转载、擅改或做其它非法用途，用户必须充分意识此类风险的存在。用户明确同意其使用自游无限服务所存在的风险（包括但不限于受到第三方侵权或对第三方造成侵权）将完全由用户独自承担；因使用自游无限服务而产生的一切后果也由用户独自承担，自游无限对此不承担任何责任。\n
+4.2 自游无限不担保一定能满足用户的要求，也不担保网络服务不会中断，对网络服务的及时性、安全性、准确性、真实性、完整性也都不作担保。\n
+4.3 对于因不可抗力或自游无限不能控制的原因造成的本服务中断或其它缺陷，自游无限不承担任何责任，但将尽力减少因此而给用户造成的损失和影响。\n
+4.4 自游无限作为网络服务提供者，对非法转载，虚假发布、盗版行为的发生不具备充分的监控能力。自游无限对他人在网站上实施的此类侵权行为不承担法律责任。\n\n
+5. 协议修改\n\n
+5.1 自游无限将有权随时修改本协议的有关条款，一旦本协议的内容发生变动，自游无限将会通过适当方式在网站上提示。\n
+5.2 如果不同意自游无限对本协议相关条款所做的修改，用户有权停止使用本服务。如果用户继续使用本服务，则视为用户接受自游无限对本协议相关条款所做的修改。\n</string>
+    <string name="action_bar_title_market">商城</string>
+    <string name="recommend">分享给好友</string>
+
+    <!-- User Market -->
+    <string name="market_tab_loacl_special">特产</string>
+    <string name="market_tab_4s">4s店</string>
+    <string name="market_tab_food">美食</string>
+    <string name="market_tab_hotel">酒店</string>
+    <string name="market_item_per_capita">人均</string>
+    <string name="market_no_permission">和畅游拨打电话权限已被禁止，请您重新授权</string>
+
+    <!-- about页面信息-->
+    <string name="about_desc">中国移动通信 版权所有</string>
+    <string name="about_desc_en">CopyRight©2015-2016</string>
+    <string name="title_activity_qhscenic_detail_pics">QHScenicDetailPics</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_strategy_desc">下拉菜单可选择“创建新的攻略”或编辑已有攻略</string>
+
+    <string name="collection_success">收藏成功</string>
+    <string name="cancle_collection_success">取消收藏</string>
+    <string name="collection_fail">收藏失败</string>
+    <string name="cancle_collection_fail">取消收藏失败</string>
+    <string name="collection_is_success">已经成功收藏</string>
+    <string name="collection_has_success">已经收藏过</string>
+    <string name="delete_success">删除成功</string>
+    <string name="delete_error">删除失败，请检查网络</string>
+    <string name="confirm_delete_item">确认删除</string>
+
+    <string name="strategy_titile_create_success">成功创建游记标题,请您填写游记内容</string>
+    <string name="strategy_titile_create_fail">标题创建失败</string>
+    <string name="strategy_content_add_success">游记发布成功</string>
+    <string name="strategy_content_add_next">填写下一步</string>
+    <string name="strategy_content_add_fail">发布失败，请选择标题继续编辑</string>
+
+    <string name="login_quickly">快速登录</string>
+    <string name="change_user_information_success">修改成功</string>
+    <string name="change_user_information_fail">用户信息更新失败，请稍后重试</string>
+    <string name="edit_strategy">添加攻略内容</string>
+    <string name="reload_search_input">请检查输入内容是否正确</string>
+    <string name="is_has_special_char">含有特殊字符，请重新输入</string>
+    <string name="delete_information">该信息已被删除</string>
+    <string name="name_again">该昵称已经存在</string>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="app_id">55baea6d</string>
+
+    <string name="navigation_onCalculateRouteSuccess">路径计算就绪,准备导航</string>
+    <string name="navigation_onCalculateRouteFailure">路径计算失败，请检查网络或输入参数</string>
+    <string name="navigation_onArriveDestination">到达目的地</string>
+    <string name="navigation_onEndEmulatorNavi">导航结束</string>
+    <string name="navigation_onReCalculateRouteForYaw">您已偏航</string>
+    <string name="navigation_onReCalculateRouteForTrafficJam">前方路线拥堵，路线重新规划</string>
+    <string name="shop_address">地址:</string>
+    <string name="location_permission">请在设置中打开本软件的位置权限</string>
+
+    <string name="andyou_area">所属区域</string>
+    <string name="andyou_style">所属类别</string>
+    <string name="andyou_scenic_tag">景区标签</string>
+    <string name="load_road_condition_error">加载路况区域失败</string>
+    <string name="load_road_scenic_tag_error">加载景区标签失败</string>
+
+    <!-- frieds_circle !-->
+    <string name="friends_circle_empty_first_text">您可以添加关注发现更多精彩</string>
+    <string name="friends_circle_empty_second_text">或者发布动态吸引更多关注</string>
+    <string name="friends_circle_empty_add_forcus">添加关注</string>
+    <string name="friends_circle_empty_send_trends">发布动态</string>
+    <string name="count_limited">您已经超出字数限制</string>
+    <string name="title_activity_black_list">BlackListActivity</string>
+    <string name="load_more_faild">加载更多失败</string>
+    <string name="friends_all_trends">全部动态</string>
+    <string name="friends_my_trends">我的动态</string>
+    <string name="friends_forcus_trends">好友动态</string>
+    <string name="friends_vote_trends_faild">点赞失败</string>
+
+    <!-- 第三方登录 !-->
+    <string name="login_message">短信</string>
+    <string name="login_qq">QQ</string>
+    <string name="login_wechat">微信</string>
+    <string name="login_sina">微博</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_faild">注册失败</string>
+    <string name="register_emai_has_register">该邮箱已经被注册</string>
+    <string name="register_no_email">该邮箱未注册</string>
+    <string name="login_password_error">密码错误，请重新输入密码</string>
+    <string name="login_code_error">验证码输入错误</string>
+    <string name="login_code_no">未输入验证码</string>
+    <string name="click_to_load_pic">获取验证图片</string>
+    <string name="input_pic_code">请输入图片验证码</string>
+    <string name="crc">3192986130</string>
+</resources>

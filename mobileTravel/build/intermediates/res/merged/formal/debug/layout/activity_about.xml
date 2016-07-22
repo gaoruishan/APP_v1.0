@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_action_bar" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginTop="91dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_below="@+id/riv_logo"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/version_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#2c3232"
+                android:layout_below="@+id/iv_icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="45dp"
+                android:gravity="center_horizontal">
+                <TextView
+                    android:textColor="#c1c1c1"
+                    android:textSize="16sp"
+                    android:text="@string/about_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"/>
+                <TextView
+                    android:textColor="#c1c1c1"
+                    android:textSize="16sp"
+                    android:text="@string/about_desc_en"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"/>
+            </LinearLayout>
+
+
+
+
+            <com.cmcc.hyapps.andyou.widget.RatioImageView
+                android:visibility="gone"
+                android:id="@+id/riv_logo"
+                android:layout_width="134dp"
+                android:layout_height="134dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginRight="105dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_launcher"
+                app:imageRatio="1"
+                app:limit="1" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/version_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:background="@color/transparency"
+                android:gravity="center"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+
+</LinearLayout>

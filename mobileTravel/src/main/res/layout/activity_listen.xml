@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_base"
+    android:orientation="vertical"
+    tools:context="com.cmcc.hyapps.andyou.activity.ListenActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/audio_cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_image_hint" />
+
+            <ScrollView
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <com.cmcc.hyapps.andyou.widget.AdaptiveTextView
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="13dp"
+                    android:lineSpacingMultiplier="1.1"
+                    android:scrollbars="none"
+                    android:singleLine="false"
+                    android:textColor="#ffdedede"
+                    android:textSize="15sp" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/navigation_drawer_left"
+            android:name="com.cmcc.hyapps.andyou.fragment.AudioSpotListFragment"
+            android:layout_width="@dimen/navigation_drawer_width_left"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            class="com.cmcc.hyapps.andyou.fragment.AudioSpotListFragment"
+            tools:layout="@layout/layout_recycler_list" />
+
+        <fragment
+            android:id="@+id/navigation_drawer_right"
+            android:name="com.cmcc.hyapps.andyou.fragment.AudioSpotListFragment"
+            android:layout_width="@dimen/navigation_drawer_width_right"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            class="com.cmcc.hyapps.andyou.fragment.AudioSpotListFragment"
+            tools:layout="@layout/layout_recycler_list" />
+    </android.support.v4.widget.DrawerLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#958b70" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_seekbar_left"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white" />
+
+            <SeekBar
+                android:id="@+id/seekbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxHeight="7dp"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/listen_seekbar_bg"
+                android:thumb="@drawable/listen_speed_selecter" />
+
+            <TextView
+                android:id="@+id/tv_seekbar_right"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#958b70" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="13dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/prev"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/listen_back_selected" />
+
+                    <ImageView
+                        android:id="@+id/playpause"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="34dp"
+                        android:layout_marginRight="34dp"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/listen_play_selecter" />
+
+                    <ImageView
+                        android:id="@+id/next"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@string/content_description"
+                        android:src="@drawable/listen_advance_selecter" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/listen_share_selecter" />
+            </RelativeLayout>
+
+            <include
+                android:id="@+id/menu_auto_guide"
+                layout="@layout/menu_popup_auto_guide"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

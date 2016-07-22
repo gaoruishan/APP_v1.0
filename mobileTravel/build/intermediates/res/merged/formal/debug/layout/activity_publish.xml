@@ -1,0 +1,17 @@
+<!-- This is a common list activity layout used by many activity, DON'T modify it if you are not sure. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

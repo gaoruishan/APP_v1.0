@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/common_margin"
+    android:layout_marginRight="@dimen/common_margin"
+    app:rippleDelayClick="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <com.cmcc.hyapps.andyou.widget.RatioImageView
+                android:id="@+id/cover_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description"
+                android:minHeight="178dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bg_image_hint" />
+
+            <TextView
+                android:id="@+id/scenic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_margin="7dp"
+                android:background="@drawable/tag_badge_bg"
+                android:drawableLeft="@drawable/ic_spacing"
+                android:gravity="center"
+                android:text="黄鹤楼"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/content"
+            style="@style/text_item_trip_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/item_trip_content_text_padding" />
+    </LinearLayout>
+
+</com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>

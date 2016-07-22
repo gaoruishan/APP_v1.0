@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_item_base_selecter"
+    android:gravity="center_vertical"
+    android:minHeight="58dp"
+    android:orientation="horizontal"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/me_item_download"
+        android:textColor="#ff2a3332"
+        android:textSize="16sp" />
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/item_image"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_avata_hint"
+        android:visibility="gone"
+        app:border_color="@color/base_theme_highlight"
+        app:border_width="1px"
+        app:oval="true" />
+
+    <TextView
+        android:id="@+id/item_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:drawablePadding="10dp"
+        android:drawableRight="@drawable/ic_arrow_more" />
+
+</LinearLayout>

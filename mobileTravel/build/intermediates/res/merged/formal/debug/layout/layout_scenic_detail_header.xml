@@ -1,0 +1,586 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.cmcc.hyapps.andyou.widget.MaterialRippleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:rippleInterceptTouchEvent="false">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="223dp"
+            android:addStatesFromChildren="false">
+
+            <com.cmcc.hyapps.andyou.widget.AutoScrollViewPager
+                android:id="@+id/scenic_banner_pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/scenic_cover_image"
+                android:layout_width="match_parent"
+                android:background="@drawable/recommand_bg"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                >
+            </ImageView>
+
+            <com.cmcc.hyapps.andyou.widget.ScrollPoints
+                android:id="@+id/points"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignBottom="@+id/scenic_banner_pager"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+
+                />
+
+            <TextView
+                android:id="@+id/scenic_wish_to_go"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="@dimen/common_margin"
+                android:background="@drawable/tag_badge_bg"
+                android:drawableLeft="@drawable/wish_to_go"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/scenery_detail_wish_to_go"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:visibility="gone"
+                android:background="@drawable/fg_bottom_shadow" />
+
+            <TextView
+                android:id="@+id/scenic_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:singleLine="true"
+                android:layout_marginBottom="20dp"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <include
+                layout="@layout/layout_weather_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="@dimen/common_margin" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="@dimen/common_margin"
+                android:baselineAligned="false"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/content_description"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/nearby_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="0人在附近"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>
+
+
+    <LinearLayout
+        android:id="@+id/scenery_detail_funcs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_margin"
+        android:paddingRight="@dimen/common_margin"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/scenic_detail_func_listen"
+            style="@style/scenery_detail_func_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/scenery_detail_func_listen_selecter"
+            android:text="@string/scenery_detail_func_listen" />
+
+        <TextView
+            android:id="@+id/scenic_detail_func_live"
+            style="@style/scenery_detail_func_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/scenery_detail_func_live_selecter"
+            android:text="@string/scenery_detail_func_live" />
+
+        <TextView
+            android:id="@+id/scenic_detail_func_navi"
+            style="@style/scenery_detail_func_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/scenery_detail_func_navi_selecter"
+            android:text="@string/scenery_detail_func_navi" />
+
+        <TextView
+            android:id="@+id/scenic_detail_func_service"
+            style="@style/scenery_detail_func_item"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/scenery_detail_func_service_selecter"
+            android:text="@string/scenery_detail_func_service" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/base_grey_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_margin"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/scenic_intro_container"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/scenic_intro_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/scenery_detail_play_title"
+                    android:textSize="16sp" />
+
+                <RatingBar
+                    android:id="@+id/scenic_rating"
+                    style="@style/rating_bar_small"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="6dp"
+                    android:isIndicator="true"
+                    android:progressDrawable="@drawable/layerlist_detail_star_small" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/scenic_intro_summary"
+                style="@style/scenery_detail_summary_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="@string/scenery_detail_play_summary"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scenic_detail_download"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="1px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/common_margin"
+                android:layout_marginRight="@dimen/common_margin"
+                android:background="@color/base_grey_line" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content_description"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:src="@drawable/scenery_detail_download_selecter" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/base_grey_line" />
+
+    <com.cmcc.hyapps.andyou.widget.ExpandableTextView
+        android:id="@+id/scenic_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:orientation="horizontal"
+        android:padding="@dimen/common_margin"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/expandable_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/common_margin"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:lineSpacingExtra="4dp"
+            android:textColor="#8C8C8C"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/expand_collapse"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_gravity="bottom|right"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_arrow_expand_selecter"
+            android:visibility="gone" />
+    </com.cmcc.hyapps.andyou.widget.ExpandableTextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/base_bg"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/survey_tv_tags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="标签"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/base_grey_line" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/base_bg"
+        android:padding="5dp"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/fragment_discover_newtag" />
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/base_bg"-->
+        <!--android:id="@+id/scenci_header_ll_tags"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/ll_tags1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:background="@drawable/bg_tv_corner_stroke"-->
+            <!--android:gravity="center"-->
+            <!--android:text="自驾游必去"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"-->
+            <!--android:maxWidth="100dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:textColor="#0fd5f2" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/ll_tags2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:background="@drawable/bg_tv_corner_stroke"-->
+            <!--android:gravity="center"-->
+            <!--android:text="亲子游"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"-->
+            <!--android:maxWidth="100dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:textColor="#0fd5f2" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/ll_tags3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:background="@drawable/bg_tv_corner_stroke"-->
+            <!--android:gravity="center"-->
+            <!--android:text="驴友同行"-->
+            <!--android:singleLine="true"-->
+            <!--android:ellipsize="end"-->
+            <!--android:maxWidth="100dp"-->
+            <!--android:textColor="#0fd5f2" />-->
+
+
+    <!--</LinearLayout>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/survey_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="概况"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/base_grey_line" />
+
+        <TextView
+            android:id="@+id/survey_detail_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="概况"
+            android:textColor="#8C8C8C"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/survey_detail_location_layout"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/survey_detail_location_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/icon_near"
+            android:layout_centerVertical="true"
+            android:drawablePadding="10dp"
+            android:maxLines="2"
+            android:layout_toLeftOf="@+id/hotel_details_location_next"
+            android:layout_marginLeft="15dp"/>
+        <ImageView
+            android:id="@+id/hotel_details_location_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"/>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+    <RelativeLayout
+        android:id="@+id/comment_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:hint="评论" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+    <!--  ＝＝＝＝＝＝＝＝图集＝＝＝＝＝＝＝-->
+    <RelativeLayout
+        android:id="@+id/pics_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="图集"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_arrow_photos"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="6dp"
+        android:layout_height="wrap_content">
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/scenery_detail_buttom_photo1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:visibility="gone"
+            android:background="@drawable/recommand_bg"
+            android:scaleType="fitXY"
+             />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/scenery_detail_buttom_photo2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:background="@drawable/recommand_bg"
+            android:scaleType="fitXY"
+             />
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/scenery_detail_buttom_photo3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/recommand_bg"
+            android:scaleType="fitXY"
+             />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+
+    <!-- ==========商户=======-->
+    <RelativeLayout
+        android:id="@+id/shop_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="周边商户"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/detail_arrow_shops"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+   <include layout="@layout/detail_buttom_shops"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/common_margin"
+        android:background="@color/base_grey_line" />
+
+    <!-- ＝＝＝＝ 景区＝＝＝＝＝-->
+    <RelativeLayout
+        android:id="@+id/scenci_total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/base_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/scencis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="周边景区"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:id="@+id/detail_arrow_scenci"
+            android:src="@drawable/next" />
+    </RelativeLayout>
+
+    <include layout="@layout/detail_buttom_pics"/>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APP_v1.0.iml" filepath="$PROJECT_DIR$/APP_v1.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IM/IM.iml" filepath="$PROJECT_DIR$/IM/IM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rtsp_lib/Rtsp_lib.iml" filepath="$PROJECT_DIR$/Rtsp_lib/Rtsp_lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobileTravel/mobileTravel.iml" filepath="$PROJECT_DIR$/mobileTravel/mobileTravel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerview/recyclerview.iml" filepath="$PROJECT_DIR$/recyclerview/recyclerview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/volley/volley.iml" filepath="$PROJECT_DIR$/volley/volley.iml" />
+    </modules>
+  </component>
+</project>

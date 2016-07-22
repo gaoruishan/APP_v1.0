@@ -1,0 +1,2 @@
+int id twowayview_item_click_support 0x7f020000
+int id twowayview_item_selection_support 0x7f020001

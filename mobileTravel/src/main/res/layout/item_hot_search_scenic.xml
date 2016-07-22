@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cmcc.hyapps.andyou.widget.MaterialRippleLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <com.cmcc.hyapps.andyou.widget.RatioImageView
+            android:id="@+id/scenic_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_image_hint"
+            app:imageRatio="1" />
+
+        <TextView
+            android:id="@+id/scenic_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/fg_bottom_shadow"
+            android:ellipsize="end"
+            android:padding="7dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</com.cmcc.hyapps.andyou.widget.MaterialRippleLayout>

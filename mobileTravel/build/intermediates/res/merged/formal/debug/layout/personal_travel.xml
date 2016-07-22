@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/personal_travel_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp">
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/iv_cover_image"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@string/content_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/recommand_bg"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        app:corner_radius="5dp" />
+
+    <TextView
+        android:id="@+id/travel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_cover_image"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/iv_cover_image"
+        android:maxLines="2"
+        android:textColor="#293231"
+        android:textSize="16sp" />
+
+    <com.cmcc.hyapps.andyou.widget.roundimageview.RoundedImageView
+        android:id="@+id/iv_me_avata"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/iv_cover_image"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/iv_cover_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_avata_hint"
+        app:border_color="@color/white"
+        app:border_width="1dp"
+        app:oval="true" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_me_avata"
+        android:layout_toRightOf="@id/iv_me_avata"
+        android:layout_marginLeft="5dp"
+        android:maxWidth="80dp"
+        android:singleLine="true"
+        android:textColor="#565656"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/travel_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_me_avata"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:maxWidth="80dp"
+        android:text="2015-07-12"
+        android:singleLine="true"
+        android:textSize="12sp"
+        android:textColor="#999999" />
+</RelativeLayout>

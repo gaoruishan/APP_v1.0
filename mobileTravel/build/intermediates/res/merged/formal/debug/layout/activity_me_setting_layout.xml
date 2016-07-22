@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_item_tb"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <include
+            android:id="@+id/item_my_blacklist"
+            layout="@layout/item_me"/>
+
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description"/>
+
+        <include
+            android:id="@+id/item_my_suggestion"
+            layout="@layout/item_me"/>
+
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description"/>
+
+        <include
+            android:id="@+id/item_update"
+            layout="@layout/item_me"/>
+
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description"/>
+
+        <RelativeLayout
+            android:id="@+id/item_clear_cache"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_item_base_selecter"
+            android:layout_height="53dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:text="清除缓存"
+                android:layout_centerVertical="true"
+                android:textColor="#ff8c8c8c"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_text_cache_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="34MB"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:textColor="#ff8c8c8c"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description"/>
+
+        <include
+            android:id="@+id/item_about"
+            layout="@layout/item_me"/>
+
+        <ImageView
+            style="@style/me_all_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:contentDescription="@string/content_description"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/me_cancle_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bg_item_base_selecter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="16sp"
+            android:textColor="#ff4c5b"
+            android:text="注销登录"/>
+    </RelativeLayout>
+</LinearLayout>

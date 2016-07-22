@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <include layout="@layout/layout_action_bar"  android:id="@+id/action_bar"/>
+   <!-- <include layout="@layout/layout_recycler_list" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/guide_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateOnly="true" />
+
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:background="@color/base_grey_line"
+        android:layout_height="1dp" />
+    <include layout="@layout/detail_bottom_tab"/>
+
+
+    <ScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/iv_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg_banner_hint" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/fg_bottom_shadow"
+            android:layout_alignBottom="@+id/iv_cover_image"
+            />
+        <TextView
+            android:id="@+id/rest_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:text="@string/home_restaurant_name"
+            android:layout_alignBottom="@+id/iv_cover_image"
+            android:padding="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/hotel_page_bg"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            >
+            <TextView
+                android:id="@+id/rest_imgs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="6dp"
+                android:layout_marginStart="6dp"
+                android:text="22"
+                android:drawableLeft="@drawable/icon_page"
+                android:drawablePadding="10dp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+        <TextView
+            android:id="@+id/special_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:textColor="@color/home_secnic_name"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:text="@string/special_intro_title"
+            android:padding="10dp"
+            android:drawableLeft="@drawable/icon_rest_special"
+            android:drawablePadding="10dp"
+            />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.5dp"
+            android:background="@color/base_grey_line"/>
+        <TextView
+            android:id="@+id/special_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/default_text_color"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:text="@string/home_restaurant_name"
+            android:padding="10dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

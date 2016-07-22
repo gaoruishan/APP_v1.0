@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout_action_bar" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/base_grey_line"
+        android:id="@+id/titleline"
+        android:layout_marginTop="51dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_arrow_more"
+        android:paddingTop="30dp"
+        android:paddingRight="15dp"
+        android:id="@+id/friendmenu1"
+        android:layout_below="@+id/titleline" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/base_grey_line"
+        android:id="@+id/line1"
+        android:layout_below="@+id/titleline"></View>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_arrow_more"
+        android:paddingTop="30dp"
+        android:paddingRight="15dp"
+        android:id="@+id/friendmenu2"
+        android:layout_below="@+id/line1" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/base_grey_line"
+        android:id="@+id/line2"
+        android:layout_below="@+id/line1"></View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:paddingTop="27dp"
+        android:paddingLeft="15dp"
+        android:layout_below="@+id/line2"
+        android:paddingBottom="23dp"
+        android:text="扫描下载"
+        android:id="@+id/xiazai"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/xiazai"
+        android:src="@drawable/icon_near"
+        android:id="@+id/dimensioncode"/>
+    <TextView
+        android:id="@+id/tv_recommend"
+        style="@style/settings_btn_grey"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="@dimen/common_margin"
+        android:text="@string/recommend"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

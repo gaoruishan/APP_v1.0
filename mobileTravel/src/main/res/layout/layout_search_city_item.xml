@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_city_item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:background="@color/base_grey_bg"
+    android:paddingBottom="10dip"
+    android:paddingLeft="@dimen/common_margin"
+    android:paddingRight="5dip"
+    android:paddingTop="10dip"
+    android:textColor="#293231" />

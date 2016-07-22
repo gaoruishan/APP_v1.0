@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/root_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_action_bar" />
+
+    <FrameLayout
+        android:isScrollContainer="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.cmcc.hyapps.andyou.widget.circularprogressbar.CircularProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:indeterminate="true"
+            android:indeterminateOnly="true" />
+
+        <include
+            android:id="@+id/empty_hint_view"
+            layout="@layout/layout_empty"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <com.cmcc.hyapps.andyou.widget.PullToRefreshRecyclerView
+                xmlns:ptr="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/pulltorefresh_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                ptr:ptrMode="disabled" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/base_grey_line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+            android:background="@color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <com.cmcc.hyapps.andyou.support.ExEditText
+                    android:id="@+id/new_commnet_text"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/comment_edit"
+                    android:hint="@string/hint_new_comment"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/base_text_summary"
+                    android:textColorHint="@color/base_text_summary" />
+
+                <TextView
+                    android:id="@+id/comment_post_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="发送"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

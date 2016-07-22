@@ -1,0 +1,118 @@
+<LinearLayout
+    android:id="@+id/home_header"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <com.cmcc.hyapps.andyou.widget.AutoScrollViewPager
+            android:id="@+id/banner_pager"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"/>
+
+        <com.cmcc.hyapps.andyou.widget.ScrollPoints
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/banner_pager"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/fg_bottom_shadow_index"/>
+
+    <LinearLayout
+        android:id="@+id/scenery_detail_funcs"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/home_tab_hotel"
+                style="@style/home_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_market_hotel"
+                android:text="@string/market_tab_hotel"
+
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/home_tab_food"
+                style="@style/home_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_market_food"
+                android:text="@string/market_tab_food"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/home_tab_special"
+                style="@style/home_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_market_special"
+                android:text="@string/market_tab_loacl_special"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+            <TextView
+                android:id="@+id/home_tab_4s"
+                style="@style/home_tab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/icon_market_4s"
+                android:text="@string/market_tab_4s"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/fg_bottom_shadow_index"/>
+</LinearLayout>

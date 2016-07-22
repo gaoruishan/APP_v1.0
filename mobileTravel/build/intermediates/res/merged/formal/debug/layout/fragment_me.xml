@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/base_grey_bg"
+              android:orientation="vertical">
+
+    <!--<include layout="@layout/layout_action_bar" />-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/market_actionbar"
+        android:layout_height="51dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:text="我的"/>
+        <ImageView
+            android:id="@+id/message_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/me_fragment_action_message"/>
+        <ImageView
+            android:id="@+id/home_fragment_message_red_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/message_icon"
+            android:layout_marginRight="2dp"
+            android:visibility="gone"
+            android:src="@drawable/red_dot"/>
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--<include layout="@layout/layout_me_content_view"/>-->
+            <include layout="@layout/layout_new_me_content_view"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <com.cmcc.hyapps.andyou.widget.PullToZoomScrollView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:scrollContentView="@layout/layout_me_content_view"
+        app:scrollHeadView="@layout/layout_me_header_view"
+        app:scrollZoomView="@layout/layout_me_zoom_view" />
+
+</LinearLayout>

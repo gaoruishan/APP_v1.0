@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_grey_bg"
+    android:orientation="vertical"
+    tools:context="com.cmcc.hyapps.andyou.activity.ScenicSpotListActivity" >
+
+    <include layout="@layout/layout_action_bar" />
+
+    <com.cmcc.hyapps.andyou.support.ExEditText
+        android:id="@+id/video_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corners_grey"
+        android:ems="10"
+        android:gravity="left|top"
+        android:hint="@string/video_upload_input_hint"
+        android:inputType="textMultiLine"
+        android:maxLength="20"
+        android:padding="@dimen/common_margin" >
+    </com.cmcc.hyapps.andyou.support.ExEditText>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_margin" >
+
+        <ImageView
+            android:id="@+id/video_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:src="@drawable/live_play_selecter" />
+    </FrameLayout>
+
+</LinearLayout>

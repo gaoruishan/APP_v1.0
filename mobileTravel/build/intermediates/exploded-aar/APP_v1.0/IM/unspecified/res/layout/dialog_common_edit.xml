@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_frame"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/public_padding_20"
+    android:layout_marginRight="@dimen/public_padding_20"
+    android:background="@drawable/public_corner_bg_white"
+    android:minHeight="75dp"
+    android:minWidth="150dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/public_padding_20"
+        android:layout_marginRight="@dimen/public_padding_20"
+        android:layout_marginTop="@dimen/public_padding_20"
+        android:gravity="left|center_vertical"
+        android:text="@string/dialog_title_default"
+        android:textColor="@color/cor5"
+        android:textSize="@dimen/size4" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/public_padding_20"
+        android:layout_marginRight="@dimen/public_padding_20"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/public_padding_20"
+        android:paddingTop="@dimen/public_padding_20" >
+
+
+        <EditText
+            android:id="@+id/et_msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxEms="20"
+            android:background="@null"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="7dp"
+            android:singleLine="false"
+            android:hint="@string/group_msg_group_name"
+            android:textColor="@drawable/input_color_selector"
+            android:textSize="@dimen/size4" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/field_input_pre" />
+    </LinearLayout>
+    <!--
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:alpha="0.6"
+        android:background="@color/cor4" />
+    -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size_30dp" >
+
+        <TextView
+            android:id="@+id/dialog_ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/size_20dp"
+            android:background="@drawable/btn_bottom_right_radius"
+            android:text="@string/ok"
+            android:textColor="@color/btn_blue_nm"
+            android:textSize="@dimen/size4" />
+
+        <TextView
+            android:id="@+id/dialog_cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/dialog_ok_btn"
+            android:layout_marginRight="@dimen/size_50dp"
+            android:layout_toLeftOf="@id/dialog_ok_btn"
+            android:background="@drawable/btn_bottom_left_radius"
+            android:text="@string/cancel"
+            android:textColor="@color/btn_blue_nm"
+            android:textSize="@dimen/size4" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

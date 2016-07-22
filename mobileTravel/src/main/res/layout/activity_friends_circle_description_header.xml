@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+ <include layout="@layout/friends_circle_recycle_item"/>
+    <ImageView
+        style="@style/me_all_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/content_description"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/friends_circle_description_header_vote_recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/friends_circle_description_header_vote_textview"
+            android:layout_marginRight="30dp"
+            />
+        <TextView
+            android:id="@+id/friends_circle_description_header_vote_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:drawablePadding="10dp"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/friends_description_vote_selector"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/friends_circle_description_header_argument_count_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/friends_circle_argument"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawablePadding="10dp"
+        android:text="查看评论"/>
+</LinearLayout>
